@@ -2,35 +2,63 @@
 #+STARTUP: indent
 
 * Introduction 
-MLCC is a simulation on a brigade/division level of a possible attempt by
-opposing forces to liberate Western Europe from the blue forces alliance. 
-
+MLCC is a simulation of modern brigade/division level conflict between forces of
+equal abilities.
+ 
 * General Course of Play
-  NATO is a two-player game.  Each player moves his units and executes attacks
-  on enemy units in turn, attempting to fulfill the conditions of victory.  To
-  move from one hex to another, each unit expends a portion of its movement
-  allowance.  Combat is resolved by comparing the total combat strength of
-  adjacent opposing units and expressing the comparison as a simplified
-  probability ratio (odds).  A dies is rolled and the outcome indicated on the
-  combat results table is applies to the units involved.
+MLCC is a two-player game.  Each player moves his units and executes attacks
+on enemy units in turn, attempting to fulfill the conditions of victory.  To
+move from one hex to another, each unit expends a portion of its movement
+allowance.  Combat is resolved by comparing the total combat strength of
+adjacent opposing units and expressing the comparison as a simplified
+probability ratio (odds).  A dies is rolled and the outcome indicated on the
+combat results table is applies to the units involved.
 
 * Game Equipment
 ** Map
-- The game map is a 2d representation of an area of operations.  
-- A hexagonal grid is superimposed upon the mapsheet to control movement and
+- The game map is a 2d representation of a land-based area of operations.
+- A hexagonal grid is superimposed upon the map image to control movement and
   combat of the units, tracing supply lines, and delineating the terrain imposed
   on the map.
 
 ** Units
-- Unit icons represent different units from the opposing forces.
+- Icons use NATO symbols and represent different units from the opposing forces.
  
 ** Charts and Tables
 ** Scale
+- Combat units represent battalions and brigades.
+- Some combat such as Artillery or Air Defense may be represented by batterys or
+  platoons.
+- Hexes represent 5 to 10 kms on the ground.
+- Each turn represents 3 to 6 hours of time.
 
 * Sequence of Play
 ** The Game-Turn
+MLCC is played in turns called game-turns.  Each game-turn consist of two
+player-turns.  Each player-turn is composed of three phases.  The player whose
+player-turn is in progress is call the phasing player.
+
 ** Sequence
+1) First Player Turn:
+   1. Initial Movement Phase. The phasing player may move all, some, or none of
+      his units (exception see 11.3) in any direction up to the limit of their
+      movement allowance within the restrictions outlined in the movement and
+      supply rules.
+   2. Combat Phase. The phasing player may attack enemy units adjacent to
+      friendly units at his option; combat is resolved as outlined in the combat
+      rules.
+   3. Second Movement Phase. The phasing player may move all of his units in any
+      direction up to the limit of their movement allowance with the
+      restrictions outlined in the movement rules.
+2) Second Player Turn:
+   Repeat steps 1 through 3.  The second player becomes the phasing player and
+   moves his own units.
+
 ** Game Length
+- The number of game turns is determined by the scenario.
+- At the end of the last turn the game is over.
+- Evaluate the player's performance against mission objectives to determine a
+  winner. 
 
 * Movement
 ** How to Move
