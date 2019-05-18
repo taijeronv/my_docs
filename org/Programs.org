@@ -1,0 +1,107 @@
+#+TITLE: Standard Programs
+#+STARTUP: Indent
+
+* Windows 10 Setup
+** Productivity[4/6]
+- [ ] MS Office
+- [ ] Xmind
+- [X] Adobe Acrobat
+- [X] Foxit
+- [X] Onedrive
+- [X] Dropbox
+
+** Development[4/6]
+- [ ] WSL
+- [ ] Docker
+- [X] Emacs
+- [X] Git
+- [X] Virtual Box
+- [X] Visual Studio Code
+*** Python[/]
+  - [ ] Determine global setup requirements
+  - [ ] Python 3.x
+  - [ ] Pip
+  - [ ] Virtualenv
+  - [ ] Pipenv
+
+*** Game Development[1/2]
+- [ ] Texturizer
+- [X] Hexdraw
+
+** Graphics and Sound[2/2]
+- [X] Adobe Photoshop
+- [X] Adobe Illustrator
+** Internet[2/2]
+- [X] Chrome
+- [X] Deluge
+
+** Security[1/3]
+- [ ] Delete program
+- [ ] Folder encryption
+- [X] Vera Crypt
+**** TODO  Transfer Ermisoft to new computer
+
+** Utilities[2/5]
+- [ ] Disk partitioning
+- [ ] Duplicate file search
+- [ ] Free filesynch
+- [X] Bulk rename
+- [X] 7zip
+
+** Special[/]
+- [ ] Tom Tom MyDrive
+
+** Video Player [1/1]
+- [X] Potplayer
+** Games [4/4]
+   * [X] Eve Client
+   * [X] Steam
+   * [X] Flashpoint Campaigns Red Storm
+   * [X] TOAW IV
+
+
+* Linux Setup
+** Productivity[3/5]
+- [ ] Onedrive (need to figure out how to set this up)
+- [ ] Xnconvert
+- [X] Libre Office
+- [X] Dropbox
+- [X] Google Drive
+
+** Development[3/4]
+- [ ] Docker
+- [X] Git
+- [X] Virtual Box
+- [X] Visual Studio Code
+
+** Python
+- [X] Determine global setup requirements
+- [X] Python 3.x
+- [X] Pip
+- [X] Virtualenv
+
+** Game Development[/]
+- [ ] Godot
+
+** Image[0/2]
+- [ ] Gimp
+- [ ] Inkscape
+
+** Internet[1/1]
+- [X] Chromium
+
+** Security[/]
+- [ ] Vera Crypt
+- [ ] Wipe
+- [ ] Gnome Encfs Manager
+
+** Utilities[/]
+- [ ] [[http://www.webupd8.org/2016/03/quickly-batch-rename-files-in-linux.html ][Bulk rename]
+- [ ] [[https://freefilesync.org/download.php] [Folder and file sync]
+
+** Video Player[/]
+- [ ] [[https://www.videolan.org/vlc/download-ubuntu.html] [VLC]
+
+** Music Player
+*** TODO Is there something better than Clementine?
+   - [ ] Clementine

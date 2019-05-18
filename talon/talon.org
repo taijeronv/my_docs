@@ -1,0 +1,209 @@
+#+TITLE:Talon Next Generation Wargame
+#+STARTUP: Indent
+
+
+* Refile (things to be refiled later)
+
+
+* Todos
+** TODO Presentation introducing the project
+   - State "TODO"       from              [2019-04-30 Tue 05:59]
+   - State "USED"       from              [2019-04-30 Tue 05:59]
+   - State "TODO"       from "NEXT"       [2019-04-30 Tue 05:59]
+   - State "NEXT"       from "DONE"       [2019-04-30 Tue 05:59]
+   - State "DONE"       from "REPEAT"     [2019-04-30 Tue 05:59]
+   - State "WAIT"       from "PAUSED"     [2019-04-30 Tue 05:59]
+   - State "WAIT"       from "REPEAT"     [2019-04-30 Tue 05:58]
+   - State "DONE"       from "NEXT"       [2019-04-30 Tue 05:58]
+   - State "NEXT"       from "TODO"       [2019-04-30 Tue 05:58]
+** TODO Project timeline
+** TODO Software requirements
+** TODO Find a coder
+** TODO Design document
+** TODO Rules rewrite
+** TODO
+** TODO
+** TODO
+** TODO
+
+
+* Presentation
+** Introduction
+** Purpose
+** Project
+** Schedule
+** Cost
+
+
+* Rules
+** Introduction
+- Talon is a simulation of small-unit operations at the platoon level.
+- Players assume the role of a platoon leader and maneuver fire-teams to accomplish specific goals.
+
+** Dice and Measurement
+Talon uses random numbers between 1-6 which represent a six-sided
+die.  Distance is measured in pixels with each pixel equal too {xx}
+meters.
+** Units
+Talon units are fire-teams which represent 4-6 men, and weapons
+teams which represent two to three men.  Some "units" maybe be
+represented by individuals such as leaders, medics, EOD, dog
+handler, etc.
+
+- Every game should have at least one leader.
+- Each unit is defined by their level of training, experience, and it's
+ weapons/armor.
+- Unit Cohesion: Units must remain within {xx} meters of each other or
+ incur an activation penalty of -1 per wayward figure.
+
+Unit Training and Expertise
+| Level    | Activation | Expertise | Suppress | Cmd Pts |
+|----------+------------+-----------+----------+---------|
+| Green    |          5 |         6 |        1 |       1 |
+| Seasoned |          4 |         5 |        2 |       2 |
+| Veteran  |          3 |         4 |        3 |       2 |
+
+** Initiative
+- All units begin the game in the "On Guard" state.
+- At the beginning of each turn each player rolls 1d6 + any scenario
+  modifiers.  Reroll any ties.
+  + The player that scores the highest can attempt to activate one
+    unit first. - See Activation section below.
+  + He continues to acticate units until he fails actication.  Then
+    the initiative passes to his opponent with the next highest
+    score and so on.
+- The initiative passes back and forth as players pass and fail
+  activation rolls.  The turn ends when all have attempted to
+  activated each unit in their command.
+
+** Activation and Actions
+- To activate a unit, a player must equal or beat the unit leader's
+  activation score on a roll of 1d6.
+- Activation roll has the following modifiers:
+
+  | +1: unit has no enemies in line of sight. |
+  |-------------------------------------------|
+  | -1: Per suppressed figure.                |
+
+  - A unit that successfully activates can perform two action in any
+    order, or may do nothing at all.
+
+    | Number of Actions | Effect                                                                          |
+    |-------------------+---------------------------------------------------------------------------------|
+    | 1: Move           | Move {xx} meters                                                                |
+    | 1: Assault        | Move {xx} meters and assault                                                    |
+    | 1: Go on guard    | React ONCE per turn to return fire, shoot moving enemies, or counter-charge     |
+    | 1: Shoot          | Shoot with ranged weapons                                                       |
+    | 1: Retreat        | With draw up too {xx} meters away from the enemy.                               |
+    | 2: Sneak          | Move {xx} meters and gain soft cover                                            |
+    | 2: Hide           | Drop to the nearest cover within move action.  Treat cover as one level higher. |
+
+- A unit failing activation immediately rolls again - a pass enables the unit to go On Guard of charge.
+
+- The "On Guard" state ends when the unit next fires or tries to activate.
+  "Hide" and "Sneak" end when the unit moves or fights in Assault.
+
+- No unit may activate more than once per turn unless given a "push" order
+  from a commander.
+
+** Leaders and Characters
+Characters and commanders are represented as individual icons.
+Each commander has a level and command points as shown on the troop level
+table.
+
+** Line of Sight (LOS)
+- If half the target unit in LOS or cover, the whole unit is in LOS of cover.
+- Suppressed figures may not fire.
+- A unit may fire at enemy units to which it has LOS.
+- A unit may only target enemy units with the same are of cover if they are
+  within 6 inches.
+- A defined are of cover will block line of sight.
+- Units may fire into or out of cover if they or their targets are within
+  {xx} meters of the covers edge.
+** Cover and Terrain
+Cover and terrain effects cause the most arguments in wargaming. We direct
+your attention back to the Cardinal Rules, and urge you to settle disputes
+with a die roll and discuss the particulars after the game.  A unit benefits
+from cover if at least half its models are in or behind it. If the target of
+a firing attack is in cover modify the firer’s expertise as follows:
+
+| Cover    | Mod | Examples                                           |
+|----------+-----+----------------------------------------------------|
+| Soft     |  +1 | Undergrowth, woods, wooden buildings, hedgerows    |
+| Moderate |  +2 | Stone, brick walls, buildings, rubble, trenches    |
+| Hard     |  +3 | Bunkers                                            |
+| Linear   | N/A | Walls, trenches, other things usually blocking LOS |
+
+Total up all cover modifiers (even if this modifies the firer’s expertise above
+6+) before adding any positive modifiers such as Aim bonuses.
+
+- Infantry moves through cover at normal speed.
+- Models lose d6” of movement for each action wholly or partially spent in
+  difficult terrain such as swamp,fast-moving and/or deep watercourse, dense
+  rubble, climbing large obstacles, and the like.
+- Infantry models lose 1” of movement per 1” height when crossing a linear
+  obstacle.
+
+** Shooting
+Each figure in the firing Unit throws one die per Fire Point, (FP). Each die
+that equals or exceeds their Expertise rating is a Hit.
+
+- The target player allocates hits amongst models in the
+  unit as evenly as possible.
+- If a hit model is wearing armor, it throws 1D6 per hit, trying to equal or
+  exceed its armor’s Save value to disregard the hit. Passengers inside a vehicle
+  need not roll if the vehicle makes its saves.
+
+| Type       | Save | Examples                  |
+|------------+------+---------------------------|
+| Light      |   6+ | Flak jacket, police armor |
+| Medium     |   5+ | SWAT                      |
+| Heavy      |   4+ | SciFi                     |
+| Power      |   3+ | Power armor               |
+| Battlesuit |   2+ | Tactical Dreadnought      |
+
+Unsaved hits against a Unit must be taken as casualties, suppressed figures, or
+a combination of both to the allowable limits set by the Unit’s
+training\expertise level’s “Supp” score.
+
+- A figure cannot be made both suppressed and a casualty from the same bout of
+  received fire.
+- However, if there are more unsaved hits than there are figures in the unit,
+  the unit is wiped out.
+- A unit returning fire while On Guard does so AFTER resolving hits from being
+  shot at.
+- A unit may only shoot once per activation.
+
+** Assault
+A Unit must use a Charge action to move into close combat with an enemy Unit.
+
+- The attacked unit tests morale (use the Activation score). So do the attackers
+  if they take casualties while charging. Failure means immediate d6” retreat.
+- The attacking Unit moves its figures into base contact with enemy figures, or
+  as far as they can move. Then the opponent can move up any unengaged figures
+  that are within 3” of an assaulting enemy figure.
+- Both sides simultaneously roll one die per figure & use their Expertise rating
+  to determine hits.
+- Figures that are already suppressed before this attack strike after all other
+  attacks are resolved.
+- All hits not saved by personal armor result in casualties. Cover has no effect.
+- Units may only take casualties, not suppression.
+- The combat continues at the beginning of each subsequent turn. The units
+  involved automatically activate for the turn at that point.
+- To attempt to withdraw from combat a Unit must make a successful Activation
+  roll & then move 1d6” away from their opponents. If the opponents also make a
+  successful Activation roll they can follow up 1d6”. If they catch their enemies
+  combat continues.
+- Close Assault supersedes the normal Activation rules.
+
+** Suppression and Morale
+
+** Weapons
+
+** Vehicles (Optional)
+
+** Skills and Equipment
+
+*** Example Equipment and Skills
+
+** Point Values (Optional)

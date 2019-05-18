@@ -1,0 +1,74 @@
+#+TITLE: Story Ideas
+#+STARTUP: indent
+
+* How to Write
+[[http://www.wetasphalt.com/content/how-write-book-three-days-lessons-michael-moorcock][How to Write a Book in Three Days]]  
+[[https://www.eadeverell.com/plot-formulas/][Plot Formulas]]
+[[https://thewritepractice.com/dialogue-tags/][How to use Dialog tags]]
+
+* Tony Ballantyne [[http://tonyballantyne.com/EmacsWritingTips.html][Emacs for Writers]]
+** Refile
+Refile is for things I just need to write down fast, it's a list of things that
+need to be refiled later.
+
+** Things Todo
+Things Todo is just that, a list of things I must remember to do in the story.
+
+** Plot
+Plot contains the shape of the story, as it is at the time. This gets rewritten
+as I go on. It also acts as a reminder of what I've done so far.
+
+** Story
+Story is just that, the story itself.
+
+** Characters
+Characters, Places, Scenes, Quotations are notes on those things that are to be
+included in the story.
+
+** Places
+** Scenes
+** Quotations
+** Styles
+Styles is there to remind me just how I wrote things out e.g. Daddy Bear, not
+Daddy bear.
+
+** Ideas
+Ideas are ideas that may or may not be included in the story.
+
+* Example Story [[http://tonyballantyne.com/EmacsWritingTips.html][Emacs for Writers]]
+** Refile
+** Things Todo
+*** TODO Resolve what happens to Mummy Bear
+*** TODO Goldilocks discovered sleeping in Baby Bear's bed
+** Plot
+*** Episode 1
+Bears make porridge, go into woods
+*** Episode 2
+Goldilocks arrives, eats the porridge, falls asleep
+*** Episode 3
+Bears return.  Find Goldilocks, threaten to eat her
+*** Episode 4
+Big Bad Wolf saves the day
+** Story
+*** STAGED Episode 1
+Once upon a time there were three bears.  Mummy Bear, Daddy Bear, Baby Bear etc...
+*** WORKING Episode 2
+*** TODO Episode 3
+** Characters
+*** Daddy Bear (38)
+Brown fur, brown eyes, Biggest bear, Gruff.  
+*** Mummy Bear (39)
+Black fur, golden eyes, Clever, sarcastic.
+** Places
+*** TODO Wood
+Needs more realisation
+*** Cabin
+Built of wood.  Three rooms.  Enter directly into main room, no hallway.
+** Scenes
+** Quotations
+*** USED Who's been eating my porridge?
+*** MAYBE Then I'll huff and I'll puff and I'll blow your greenhouse down
+** Ideas
+*** IDEA Bears have an invisible motorbike
+*** IDEA Daddy Bear once served time in prison for bearslaughter
+*** USED Baby Bear's porridge is just right

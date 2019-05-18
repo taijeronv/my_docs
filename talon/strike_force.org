@@ -1,0 +1,148 @@
+#+TITLE: Strike Force
+#+STARTUP: indent
+
+* Introduction
+- Easy to play.
+- 2 Player game.
+- There are two sides Blue Force or BLUEFOR and Opposing Forces or OPFOR.
+  BLUEFOR is represented by the color Blue and OPFOR is represented by Red.
+- The map is divided into areas called hexes which are used to regulate
+  movement. 
+- Units are represented by icons that use NATO symbols.
+** Scale
+1. Units represent battalions, brigades, and in some cases companys and platoons.
+2. Turns represent 4 hours of realtime.
+3. 1 hex represents 5 kms on the ground.
+
+* General Course of Play
+1. The player with the initiative goes first.
+   + Initiative can be determined by the scenario.
+   + Or a random roll of the die.
+2. One player controls the movement and combat of blue forces and the computer
+   controls the opposing forces.
+3. The goal is to achieve the missions objectives.
+4. Players take turns moving and attacking.
+5. Each player gets five turns to achieve their mission objectives.
+6. At the end of five turns the computer umpire determines the winner.
+ 
+* Scenarios
+- A scenario file specifies units and their locations, map and terrain files,
+  and victory conditions.
+  
+* Map
+1. The map is a 2d representation of a land-based area of operations.  
+2. A hexagonal (flat side up) grid is superimposed upon the mapsheet to control
+   movement, combat between units, and detection.
+3. Each hex represents 5 kilometers.
+4. Maximum map size cannot exceed 20 hexes for width or height, any combination with those limits is allowed.
+   1) For example 10 x 20, or 20 x 15.
+5. Hexes on the map are identified by a four digit number.
+   1) The first two digits represent the column.
+   2) The second two digits represent the row.
+
+** Map Image
+1. The map image is a png or jpg file and simply serves as a visual reference
+   for the player.
+2. The terrain file defines what the map image represents.  Terrain hex values,
+   locations, labels, and size in hexes.
+3. The hex grid is based on the size of the map image.  The hex height is 64 px.
+4. Refer to the Flashpoint Campaigns manual on creating a map.
+
+** Map Editing
+1. Load the map image.
+2. Create a hex grid based on the image size.
+3. Hexes are 64 px high.
+4. Edit individual hexes with the type of terrain.
+5. Each terrain type has a terrain cost and a modifier to combat.
+
+** Terrain Data
+- Each terrain type is rated for movement points and combat modifiers.
+
+** Terrain
+1. Three types of terrain clear, woods, and urban. 
+2. Terrain affects a units speed.
+3. Terrain affects combat by providing cover and concealment.
+4. Some units may be restricted from entering certain types of terrain. 
+
+* Units
+1. Units are battalions or brigades.
+2. Unit icons use NATO symbols to represent units.
+3. Blue force icons are rectangles and opposing force icons are diamonds.  
+4. Available units is determined by the scenario. 
+   special capabilities.
+
+** Unit Data
+- Unit Data: 
+
+| Data     | Purpose                                                        |
+|----------+----------------------------------------------------------------|
+| Combat   | A units ability to generate combat power                       |
+| Indirect | A units ability to conduct indirect fire attacks.              |
+| Movement | The number of movement points a unit can spend during one turn |
+| Name     | The units designation                                          |
+| Side     | BLUEFOR or OPFOR                                               |
+
+* Sequence of Play
+- A turn consist of two phases.
+- The first phase belongs to the player with the initiative.
+- The second phase belongs to the second player.
+- Initiative may change from turn to turn depending on certain factors.
+- A turn is complete once both players have conducted their phase.
+- Sequence
+  1. The player with the initiative moves.
+  2. The player with the initiative attacks.
+  3. The second player moves.
+  4. The second player attacks.
+
+* Movement
+** Movement Rules
+1. Every unit has a fixed number of movement points also called a movement
+   allowance.
+2. Units must pay a movement point cost when entering certain types of terrain.
+3. When a unit enters a hex the cost of the terrain type is deducted from the
+   available movement points.
+4. If a unit attempts to enter a hex for which it does not have enough points to
+   pay for entry it cannot do so.
+5. Units cannot exceed their movement allowance.  For example if the cost to
+   enter wooded terrain is 3 and the unit only has 2 MPs left then it cannot
+   enter that hex.
+6. Movement points are replenished at the beginning of a new turn.
+
+** How to Move a Unit
+1. The player right-clicks on a unit and selects the move order.
+2. The player creates a route by left-clicking on individual hexes.
+3. The player may continue to plot a route as long as the unit has enough
+   movement points to enter a hex.
+4. To assign the movement order the player left-clicks on the unit.  At this
+   point the unit has the plotted route.
+5. A player may cancel a route by right-clicking on the unit and selecting cancel order.
+6. If the player wishes to change the route the player simple re-enters a new
+   route using steps one through four.
+  
+* Combat
+** Combat Rules
+- Units may only attack once per turn.
+  rule.
+- Attacks are resolved as 1 v 1. 
+- Friendly units cannot combine their attack factors.
+
+** Which Units May Attack
+- Any unit with a combat rating or indirect rating may attack.
+
+** Combat Odds Calculation
+** Effect on Unit Strength
+* Combat Results Table
+
+| DR | 0  | 1  | 2  | 3  | 4  | 5  |
+|----+----+----+----+----+----+----|
+|  1 | DR | DR | EX | DE | DE | DE |
+|  2 | DR | DR | DR | EX | DE | DE |
+|  3 | NE | DR | DR | DR | EX | DE |
+|  4 | AR | NE | DR | DR | DR | EX |
+|  5 | AR | AR | DR | DR | DR | DR |
+|  6 | AE | AR | NE | DR | DR | DR |
+
+* Terrain Effects Chart
+
+
+

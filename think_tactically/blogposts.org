@@ -1,0 +1,18 @@
+* Scenario Development
+** What decisions do you want the student to make?
+*  Tactical Problems
+** Terrain problems
+*** Terrain is too open, no cover or concealment
+*** Terrain obstacles like a river or impassable terrain
+** Enemy forces problems
+*** Enemy located in an unexpected location
+*** More enemy than expected
+*** Unexpected enemy capability
+*** Enemy arrives early
+** Friendly forces problems
+*** Insufficient friendly forces
+*** Lacking a capability
+*** Too many friendly units to coordinate
+* Decisions
+* Wargame Design
+* Facilitating

@@ -1,0 +1,72 @@
+#+TITLE: Modern Land Combat Commander
+#+STARTUP: indent
+
+* Introduction 
+MLCC is a simulation on a brigade/division level of a possible attempt by
+opposing forces to liberate Western Europe from the blue forces alliance. 
+
+* General Course of Play
+  NATO is a two-player game.  Each player moves his units and executes attacks
+  on enemy units in turn, attempting to fulfill the conditions of victory.  To
+  move from one hex to another, each unit expends a portion of its movement
+  allowance.  Combat is resolved by comparing the total combat strength of
+  adjacent opposing units and expressing the comparison as a simplified
+  probability ratio (odds).  A dies is rolled and the outcome indicated on the
+  combat results table is applies to the units involved.
+
+* Game Equipment
+** Map
+- The game map is a 2d representation of an area of operations.  
+- A hexagonal grid is superimposed upon the mapsheet to control movement and
+  combat of the units, tracing supply lines, and delineating the terrain imposed
+  on the map.
+
+** Units
+- Unit icons represent different units from the opposing forces.
+ 
+** Charts and Tables
+** Scale
+
+* Sequence of Play
+** The Game-Turn
+** Sequence
+** Game Length
+
+* Movement
+** How to Move
+** Movement Restrictions
+** Special Movement Abilities
+
+* Zones of Control
+** Movement Effects
+** Airmobile Effects
+** Combat Effects
+** Retreat Effects
+** Supply Effects
+
+* Stacking
+** Movement Effect
+** Combat Effect
+** Unit Buildup and Breakdown
+
+* Combat
+** Which Units May Attack
+** Multiple Unit and Multi-hex Combat
+** Combat Odds Calculation
+** Effect on Unit Strength
+** NATO Battlegroups
+
+* Combat Results Table
+** Explanation of Results
+** How to Retreat
+** Advance After Combat
+
+* Terrain Effects Chart
+
+* Supply
+** Supply Source and Lines
+** Warsaw Pact Supply Limitations
+** Supply Unit Movement
+** Reinforcements
+** Blocking Supply Lines
+** Supply Effects Chart

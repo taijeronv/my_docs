@@ -1,0 +1,120 @@
+Talon Next Generation Wargame
+
+* Refile (things to be refiled later)
+
+
+* Todos
+*** TODO Presentation introducing the project
+*** TODO Project timeline
+*** TODO Software requirements
+*** TODO Find a coder
+*** TODO Design document
+*** TODO Rules rewrite
+*** TODO
+*** TODO
+*** TODO
+*** TODO
+
+
+* Presentation
+** Introduction
+** Purpose
+** Project
+** Schedule
+** Cost
+
+
+* Rules
+** Introduction
+   Talon is a simulation of small-unit operations at the platoon level.
+   Players assume the role of a platoon leader and maneuver fire-teams to accomplish specific goals.
+
+** Dice and Measurement
+   Talon uses random numbers between 1-6 which represent a six-sided
+   die.  Distance is measured in pixels with each pixel equal too {xx}
+   meters.
+** Units
+   Talon units are fire-teams which represent 4-6 men, and weapons
+   teams which represent two to three men.  Some "units" maybe be
+   represented by individuals such as leaders, medics, EOD, dog
+   handler, etc.
+
+   - Every game should have at least one leader.
+   - Each unit is defined by their level of training, experience, and
+     it's weapons/armor.
+   - Unit Cohesion: Units must remain within {xx} meters of each other
+     or incur an activation penalty of -1 per wayward figure.
+
+   Unit Training and Expertise
+   | Level    | Activation | Expertise | Suppress | Cmd Pts |
+   |----------+------------+-----------+----------+---------|
+   | Green    |          5 |         6 |        1 |       1 |
+   | Seasoned |          4 |         5 |        2 |       2 |
+   | Veteran  |          3 |         4 |        3 |       2 |
+
+
+** Initiative
+   - All units begin the game in the "On Guard" state.
+   - At the beginning of each turn each player rolls 1d6 + any scenario
+     modifiers.  Reroll any ties.
+     + The player that scores the highest can attempt to activate one
+       unit first. - See Activation section below.
+     + He continues to acticate units until he fails actication.  Then
+       the initiative passes to his opponent with the next highest
+       score and so on.
+   - The initiative passes back and forth as players pass and fail
+     activation rolls.  The turn ends when all have attempted to
+     activated each unit in their command.
+
+** Activation and Actions
+   - To activate a unit, a player must equal or beat the unit leader's
+     activation score on a roll of 1d6.
+   - Activation roll has the following modifiers:
+
+     | +1: unit has no enemies in line of sight. |
+     |-------------------------------------------|
+     | -1: Per suppressed figure.                |
+
+     - A unit that successfully activates can perform two action in any
+       order, or may do nothing at all.
+
+       | Number of Actions | Effect                                                                          |
+       |-------------------+---------------------------------------------------------------------------------|
+       | 1: Move           | Move {xx} meters                                                                |
+       | 1: Assault        | Move {xx} meters and assault                                                    |
+       | 1: Go on guard    | React ONCE per turn to return fire, shoot moving enemies, or counter-charge     |
+       | 1: Shoot          | Shoot with ranged weapons                                                       |
+       | 1: Retreat        | With draw up too {xx} meters away from the enemy.                               |
+       | 2: Sneak          | Move {xx} meters and gain soft cover                                            |
+       | 2: Hide           | Drop to the nearest cover within move action.  Treat cover as one level higher. |
+
+   - A unit failing activation immediately rolls again - a pass enables the unit to go On Guard of charge.
+
+   - The "On Guard" state ends when the unit next fires or tries to activate.
+     "Hide" and "Sneak" end when the unit moves or fights in Assault.
+
+   - No unit may activate more than once per turn unless given a "push" order from a commander.
+
+** Leaders and Characters
+   Characters and commanders are represented as individual icons.  Each commander
+   has a level and command points as shown on the troop level table.
+
+** Line of Sight (LOS)
+
+** Cover and Terrain
+
+** Shooting
+
+** Assault
+
+** Suppression and Morale
+
+** Weapons
+
+** Vehicles (Optional)
+
+** Skills and Equipment
+
+*** Example Equipment and Skills
+
+** Point Values (Optional)
