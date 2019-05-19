@@ -93,7 +93,7 @@ player-turn is in progress is call the phasing player.
   winner. 
 
 * Movement
-** General
+** General 
 - During the movement phase the phasing player may move some, none, or all of
   his units that are eligible to move.  
 - A unit may be moved as many or as few hexes as the phasing player desires.
@@ -101,7 +101,7 @@ player-turn is in progress is call the phasing player.
 - Unused movement points may NOT be accumulated nor transferred to another unit.
 - Movement points are reset at the beginning of a turn.
 
-**Procedure
+** Procedure
 ** How to Move
 ** Movement Restrictions
 ** Special Movement Abilities
