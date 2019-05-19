@@ -1,8 +1,0 @@
-#+TITLE: Python Learning Map
-#+STARTUP: indent
-
-* References
-* Schedule
-  - Daily
-  - Weekly
-  - Monthly

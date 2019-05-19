@@ -1,0 +1,23 @@
+#+TITLE: Python Crash Course
+#+STARTUP: indent
+#+TODO: TODO IN-PROGRESS COMPLETE | DONE CANCELED 
+
+* References
+- Python Crash Course
+* Basic Lessons [/] [%]
+** TODO Chapter 2 Variables and Simple Data
+DEADLINE: <2019-05-19 Sun 21:00>
+** TODO Chapter 3 Introducing Lists
+DEADLINE: <2019-05-20 Mon 21:00>
+** TODO Chapter 4 Working with Lists
+DEADLINE: <2019-05-21 Tue 21:00>
+** TODO Chapter 5 if Statements
+DEADLINE: <2019-05-22 Wed 21:00>
+** TODO Chapter 6 Dictionaries
+DEADLINE: <2019-05-23 Thu 21:00>
+** TODO Chapter 7 User Input and while loops
+DEADLINE: <2019-05-24 Fri 21:00>
+** TODO Chapter 8 Functions
+** TODO Chapter 9 Classes
+** TODO Chapter 10 Testing Your Code
+ 
