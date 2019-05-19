@@ -64,6 +64,7 @@ The scenario file defines the operational environment for the game.
 - Operations order file.  This is a link to the OPORD briefing which provides
   the player with the information they need to plan their mission.
 - json format?
+
 * Sequence of Play
 ** The Game-Turn
 MLCC is played in turns called game-turns.  Each game-turn consist of two
@@ -93,7 +94,7 @@ player-turn is in progress is call the phasing player.
   winner. 
 
 * Movement
-** General 
+** General
 - During the movement phase the phasing player may move some, none, or all of
   his units that are eligible to move.  
 - A unit may be moved as many or as few hexes as the phasing player desires.
@@ -102,9 +103,57 @@ player-turn is in progress is call the phasing player.
 - Movement points are reset at the beginning of a turn.
 
 ** Procedure
+Move each unit individually, tracing a path of its movement through the
+hexagonal grid.  One a unit has been moved and the player's hand withdrawn, the
+unit may not be moved again, nor the path retraced and/or changed during that
+movement phase.
+
 ** How to Move
+During the movement phase only the phasing player's units are allowed to move;
+all, some, or none of his units may be moved.  No enemy movement, and no combat,
+may occur during a movement phase.
+
+Movement is calculated in terms of movement points.  Basically each unit expends
+one movement point of it's total allowance for each hex it enters.
+
 ** Movement Restrictions
+A unit's movement allowance may be decreased by supply considerations, lowering
+the number of available movement points in a given movement phase.  The number
+of movement points to enter a given hex accumulates by addition i.e. to enter a
+woods hex while crossing a river the hexside would cost three movement points:
+Two for the woods and one for crossing the river (see terrain effects chart).
+All effects of reducing available movement points and increasing the number of
+movement points to enter a given hex are cumulative.
+
+A unit may always move a single hex in a given movement phase as long as it is
+not leaving one enemy controlled hex and directly entering another, and is not
+entering a sea hex or crossing a sea hexside (exceptions see 5.4)
+
 ** Special Movement Abilities
+Airmobile Units.  There are two types of airmobile units airmobile divisions
+(composed of one base element and two airmobile elements) and Tricap divisions
+(composed of one base element and one airmobile element).  The airmobile element
+of these units may ignore all effects of the first enemy controlled hex they
+enter in any friendly movement phase, as long as they did not begin that
+movement phase in an enemy controlled hex.  If they did begin in an enemy
+controlled hex, they may only enter another enemy controlled hex (even an
+adjacent one).  Thus airmobile elements have a limited ability to move through
+enemy controlled hexes.
+
+Air Transportable Units.  These units have the unique ability to move without
+regard to movement allowance and the hex grid.  At the beginning of any friendly
+movement phase, any supplied air-transportable unit not in an enemy controlled
+hex may be removed from the map and placed on any other hex with four
+restrictions: 
+
+1. The may not be placed on enemy occupied or controlled hexes.
+2. They may not be placed on all-sea or all-lake hexes.
+3. The may not be placed on hexes from which a line of unblocked contiguous
+   hexes no longer than twelve hexes may be traced to any friendly supply unit.
+   Hexes are blocked by impassable terrain, enemy occupied hexes and enemy
+   controlled hexes not occupied by friendly units.
+4. They may only air transport from one clear terrain hex to another clear
+   terrain hex. 
 
 * Zones of Control
 ** Movement Effects

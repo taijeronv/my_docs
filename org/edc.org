@@ -1,0 +1,36 @@
+#+TITLE: PT Backpack Checklist
+#+STARTUP: indent
+#+TODO: TODO ON-ORDER IN-BAG
+
+* Backpack - 5.11 Covert
+  - [X] Basic First Aid Kit
+  - [X] Tactical Gloves
+  - [X] Reading Glasses
+  - [X] Water bladder
+
+* Patches
+  - [X] American Flag
+* Tools
+  - [X] Folding Knife
+  - [ ] Multitool
+  - [ ] Hook and loop
+  - [ ] Paracord
+  - [X] Flashlight
+  - [X] Pens
+  - [ ] Sharpie
+
+* Kits
+  - [ ] Tin can survival kit
+
+* Toiletries 
+  - [ ] Hand sanitizer
+  - [ ] Toilet paper tablets in a plastic bottle
+  - [ ] Lighter w/duct tape
+
+* Tech
+  - [ ] Phone cable
+  - [ ] Cube
+
+* Misc
+  - [ ] Money
+
