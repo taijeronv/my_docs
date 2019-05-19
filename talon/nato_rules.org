@@ -14,24 +14,56 @@ adjacent opposing units and expressing the comparison as a simplified
 probability ratio (odds).  A dies is rolled and the outcome indicated on the
 combat results table is applies to the units involved.
 
-* Game Equipment
-** Map
+* Game Files
+There are several game files that are required to play the game.
+- Map image.  This is a simple jpg image that serves as a visual reference for
+  the player.
+- Map Terrain File.  This file defines the terrain for the map.
+- Scenario file.  This file defines the operational environment for a specific
+  scenario.
+- Unit and game icons.  These files are png or jpg and depict units and other
+  game functions.
+
+* Map
 - The game map is a 2d representation of a land-based area of operations.
 - A hexagonal grid is superimposed upon the map image to control movement and
   combat of the units, tracing supply lines, and delineating the terrain imposed
   on the map.
+** Requirements
+- The image format for the map is jpg.
+- Map colors to be determined.  Flashpoint Campaign values.
+- Individual hex for the grid is 72 px tall with the flat side facing up.
+- Size of the map can vary depending on the operations area.
+*** Terrain File
+The terrain file defines the terrain elements for a specific map.
+- json format??
+- Terrain movement costs (see terrain effects table).
+- Combat modifiers.
 
-** Units
+* Units
 - Icons use NATO symbols and represent different units from the opposing forces.
+** Requirements
+- The image format for unit and game icons is jpg or png.
+- Texture map??
  
-** Charts and Tables
-** Scale
+* Charts and Tables
+* Scale
 - Combat units represent battalions and brigades.
 - Some combat such as Artillery or Air Defense may be represented by batterys or
   platoons.
 - Hexes represent 5 to 10 kms on the ground.
 - Each turn represents 3 to 6 hours of time.
 
+* Scenario File
+The scenario file defines the operational environment for the game.
+- Orders of battle for both sides.  The order of battle specifies which units
+  will be available for the scenario.
+- Map image and corresponding terrain file.
+- Weather conditions.
+- Mission objectives.
+- Operations order file.  This is a link to the OPORD briefing which provides
+  the player with the information they need to plan their mission.
+- json format?
 * Sequence of Play
 ** The Game-Turn
 MLCC is played in turns called game-turns.  Each game-turn consist of two
@@ -61,6 +93,15 @@ player-turn is in progress is call the phasing player.
   winner. 
 
 * Movement
+** General
+- During the movement phase the phasing player may move some, none, or all of
+  his units that are eligible to move.  
+- A unit may be moved as many or as few hexes as the phasing player desires.
+- A unit may not exceed its movement allowance during any of its movement phases.  
+- Unused movement points may NOT be accumulated nor transferred to another unit.
+- Movement points are reset at the beginning of a turn.
+
+**Procedure
 ** How to Move
 ** Movement Restrictions
 ** Special Movement Abilities
