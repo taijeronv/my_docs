@@ -62,13 +62,13 @@
 
 
 * Linux Setup
-** Productivity[3/5]
+** Productivity[4/6]
 - [ ] Onedrive (need to figure out how to set this up)
 - [ ] Xnconvert
 - [X] Libre Office
 - [X] Dropbox
 - [X] Google Drive
-
+- [X] Calibre
 ** Development[3/4]
 - [ ] Docker
 - [X] Git
