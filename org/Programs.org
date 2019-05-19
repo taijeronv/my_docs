@@ -2,13 +2,14 @@
 #+STARTUP: Indent
 
 * Windows 10 Setup
-** Productivity[4/6]
+** Productivity[5/7]
 - [ ] MS Office
 - [ ] Xmind
 - [X] Adobe Acrobat
 - [X] Foxit
 - [X] Onedrive
 - [X] Dropbox
+- [X] Calibre
 
 ** Development[4/6]
 - [ ] WSL
