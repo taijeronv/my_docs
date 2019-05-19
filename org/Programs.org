@@ -2,13 +2,14 @@
 #+STARTUP: Indent
 
 * Windows 10 Setup
-** Productivity[4/6]
+** Productivity[5/7]
 - [ ] MS Office
 - [ ] Xmind
 - [X] Adobe Acrobat
 - [X] Foxit
 - [X] Onedrive
 - [X] Dropbox
+- [X] Calibre
 
 ** Development[4/6]
 - [ ] WSL
@@ -35,11 +36,12 @@
 - [X] Chrome
 - [X] Deluge
 
-** Security[1/3]
+** Security[1/1]
 - [ ] Delete program
 - [ ] Folder encryption
 - [X] Vera Crypt
-**** TODO  Transfer Ermisoft to new computer
+**** DONE Transfer Ermisoft to new computer
+CLOSED: [2019-05-19 Sun 06:47]
 
 ** Utilities[2/5]
 - [ ] Disk partitioning
@@ -61,13 +63,13 @@
 
 
 * Linux Setup
-** Productivity[3/5]
+** Productivity[4/6]
 - [ ] Onedrive (need to figure out how to set this up)
 - [ ] Xnconvert
 - [X] Libre Office
 - [X] Dropbox
 - [X] Google Drive
-
+- [X] Calibre
 ** Development[3/4]
 - [ ] Docker
 - [X] Git
@@ -103,5 +105,7 @@
 - [ ] [[https://www.videolan.org/vlc/download-ubuntu.html] [VLC]
 
 ** Music Player
-*** TODO Is there something better than Clementine?
+*** DONE Is there something better than Clementine?
+CLOSED: [2019-05-19 Sun 06:48]
+- State "DONE"       from "WAITING"    [2019-05-19 Sun 06:48]
    - [ ] Clementine
