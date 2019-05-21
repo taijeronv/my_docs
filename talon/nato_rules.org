@@ -284,10 +284,47 @@ table would be used.
 
 ** Effect on Unit Strength
 Combat strengths of units may be affected by terrain and supply considerations
-(see terrain effects chart and the supply rules) 
+(see terrain effects chart and the supply rules).  This is always expressed as
+the combat strength being "halved", all fractions are retained.  This an
+unsupplied unit attacking across a river hexside would be quartered in attack
+strength (halved and then halved again).  In this case a unit with an attack
+strength of five would effectively use 1.25 strength points in the attack.
+ 
 ** NATO Battlegroups
+1. If, due to any combat result (De, Ae, or Ex) a blue forces 5-5-8 or 6-6-8
+   unit is eliminated, it is removed from the map and replaced with a
+   "battlegroup" unit (1-2-8). Only blue force 5-5-8 or 6-6-8 units receive this
+   benefit. The battlegroup unit is immediately placed on the hex in which the
+   blue force 5-5-8 or 6-6-8 unit was eliminated, and suffers no further combat
+   effects in that phase. This, if the original unit was eliminated due to
+   inability to retreat, the battlegroup unit need not retreat (however, see
+   Nuclear Combat Rules).
+
+2. In cases where a battlegroup unit is formed due to an "Exchange" combat result,
+   the opposing force player must still remove a number of strength points equal
+   to or greater than the original unit, not the original unit minus the strength
+   points of the battlegroup formed.
+
+3. Battlegroup units are identical in all ways to regular brigades of their
+   respective nationality, i.e. they are considered brigades for stacking
+   purposes and may be used as such in building units (see 7.3).  Unit types may
+   be ignored in replacing with battlegroups.
 
 * Combat Results Table
+
+          Combat odds (Attack Strength / Defense Strength
+| DR | 1-1 | 2-1 | 3-1 | 4-1 | 5-1 | 6-1 | 7-1 | 8-1 | 9-1 | 10-1 |
+|----+-----+-----+-----+-----+-----+-----+-----+-----+-----+------|
+|  1 | Dr1 | Dr2 | Dr2 | Dr2 | Dr3 | Dr3 | Dr3 | De  | De  | De   |
+|  2 | Dr1 | Dr1 | Dr2 | Dr2 | Dr2 | Dr3 | Dr3 | Dr3 | De  | De   |
+|  3 | Ar1 | Dr1 | Dr1 | Dr2 | Dr2 | Dr2 | Dr3 | Dr3 | Dr3 | De   |
+|  4 | Ar1 | Ar1 | Dr1 | Dr1 | Dr1 | Dr2 | Dr3 | Dr3 | Dr3 | Ex   |
+|  5 | Ar1 | Ex  | Ex  | Dr1 | Dr1 | Dr2 | Ex  | Ex  | Ex  | Ex   |
+|  6 | Ae  | Ae  | Ar1 | Ex  | Ex  | Ex  | Ex  | Ex  | Ex  | Ex   |
+
+Odds less than 1-1 are NOT permitted; Odds greater than 10-1 are treated as
+10-1.
+
 ** Explanation of Results
 ** How to Retreat
 ** Advance After Combat
