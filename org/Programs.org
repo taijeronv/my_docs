@@ -63,6 +63,10 @@ CLOSED: [2019-05-19 Sun 06:47]
 
 
 * Linux Setup
+** Setup
+- [X] i3wm Windows Manager
+- [ ] Ranger file manager
+- [ ] Urxvt terminal emulator
 ** Productivity[4/6]
 - [ ] Onedrive (need to figure out how to set this up)
 - [ ] Xnconvert
