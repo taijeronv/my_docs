@@ -67,6 +67,10 @@ CLOSED: [2019-05-19 Sun 06:47]
 - [X] i3wm Windows Manager
 - [ ] Ranger file manager
 - [ ] Urxvt terminal emulator
+- [X] arandr used to setup multiple monitors
+- [X] feh used to change wallpaper
+
+
 ** Productivity[4/6]
 - [ ] Onedrive (need to figure out how to set this up)
 - [ ] Xnconvert
