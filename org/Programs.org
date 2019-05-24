@@ -63,32 +63,34 @@ CLOSED: [2019-05-19 Sun 06:47]
 
 
 * Linux Setup
-** Setup
-- [X] i3wm Windows Manager
+** Setup[1/7][14%]
+- [ ] i3wm Windows Manager
 - [ ] Ranger file manager
 - [ ] Urxvt terminal emulator
-- [X] arandr used to setup multiple monitors
-- [X] feh used to change wallpaper
+- [ ] arandr used to setup multiple monitors
+- [ ] feh used to change wallpaper
+- [ ] zsh terminal emulator
+- [X] install source code pro font
 
-
-** Productivity[4/6]
+** Productivity[0/6] [0%]
 - [ ] Onedrive (need to figure out how to set this up)
 - [ ] Xnconvert
-- [X] Libre Office
-- [X] Dropbox
-- [X] Google Drive
-- [X] Calibre
-** Development[3/4]
+- [ ] Libre Office
+- [ ] Dropbox
+- [ ] Google Drive
+- [ ] Calibre
+
+** Development[1/4] [%]
 - [ ] Docker
 - [X] Git
-- [X] Virtual Box
-- [X] Visual Studio Code
+- [ ] Virtual Box
+- [ ] Visual Studio Code
 
-** Python
-- [X] Determine global setup requirements
-- [X] Python 3.x
-- [X] Pip
-- [X] Virtualenv
+** Python [/] [%]
+- [ ] Determine global setup requirements
+- [ ] Python 3.x
+- [ ] Pip
+- [ ] Virtualenv
 
 ** Game Development[/]
 - [ ] Godot
@@ -97,19 +99,19 @@ CLOSED: [2019-05-19 Sun 06:47]
 - [ ] Gimp
 - [ ] Inkscape
 
-** Internet[1/1]
-- [X] Chromium
+** Internet[1/1][%]
+- [X] Chrome
 
-** Security[/]
+** Security[/][%]
 - [ ] Vera Crypt
 - [ ] Wipe
 - [ ] Gnome Encfs Manager
 
-** Utilities[/]
+** Utilities[/][%]
 - [ ] [[http://www.webupd8.org/2016/03/quickly-batch-rename-files-in-linux.html ][Bulk rename]
 - [ ] [[https://freefilesync.org/download.php] [Folder and file sync]
 
-** Video Player[/]
+** Video Player[/][%]
 - [ ] [[https://www.videolan.org/vlc/download-ubuntu.html] [VLC]
 
 ** Music Player

@@ -14,12 +14,8 @@
 + [[http://www.thereviewreview.net/publishing-tips/flash-fiction-whats-it-all-about][Flash Fiction What it's All About]]   
 + [[https://www.fanfiction.net/s/9661958/1/The-Ultimate-Guide-to-Writing-Smut-Fic][Smut Fiction]]
 + [[https://thewritepractice.com/dialogue-tags/][How to use Dialog tags]]
-* Paragraph Template
-- What emotions are the character feeling?
-- Why are they doing what they are doing?
-- How does the physical stimulation feel?
-- What does the character think about the other character?
-* Template
+* Templates
+** Story Template
  - Story
   One-liner on what the story is about.
  
@@ -33,10 +29,21 @@
 
 - Scenes
   Correspond to the plot.  This is the actual story.
+** CASE Template
+*** Case
+*** Testimony
+*** RFIs
+*** Conclusions and Speculations
+
+** Paragraph Template
+- What emotions are the character feeling?
+- Why are they doing what they are doing?
+- How does the physical stimulation feel?
+- What does the character think about the other character?
 
 * Mystery's to Solve
 ** CASE: 140815-1 MP
-*** Summary
+*** Case
 V claims to have met Matt at the airport and helped with his luggage.
 
 *** Testimony
@@ -85,12 +92,42 @@ Easter 2014 four months AFTER we started seeing each other.
 - I suspect they mat on RoseBrides.com.
 - Google search does not show anything meaningful.
 
-** CASE 140815-3 Yellow Gloves
+** CASE: 140815-3 Yellow Gloves
 *** Testimony
 - V claims she went to this persons apartment for a book on Italy.
 - V gets nervous when he starts talking about more personal feelings, she puts
   on some yellow gloves and starts to wash the dishes.
 - Why would she go to a single-mans apartment alone?
+
+*** Witnesses
+- Massimo is Mr. Yellow Gloves
+
+** CASE: 140815-4 No Marriage
+*** Case
+In one of V's email exchanged the old-man accuses V of infidelity.  He said that
+he would have married her at least three times but each time there was an issue
+of infidelity.
+
+He mentions four reasons one of which didn't have to do with another man.  The
+three men he mentions is MP, Lawyer, and one other.  He goes on to say that he
+understands that V is young and it's normal for her to pursue her sexual
+desires.
+
+*** Testimony
+- V denies his accusations.
+- V claims she never had anything to do with the lawyer (see CASE 180815-1 The
+  Lawyer).
+- V claims she never had anything to do with MP (see case 140815-1 MP)
+
+
+*** RFIs
+1. How did the old-man find out about these affairs?
+2. Who is the third man?
+3. What was the other reason?
+
+*** Conclusions and speculation
+- I believe V did have an affair with MP he could be Agent 12 (Casual Encouters:
+  Agent 12)
 
 ** CASE: 190521-2 The Couch
 *** Testimony
@@ -138,6 +175,11 @@ the actual setup.  The year is 2010.
   setup.
 - By my count the old-man has visited Odessa at least three times.  Once for the
   setup, once with his friends, and once for the newsletter.
+
+** CASE: 180815-1 The Lawyer
+
+* Weird shit V believes
+- V believes if she gets naked in front of a man, the man will not think about fucking her.
 
 * Who is V?
 - Who is V?
@@ -300,8 +342,11 @@ bathed it in spit.  I'm telling you ladies, men love it when you're sloppy and w
 
   - Scene 4: Jim fucks V and gives her the best orgasm of her life.
 ** The Great Escape
-- Story
-  V finds time to fuck her lover while visitors are in the house.
+- Plot
+  V's old-man is visiting with some of his Kung Fu students. Although V is happy
+  to host them she is disappointed that she won't be able to fuck the old-man
+  whenever she wants.  V starts to become attracted to one of the friends and
+  begins to fantasize about him while she fucks the old-man. 
 
 - Characters
   V - her usual horny self.
@@ -309,7 +354,7 @@ bathed it in spit.  I'm telling you ladies, men love it when you're sloppy and w
   Rick - Jim's friend and potential fuck-interest for V.
   Matt - Another visitor.
 
-- Plot (four scenes ~ 375 words per scene)
+- Scenes (four scenes ~ 375 words per scene)
   - V's boyfriends friends are vising for the week.
     - She pictures herself fucking one of the friends.
     - She wonders who has the bigger dick.
@@ -327,7 +372,6 @@ bathed it in spit.  I'm telling you ladies, men love it when you're sloppy and w
     - V gives her boyfriend a prostrate massage while milking his cock.
     - The house guests hear whats going on.
 
-- Scenes
   
 ** I Spy
 - Story
