@@ -63,36 +63,37 @@ CLOSED: [2019-05-19 Sun 06:47]
 
 
 * Linux Setup
-** Setup[4/6][66%]
+** Setup[5/10][50%]
 - [X] i3wm Windows Manager
-- [ ] arandr used to setup multiple monitors
-- [ ] feh used to change wallpaper
+- [X] Ranger file manager
 - [X] [[https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4][zsh terminal emulator]]
 - [X] install source code pro font
 - [X] pCloud
+- [ ] arandr used to setup multiple monitors
+- [ ] feh used to change wallpaper
 - [ ] [[http://ubuntuhandbook.org/index.php/2019/04/install-shutter-ubuntu-19-04/][Shutter]] screen capture
 - [ ] Conky desktop system monitor
 - [ ] Midnight Commander file manager
 
 ** Productivity[3/6] [50%]
-- [ ] Onedrive (need to figure out how to set this up)
 - [X] Xnconvert
 - [X] Libre Office
+- [X] Calibre
+- [ ] Onedrive (need to figure out how to set this up)
 - [ ] Dropbox
 - [ ] Google Drive
-- [X] Calibre
 
 ** Development[3/4] [75%]
-- [ ] Docker
 - [X] Git
 - [X] VM Player
 - [X] Visual Studio Code
+- [ ] Docker
 
-** Python [0/4] [0%]
+** Python [3/4] [75%]
+- [X] Python 3.x
+- [X] Pip
+- [X] Virtualenv
 - [ ] Determine global setup requirements
-- [ ] Python 3.x
-- [ ] Pip
-- [ ] Virtualenv
 
 ** Game Development[0/2] [0%]
 - [ ] Godot
@@ -106,9 +107,9 @@ CLOSED: [2019-05-19 Sun 06:47]
 - [X] Chrome
 
 ** Security[1/3][33%]
+- [X] Gnome Encfs Manager
 - [ ] Vera Crypt
 - [ ] Wip
-- [X] Gnome Encfs Manager
 
 ** Utilities[/][%]
 - [ ] [[http://www.webupd8.org/2016/03/quickly-batch-rename-files-in-linux.html ][Bulk rename]]
