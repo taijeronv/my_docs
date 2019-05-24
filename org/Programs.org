@@ -63,17 +63,37 @@ CLOSED: [2019-05-19 Sun 06:47]
 
 
 * Linux Setup
-** Setup[5/10][50%]
+** Setup [3/9][33%]
 - [X] i3wm Windows Manager
 - [X] Ranger file manager
+- [X] w3m-img used to preview images in terminal
 - [X] [[https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4][zsh terminal emulator]]
 - [X] install source code pro font
 - [X] pCloud
-- [ ] arandr used to setup multiple monitors
-- [ ] feh used to change wallpaper
+- [X] arandr used to setup multiple monitors
+- [X] feh used to change wallpaper
+- [X] compton transparency and fading effects
+- [X] i3status blocks i3 status bar
+- [X] Conky desktop system monitor
 - [ ] [[http://ubuntuhandbook.org/index.php/2019/04/install-shutter-ubuntu-19-04/][Shutter]] screen capture
-- [ ] Conky desktop system monitor
-- [ ] Midnight Commander file manager
+
+*** TODO i3blocks not working
+*** TODO Setup conky
+*** TODO Add more images to the wallpaper dir
+*** TODO i3 config assign programs to workspaces
+- [ ] Emacs to Emacs26 ws1 Virtual1
+- [ ] Chrome to Internet ws3 Virtual2
+- [ ] Code
+- [ ] Terminals
+*** TODO Ricing
+*** TODO Learn how to backup dotfiles
+
+*** DONE Ranger image preview not working
+CLOSED: [2019-05-24 Fri 21:39]
+*** DONE Make sure Ranger works with feh
+CLOSED: [2019-05-24 Fri 21:39]
+*** DONE configure compton
+CLOSED: [2019-05-24 Fri 21:34]
 
 ** Productivity[3/6] [50%]
 - [X] Xnconvert
