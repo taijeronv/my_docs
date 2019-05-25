@@ -69,26 +69,31 @@ CLOSED: [2019-05-19 Sun 06:47]
 2. [X] install source code pro font
 3. [X] pCloud
 4. [ ] [[http://ubuntuhandbook.org/index.php/2019/04/install-shutter-ubuntu-19-04/][Shutter]] screen capture
-5. [-] i3wm Windows Manager [7/8] [87%]
-   - [X] Set workspace names
-   - [ ] Set automatically executed programs
+5. [-] i3wm Windows Manager [8/9] [88%]
+   1. [X] Set workspace names
 
-   - [X] Set wallpaper using feh
-     - [X] Install feh used to change wallpaper
+   2. [X] Set automatically executed programs
 
-   - [X] Install compton for transparency and fading effects
-     - [X] Set transparency using compton
+   3. [X] Set wallpaper using feh
+      - [X] Install feh used to change wallpaper
 
-   - [X] arandr used to setup multiple monitors
-     - [X] Set workspace monitors
-     - [X] Assign programs to a window
+   4. [X] Install compton for transparency and fading effects
+      - [X] Set transparency using compton
 
-   - [X] i3status blocks i3 status bar
+   5. [X] arandr used to setup multiple monitors
+      - [X] Set workspace monitors
+      - [X] Assign programs to a window
 
-   - [X] Conky desktop system monitor
-   - [X] Ranger file manager
-     - [X] w3m-img used to preview images in terminal
-     - [X] Set Rofi as default app launcher
+   6. [ ] Install fontawesome
+      - [ ] Assign icons to workspaces
+
+   7. [X] i3status blocks i3 status bar
+
+   8. [X] Conky desktop system monitor
+
+   9. [X] Ranger file manager
+      - [X] w3m-img used to preview images in terminal
+      - [X] Set Rofi as default app launcher
 
 *** TODO i3blocks not working
 *** TODO Setup conky
@@ -107,6 +112,7 @@ CLOSED: [2019-05-24 Fri 21:39]
 CLOSED: [2019-05-24 Fri 21:39]
 *** DONE configure compton
 CLOSED: [2019-05-24 Fri 21:34]
+
 
 ** Programs
 *** Productivity[3/6] [50%]
