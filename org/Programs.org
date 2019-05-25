@@ -63,19 +63,32 @@ CLOSED: [2019-05-19 Sun 06:47]
 
 
 * Linux Setup
-** Setup [3/9][33%]
-- [X] i3wm Windows Manager
-- [X] Ranger file manager
-- [X] w3m-img used to preview images in terminal
-- [X] [[https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4][zsh terminal emulator]]
-- [X] install source code pro font
-- [X] pCloud
-- [X] arandr used to setup multiple monitors
-- [X] feh used to change wallpaper
-- [X] compton transparency and fading effects
-- [X] i3status blocks i3 status bar
-- [X] Conky desktop system monitor
-- [ ] [[http://ubuntuhandbook.org/index.php/2019/04/install-shutter-ubuntu-19-04/][Shutter]] screen capture
+** Setup [3/5][60%]
+1. [X] [[https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4][zsh terminal emulator]]
+   - [X] Set zsh as the default terminal emulator 
+2. [X] install source code pro font
+3. [X] pCloud
+4. [ ] [[http://ubuntuhandbook.org/index.php/2019/04/install-shutter-ubuntu-19-04/][Shutter]] screen capture
+5. [-] i3wm Windows Manager [7/8] [87%]
+   - [X] Set workspace names
+   - [ ] Set automatically executed programs
+
+   - [X] Set wallpaper using feh
+     - [X] Install feh used to change wallpaper
+
+   - [X] Install compton for transparency and fading effects
+     - [X] Set transparency using compton
+
+   - [X] arandr used to setup multiple monitors
+     - [X] Set workspace monitors
+     - [X] Assign programs to a window
+
+   - [X] i3status blocks i3 status bar
+
+   - [X] Conky desktop system monitor
+   - [X] Ranger file manager
+     - [X] w3m-img used to preview images in terminal
+     - [X] Set Rofi as default app launcher
 
 *** TODO i3blocks not working
 *** TODO Setup conky
@@ -95,7 +108,8 @@ CLOSED: [2019-05-24 Fri 21:39]
 *** DONE configure compton
 CLOSED: [2019-05-24 Fri 21:34]
 
-** Productivity[3/6] [50%]
+** Programs
+*** Productivity[3/6] [50%]
 - [X] Xnconvert
 - [X] Libre Office
 - [X] Calibre
@@ -103,41 +117,41 @@ CLOSED: [2019-05-24 Fri 21:34]
 - [ ] Dropbox
 - [ ] Google Drive
 
-** Development[3/4] [75%]
+*** Development[3/4] [75%]
 - [X] Git
 - [X] VM Player
 - [X] Visual Studio Code
 - [ ] Docker
 
-** Python [3/4] [75%]
+*** Python [3/4] [75%]
 - [X] Python 3.x
 - [X] Pip
 - [X] Virtualenv
 - [ ] Determine global setup requirements
 
-** Game Development[0/2] [0%]
+*** Game Development[0/2] [0%]
 - [ ] Godot
 - [ ] Tiled
 
-** Image[0/2] [0%]
+*** Image[0/2] [0%]
 - [ ] Gimp
 - [ ] Inkscape
 
-** Internet[1/1] [100%]
+*** Internet[1/1] [100%]
 - [X] Chrome
 
-** Security[1/3][33%]
+*** Security[1/3][33%]
 - [X] Gnome Encfs Manager
 - [ ] Vera Crypt
 - [ ] Wip
 
-** Utilities[/][%]
+*** Utilities[/][%]
 - [ ] [[http://www.webupd8.org/2016/03/quickly-batch-rename-files-in-linux.html ][Bulk rename]]
 - [ ] [[https://freefilesync.org/download.php][Folder and file sync]]
  
-** Video Player[0/1][0%]
+*** Video Player[0/1][0%]
 - [ ] [[https://www.videolan.org/vlc/download-ubuntu.html][VLC]]
 
-** Music Player [0/1] [0%]
+*** Music Player [0/1] [0%]
 - [ ][[https://www.tecmint.com/install-cmus-music-player-in-linux/][ cmus]] a terminal based music player
 - [ ] Sayanora
