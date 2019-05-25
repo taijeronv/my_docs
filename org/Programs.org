@@ -69,31 +69,39 @@ CLOSED: [2019-05-19 Sun 06:47]
 2. [X] install source code pro font
 3. [X] pCloud
 4. [ ] [[http://ubuntuhandbook.org/index.php/2019/04/install-shutter-ubuntu-19-04/][Shutter]] screen capture
-5. [-] i3wm Windows Manager [8/9] [88%]
-   1. [X] Set workspace names
+   
+** i3wm Windows Manager [9/10] [90%]
 
-   2. [X] Set automatically executed programs
+1. [X] Set workspace names
 
-   3. [X] Set wallpaper using feh
-      - [X] Install feh used to change wallpaper
+2. [X] Set automatically executed programs
 
-   4. [X] Install compton for transparency and fading effects
-      - [X] Set transparency using compton
+3. [X] Set wallpaper using feh
+   - [X] Install feh used to change wallpaper
 
-   5. [X] arandr used to setup multiple monitors
-      - [X] Set workspace monitors
-      - [X] Assign programs to a window
+4. [X] Install compton for transparency and fading effects
+   - [X] Set transparency using compton
 
-   6. [ ] Install fontawesome
-      - [ ] Assign icons to workspaces
+5. [X] arandr used to setup multiple monitors
+   - [X] Set workspace monitors
+   - [X] Assign programs to a window
 
-   7. [X] i3status blocks i3 status bar
+6. [X] Install fontawesome
+   - [X] Assign icons to workspaces
 
-   8. [X] Conky desktop system monitor
+7. [X] i3status blocks i3 status bar
 
-   9. [X] Ranger file manager
-      - [X] w3m-img used to preview images in terminal
-      - [X] Set Rofi as default app launcher
+8. [X] Conky desktop system monitor
+
+9. [X] Ranger file manager
+   - [X] w3m-img used to preview images in terminal
+   - [X] Set Rofi as default app launcher
+
+10. [ ] Ricing
+    - [ ] Install lxappearance
+    - [ ] Install system fonts
+      - You may have to edit some of the gtk files to show your fonts.
+    - [ ] Configure title bar.
 
 *** TODO i3blocks not working
 *** TODO Setup conky
@@ -112,7 +120,6 @@ CLOSED: [2019-05-24 Fri 21:39]
 CLOSED: [2019-05-24 Fri 21:39]
 *** DONE configure compton
 CLOSED: [2019-05-24 Fri 21:34]
-
 
 ** Programs
 *** Productivity[3/6] [50%]
