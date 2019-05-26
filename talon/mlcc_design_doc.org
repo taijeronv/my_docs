@@ -1,0 +1,35 @@
+#+TITLE: MLCC Design Doc
+#+STARTUP: indet
+
+* Mantra: 
+  1 line sentence refering to the UX to always remember throught development
+  (ex: Epic robot battles with multiple story paths)
+
+* Summary
+  A short brief
+
+* Features
+  List of mechanics and unique characteristics
+
+* Target Platform
+  Where do I intend to publish my game
+
+* Target Audience
+  Profiles of who's going to play my game
+
+* Game
+  Layout of every detail of the game (this usually branch on more points
+  specific to that game, like story, power ups, multiplayer, etc)
+
+* Interface
+  This includes player controls and how's the input (mouse, keyboard,
+  controller)
+
+* Artstyle
+  Mostly reference to the art people of your vision
+
+* Music/Sound
+  What kind of music/sound you want and how is going to play
+
+* Development Plan
+  A very crude layout of the needed task to develop the game with a time estimate

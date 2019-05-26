@@ -1,0 +1,185 @@
+#+TITLE: Game Design Doc v3.0
+
+* Title Page   
+   Game Name – Perhaps also add a subtitle or high concept sentence.
+* Game Overview
+** Game Concept
+** Genre
+** Target Audience
+** Game Flow Summary 
+   – How does the player move through the game.   Both through framing interface and the game itself.
+** Look and Feel – What is the basic look and feel of the game?  What is the visual style?
+** Monetization model (Brief/Document) 
+  - <Monetization Type> (Premium, Paid Alpha/Beta/Final, Ad Driven,
+    Micro-transactions, Subscription, etc.)
+	  - <Link to Monetization Document>
+  (How do you plan to monetize the game?)
+** Project Scope
+	 - <Game Time Scale>
+		 - Cost? (How much will it cost?)
+   - Time Scale (How long will it take to make this game?)
+   - <Team Size>
+	 - <Core Team>
+		 - Team Member name?
+			 - What does he/she do?
+			 - <Cost to employ them full time or part time>
+		 - etc. 
+ (List as many core team members as you need to)
+ - <Marketing Team>
+		 - Team Member name?
+			 - What does he/she do?
+			 - <Cost to employ them full time or part time>
+		 - Etc.
+ (List as many marketing team members as you need to)
+	 - <Licenses / Hardware / Other Costs>
+	 - <Total Costs with breakdown>
+
+* Gameplay and Mechanics
+** The elevator Pitch
+  <A one sentence pitch for your game.> Pretend that your were pitching your
+  game to a executive going to the elevator. You have less than 60 Seconds.
+
+** Gameplay
+** Game Progression
+** Mission/challenge Structure
+** Objectives – What are the objectives of the game?
+** Play Flow – How does the game flow for the game player
+** Mechanics
+   – What are the rules to the game, both implicit and explicit.  This is the model of the universe that the game works under.  Think of it as a simulation of a world, how do all the pieces interact?  This actually can be a very large section.
+*** Physics 
+    – How does the physical universe work?
+*** Movement in the game
+*** Objects  
+    – how to pick them up and move them
+*** Actions
+    including whatever switches and buttons are used, interacting with objects, and what means of communication are used
+*** Combat 
+    – If there is combat or even conflict, how is this specifically modeled?
+*** Economy 
+    – What is the economy of the game? How does it work?
+*** Screen Flow 
+    - A graphical description of how each screen is related to every other and a
+      description of the purpose of each screen.
+** Influences (Brief)
+	 - <Influence #1>
+		 - <Medium> (Television, Games, Literature, Movies, etc.)
+ - /Explain why this is an influence in 1 Paragraph or less/
+	 - <Influence #2>
+		 - <Medium> (Television, Games, Literature, Movies, etc.)
+		 - /Explain Why in 1 Paragraph or less/
+ - /Explain why this is an influence in 1 Paragraph or less/
+	 - <Influence #3>
+		 - <Medium> (Television, Games, Literature, Movies, etc.)
+ - /Explain why this is an influence in 1 Paragraph or less/
+	 - <Influence #4>
+		 - <Medium> (Television, Games, Literature, Movies, etc.)
+		 - /Explain Why in 1 Paragraph or less/
+ - /Explain why this is an influence in 1 Paragraph or less/
+** Project Description
+** What sets this project apart?
+
+* Game Options 
+  – What are the options and how do they affect game play and mechanics?
+* Replaying and Saving 
+* Story, Setting and Character
+** Story and Narrative 
+   – Includes back story, plot elements, game progression, and cut scenes.  Cut scenes descriptions include the actors, the setting, and the storyboard or script.
+** Game World
+*** General look and feel of world
+*** Areas
+    including the general description and physical characteristics as well as how it relates to the rest of the world (what levels use it, how it connects to other areas)
+** Characters 
+   Each character should include the back story, personality, appearance, animations, abilities, relevance to the story and relationship to other characters
+* Interface
+** Visual System
+   If you have a HUD, what is on it?  What menus are you displaying? What is the camera model?
+** Control System 
+   – How does the game player control the game?   What are the specific commands?
+** Audio, music, sound effects
+** Help System
+* Artificial Intelligence
+** Opponent and Enemy AI  
+   – The active opponent that plays against the game player and therefore requires strategic decision making
+** Non-combat and Friendly Characters
+** Support AI 
+   - Player and Collision Detection, Pathfinding
+* Technical
+** Target Hardware
+** Development hardware and software, including Game Engine
+** Network requirements
+** Screens
+      1. Title Screen
+          a. Options
+      2. Level Select
+      3. Game
+          a. Inventory
+          b. Assessment / Next Level
+      4. End Credits
+  (example)
+** Controls
+	  How will the player interact with the game? Will they be able to choose the controls? What kind of in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
+** Mechanics
+	  Are there any interesting mechanics? If so, how are you going to accomplish
+	  them? Physics, algorithms, etc.
+
+* Assets
+  - 2D
+    - Textures
+      - Environment Textures
+    - Heightmap data (If applicable)
+      - List required data required - Example: DEM data of the entire UK.
+    - Etc.
+  - 3D
+    - Characters List
+      - Character #1
+      - Character #2
+      - Character #3
+      - etc.
+    - Environmental Art Lists
+      - Example #1
+      - Example #2 
+      - Example #3
+      - etc.
+  - Sound
+    - Sound List (Ambient)
+      - Outside
+        - Level 1
+        - Level 2 
+        - Level 3
+        - etc.
+      - Inside
+        - Level 1
+        - Level 2
+        - Level 3
+        - etc.
+  - Sound List (Player)
+      - Character Movement Sound List
+        - Example 1
+        - Example 2
+  - etc. 
+      - Character Hit / Collision Sound list
+  - Example 1
+        - Example 2
+  - etc.
+      - Character on Injured / Death sound list
+        - Example 1
+        - Example 2
+        - etc.
+  - Code
+    - Character Scripts (Player Pawn/Player Controller)
+    - Ambient Scripts (Runs in the background)
+    - Example
+  - NPC Scripts
+    - Example
+    - etc.
+  - Animation
+    - Environment Animations 
+      - Example
+      - etc.
+    - Character Animations 
+      - Player
+  - Example 
+  - etc.
+      - NPC
+        - Example
+        - etc.
