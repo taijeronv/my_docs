@@ -97,10 +97,14 @@ CLOSED: [2019-05-19 Sun 06:47]
    - [X] w3m-img used to preview images in terminal
    - [X] Set Rofi as default app launcher
 
-10. [ ] Ricing
-    - [ ] Install lxappearance
-    - [ ] Install system fonts
+10. [-] Ricing
+    - [X] Install lxappearance
+    - [X] Install system fonts
       - You may have to edit some of the gtk files to show your fonts.
+    - [X] Change system colors
+    - [X] Install moka icon theme
+    - [X] Install a gtk theme arc-dark
+    - [ ] Modify rofi
     - [ ] Configure title bar.
 
 *** TODO i3blocks not working
