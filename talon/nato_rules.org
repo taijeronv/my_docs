@@ -1,4 +1,4 @@
-#+TITLE: Modern Land Combat Commander
+#+TITLE: NATO Master Rules
 #+STARTUP: indent
 
 * Introduction 
@@ -284,18 +284,97 @@ table would be used.
 
 ** Effect on Unit Strength
 Combat strengths of units may be affected by terrain and supply considerations
-(see terrain effects chart and the supply rules) 
+(see terrain effects chart and the supply rules).  This is always expressed as
+the combat strength being "halved", all fractions are retained.  This an
+unsupplied unit attacking across a river hexside would be quartered in attack
+strength (halved and then halved again).  In this case a unit with an attack
+strength of five would effectively use 1.25 strength points in the attack.
+ 
 ** NATO Battlegroups
+1. If, due to any combat result (De, Ae, or Ex) a blue forces 5-5-8 or 6-6-8
+   unit is eliminated, it is removed from the map and replaced with a
+   "battlegroup" unit (1-2-8). Only blue force 5-5-8 or 6-6-8 units receive this
+   benefit. The battlegroup unit is immediately placed on the hex in which the
+   blue force 5-5-8 or 6-6-8 unit was eliminated, and suffers no further combat
+   effects in that phase. This, if the original unit was eliminated due to
+   inability to retreat, the battlegroup unit need not retreat (however, see
+   Nuclear Combat Rules).
+
+2. In cases where a battlegroup unit is formed due to an "Exchange" combat result,
+   the opposing force player must still remove a number of strength points equal
+   to or greater than the original unit, not the original unit minus the strength
+   points of the battlegroup formed.
+
+3. Battlegroup units are identical in all ways to regular brigades of their
+   respective nationality, i.e. they are considered brigades for stacking
+   purposes and may be used as such in building units (see 7.3).  Unit types may
+   be ignored in replacing with battlegroups.
 
 * Combat Results Table
+
+          Combat odds (Attack Strength / Defense Strength
+| DR | 1-1 | 2-1 | 3-1 | 4-1 | 5-1 | 6-1 | 7-1 | 8-1 | 9-1 | 10-1 |
+|----+-----+-----+-----+-----+-----+-----+-----+-----+-----+------|
+|  1 | Dr1 | Dr2 | Dr2 | Dr2 | Dr3 | Dr3 | Dr3 | De  | De  | De   |
+|  2 | Dr1 | Dr1 | Dr2 | Dr2 | Dr2 | Dr3 | Dr3 | Dr3 | De  | De   |
+|  3 | Ar1 | Dr1 | Dr1 | Dr2 | Dr2 | Dr2 | Dr3 | Dr3 | Dr3 | De   |
+|  4 | Ar1 | Ar1 | Dr1 | Dr1 | Dr1 | Dr2 | Dr3 | Dr3 | Dr3 | Ex   |
+|  5 | Ar1 | Ex  | Ex  | Dr1 | Dr1 | Dr2 | Ex  | Ex  | Ex  | Ex   |
+|  6 | Ae  | Ae  | Ar1 | Ex  | Ex  | Ex  | Ex  | Ex  | Ex  | Ex   |
+
+Odds less than 1-1 are NOT permitted; Odds greater than 10-1 are treated as
+10-1.
+
 ** Explanation of Results
 ** How to Retreat
 ** Advance After Combat
 
 * Terrain Effects Chart
 
+| Terrain Type         | Movement Point Cost      | Effect on Combat       |
+|----------------------+--------------------------+------------------------|
+| Clear                | 1 MP                     | No Effect              |
+| Forest               | 2 MPs                    | 2 * Defense Strength   |
+| Mountain             | 6 MPs                    | 2 * Defense Strengths  |
+| Mountain Pass        | 2 MPs                    | 2 * Defense Strengths  |
+| City                 | 1 MP                     | 2 * Defnse Strengths   |
+| River Hexside        | 1 additional MP to cross | Attacker Strength * .5 |
+| All-Sea and All Lake | Entry Prohibited         | Combat Prohibited      |
+| Sea Hexsides         | Movement Prohibited      | Attacking Prohibited   |
+
 * Supply
+** General Rules
+Supply affects a unit's ability to move and fight.  There are three types of
+supply: Movement supplt, attack supply and defense supply.  Blue force and
+opposing force units experience the same effects from movement and defense
+supply, but differ in attack supply.  Units are said to be either supplied or
+unsupplied for movement and defense supply purposes.  For attack supply units
+are said to be in minimum, normal, or maximum suppoly or unsupplied.  The state
+of supply is dependent on the unit's distance from a supply is dependent on the
+unit's distance from a supply source.  Units are unsupplied if the do not meet
+any of the supplied requirements.  See the supply effects chart (11.6) for
+effects of supply.
+
+** Procedure:
+Units trace supply to supply sources in the same manner as they move, countring
+movement points to cross the intervening hexes to the source.  Supply for
+mveoement is determined at the beginning of a movement phase for every unit.  A
+unit that is unsupplied for movement at the beginning of a movement for movement
+at the beginning of a movement phase is unsupplied for the entire movement phase
+and a supplied unit at the beginning of a movement phase is in supply for the
+entire movement phase.  Supply for combat (attack or defense) is determined at
+the instant of combat.
+
 ** Supply Source and Lines
+1. The opposing forces player may use only friendly supply units which are
+   connected by a line of unblocked hexes to the east edge of the map as supply
+   sources.
+2. To use a supply source for a supplied state in movement or defense supply or
+   minimum or normal attack supply, opposing force units must be within six
+   movement points, traced through unblocked hexes, of a supply source, counting
+   from the unit to the supply unit.  to use a supply unit for maximum attack
+   supply, the supplies unit must be adjacent to the supply unit.
+
 ** Warsaw Pact Supply Limitations
 ** Supply Unit Movement
 ** Reinforcements

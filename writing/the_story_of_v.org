@@ -14,12 +14,8 @@
 + [[http://www.thereviewreview.net/publishing-tips/flash-fiction-whats-it-all-about][Flash Fiction What it's All About]]   
 + [[https://www.fanfiction.net/s/9661958/1/The-Ultimate-Guide-to-Writing-Smut-Fic][Smut Fiction]]
 + [[https://thewritepractice.com/dialogue-tags/][How to use Dialog tags]]
-* Paragraph Template
-- What emotions are the character feeling?
-- Why are they doing what they are doing?
-- How does the physical stimulation feel?
-- What does the character think about the other character?
-* Template
+* Templates
+** Story Template
  - Story
   One-liner on what the story is about.
  
@@ -33,23 +29,157 @@
 
 - Scenes
   Correspond to the plot.  This is the actual story.
+** CASE Template
+*** Case
+*** Testimony
+*** RFIs
+*** Conclusions and Speculations
+
+** Paragraph Template
+- What emotions are the character feeling?
+- Why are they doing what they are doing?
+- How does the physical stimulation feel?
+- What does the character think about the other character?
 
 * Mystery's to Solve
-- Agent 99
-  - Facts
-    - V said they met only one time yet she has an email where she explains that
-      she is dropping Artem off at the airport then heading back to her hotel.
-      She gives him her number as says maybe they can hangout.
-    - If she only met him one time then why the email.
-  - Who is he?
-  - Where did you meet?
-- The Couch
-  - Why fuck on the couch and not the bed?
-  - V claims he wasn't special enough yet she was traveling with him and fucking
-    his brains out.  How much more special do you need to be?
-  - She claims that he wasn't special because at this point he violated her
-    trust yet he was still special enough to fuck and travel with.
-  - It doesn't make sense.
+** CASE: 140815-1 MP
+*** Case
+V claims to have met Matt at the airport and helped with his luggage.
+
+*** Testimony
+- V said they met only one time yet she has an email where she explains that
+  she is dropping Artem off at the airport then heading back to her hotel.
+  She gives him her number and says maybe they can hangout.
+- A Google search reveals that Matt lives in Chicago and is a soccer coach.
+- V claims they met the baggage claim in London and that her and Anna helped
+  him with his luggage.  That was the only contact she ever had with him.
+- The old man accused V of having an affair with him.  
+
+*** RFIs
+- If she only met him once then why does she have an email saying she will meet
+  him or hangout?
+- Why does the old-man think she had an affair with him?
+- How does the old-man even know about him?
+- When did V experience her 12, before or after her divorce?
+- Is Matt Agent 12? V claims to have experienced 12 just one time.
+
+*** Conclusions and Speculations
+- She had to have met him more than once, especially if there's an email.  
+- It's almost as if she met him on one trip, then on a subsequent trip she emails him
+  and says she will be in town let's hang out.  Strange.
+- I suspect the old-man found out while snooping her emails.
+- Or maybe she told him during an argument.
+
+** CASE: 140815-2 Tims69
+*** Summary
+I discover some emails between V and Tims69.  They were corresponding around
+Easter 2014 four months AFTER we started seeing each other.
+
+*** Testimony
+- Nothing sexual it seems they were getting to know each other.
+- Nothing to indicate they've ever met physically.
+- V claims she met him in California and the emails were innocent.
+- V they exchanged between 10-12 emails, around Easter time in 2014.
+- V sent him pics of some of our outings together.
+
+*** RFIs
+- Why did V feel the need to correspond with this person?
+- Where did she really meet him?
+
+*** Conclusions and Speculation
+- I think V was trying to play both sides just in case one side, mainly me,
+  didn't work out.
+- I suspect they mat on RoseBrides.com.
+- Google search does not show anything meaningful.
+
+** CASE: 140815-3 Yellow Gloves
+*** Testimony
+- V claims she went to this persons apartment for a book on Italy.
+- V gets nervous when he starts talking about more personal feelings, she puts
+  on some yellow gloves and starts to wash the dishes.
+- Why would she go to a single-mans apartment alone?
+
+*** Witnesses
+- Massimo is Mr. Yellow Gloves
+
+** CASE: 140815-4 No Marriage
+*** Case
+In one of V's email exchanged the old-man accuses V of infidelity.  He said that
+he would have married her at least three times but each time there was an issue
+of infidelity.
+
+He mentions four reasons one of which didn't have to do with another man.  The
+three men he mentions is MP, Lawyer, and one other.  He goes on to say that he
+understands that V is young and it's normal for her to pursue her sexual
+desires.
+
+*** Testimony
+- V denies his accusations.
+- V claims she never had anything to do with the lawyer (see CASE 180815-1 The
+  Lawyer).
+- V claims she never had anything to do with MP (see case 140815-1 MP)
+
+
+*** RFIs
+1. How did the old-man find out about these affairs?
+2. Who is the third man?
+3. What was the other reason?
+
+*** Conclusions and speculation
+- I believe V did have an affair with MP he could be Agent 12 (Casual Encouters:
+  Agent 12)
+
+** CASE: 190521-2 The Couch
+*** Testimony
+- Why fuck on the couch and not the bed?
+- V claims he wasn't special enough yet she was traveling with him and fucking
+  his brains out.  How much more special do you need to be?
+- She claims that he wasn't special because at this point he violated her
+  trust yet he was still special enough to fuck and travel with.
+- It doesn't make sense.
+
+** CASE: 190521-1 The Newsletter
+*** TODO confirm the timeline of the newsletter visit and actual visit.
+
+*** Summary
+V sent me a newsletter that seems to indicate the old-man visited Odessa BEFORE
+the actual setup.  The year is 2010.
+
+*** Testimony
+- The old-man mentions a woman that picked him up from the airport and delivered
+  him to his accommodations.
+- He also says that she came back at around 19:00 and stayed to the early
+  morning just talking.  she admits that she read his book and says "I'm
+  convinced you are the best."
+- The following morning she tells her friend (Angela) all about it.
+- The old-man was there to see Konstantin, who by the way, was mentioned in
+  another email.  The context of which was "free love" or "anything goes."
+
+*** RFIs
+- Is the timeline correct? V doesn't deny the story but she does deny the
+  timeline.
+- If she did meet him before the setup did the fuck?
+- If they did was Lori and Yuri aware of it?
+- Was V and the old-man playing along during the setup visit? In other words
+  they were already fucking, but made it seem like the setup was their first
+  meeting.
+- Of course this doesn't make sense especially if Lori asked V to pick him up
+  during the newsletter visit.
+
+*** Conclusions and Speculation
+- I am convinced the woman in the story is V.  
+- There's no way Lori and Yuri would not say something to V about his visit.
+- I wouldn't be surprised if they were the one's who arranged for her to pick
+  him up at the airport.  After all she speaks very good English.
+- If the timeline is correct this means that V met the old-man well before the
+  setup.
+- By my count the old-man has visited Odessa at least three times.  Once for the
+  setup, once with his friends, and once for the newsletter.
+
+** CASE: 180815-1 The Lawyer
+
+* Weird shit V believes
+- V believes if she gets naked in front of a man, the man will not think about fucking her.
 
 * Who is V?
 - Who is V?
@@ -74,6 +204,7 @@
   as I go on. It also acts as a reminder of what I've done so far.
 
 - Scenes
+<<<<<<< HEAD
 
 ** Have a Taste
 - TODOS
@@ -112,53 +243,10 @@ someone his age.
 - Story V sucks dick on the side of the highway on the way to Vegas.
 
 - Characters V - her usual horny self. Rick - Her current love interest.
+=======
+>>>>>>> a20f1e76e8193460f9e904609384b068c3dffa6d
   
-- Plot
-  - V and her lover have a conversation about sex. V and her lover are still in
-    the honeymoon phase which means lots of fucking. V's lover asks where V has
-    sucked dick in the past. V tells him in all sorts of places theater, parking
-    lot, beach, car. V starts to rub her lovers cock, he has a hard time
-    concentrating on driving. V's pussy is throbbing, she is thinking of sucking
-    his cock while he drives. They are on the highway going to Vegas about 10
-    miles outside of Barstow in the middle of nowhere.
-  
-  - V's proposes a roadside blowjob. V has a flashback to the year before
-    sucking dick in a car. She tells her lover the story but doesn't say who it
-    is. It's her previous lover who is also friends with her current lover. She
-    thinks about how much better a fuck her former lover is. She asks him to
-    pull over and begins to suck his dick.
-  
-  - V's sucks her lovers cock. She loves a hard cock in her mouth. She's been
-    sucking dick since she was 16. She's never had a bad experience sucking
-    dick. She loves how it makes her lover feel. She does it out of love.
- 
-I'm never surprised when I get the question, for some reason it always
-comes up. How many men have you slept with? Have you ever been with a woman?
-How do I compare to the others? By the way how many others have there been?
-It's always the same question. In some ways it amuses me, they ask the
-question then when you answer it they feel jealous or hurt. The best way to
-answer such questions is with brutal honesty. Am I the best? Sorry, I've had
-better. What better way to put them in their place. Oh and my favorite, what's
-the biggest you've ever been with? As if I carry around a measuring tape for
-such occasions.
-
-To be honest you don't need a measuring tape, a woman knows a big one as soon
-as its owner tries to ram it home. Why do men that are huge think they are
-good lovers? I will admit one of the most exciting sights is when a "big" man
-reveals his treasure. Feeling the weight of it in your hands, knowing that it
-would take three or four average sized men to equal this one. Men with size
-know they have to make sure the woman is ready, if not they run the risk of
-scaring her off. There's nothing worse than a big cock trying to push into a
-pussy that's not quite ready. I get extremely wet whenever a man strokes
-himself in front of me. I ask them "Baby can you please get it wet and stroke
-it for me." It doesn't take much to get a man to stroke
-himself, especially in front of a woman who he intends to take. I instruct
-them "Stroke it til you're about to cum, then I know you're ready." Sometimes
-I will bend down and blow on him while he strokes it, or lay back with my legs
-wide open so he can see his goal.
-
-Rick is my fiance.  We were introduced by my previous lover who was 20 years
-older than me.  Jim was a fantastic lover but I will save that for another story.
+* Old Men
 ** Heat of The Night
 - Story V sneaks off to get fucked from behind.
 
@@ -193,8 +281,11 @@ older than me.  Jim was a fantastic lover but I will save that for another story
 
   - Scene 4: Jim fucks V and gives her the best orgasm of her life.
 ** The Great Escape
-- Story
-  V finds time to fuck her lover while visitors are in the house.
+- Plot
+  V's old-man is visiting with some of his Kung Fu students. Although V is happy
+  to host them she is disappointed that she won't be able to fuck the old-man
+  whenever she wants.  V starts to become attracted to one of the friends and
+  begins to fantasize about him while she fucks the old-man. 
 
 - Characters
   V - her usual horny self.
@@ -202,7 +293,7 @@ older than me.  Jim was a fantastic lover but I will save that for another story
   Rick - Jim's friend and potential fuck-interest for V.
   Matt - Another visitor.
 
-- Plot (four scenes ~ 375 words per scene)
+- Scenes (four scenes ~ 375 words per scene)
   - V's boyfriends friends are vising for the week.
     - She pictures herself fucking one of the friends.
     - She wonders who has the bigger dick.
@@ -219,9 +310,7 @@ older than me.  Jim was a fantastic lover but I will save that for another story
     - V's boyfriend eats her pussy from behind.
     - V gives her boyfriend a prostrate massage while milking his cock.
     - The house guests hear whats going on.
-
-- Scenes
-  
+ 
 ** I Spy
 - Story
   V is in Thailand with her much older lover. - She doesn't know it but her
@@ -238,13 +327,24 @@ older than me.  Jim was a fantastic lover but I will save that for another story
   Matt - One of the hidden friends.
 
 - Plot
-  - Jim has been training all day and finally finds time for V.  Jim has
-    promised her some special "desserts" on this trip and he plans to deliver.
-    He knows the best thing is to let V's anticipation build.
+  - Jim and V are in their hotel room lying in bed.  He asks V to help him
+    teach a class on ancient lovemaking and she agrees but she doesn't know what
+    to teach.  Jim helps her figure it out by fucking her.
 
-  - V is in a very high state of sexual awareness.  It's her first time in Thailand and
-    her senses are overloaded.  V is learning how to be more assertive and enjoy
-    her sexual experiences.
+  - During the class V is turned on by the subject matter.  Apparently Jim has
+    told some of his students about their fuck-sessions.  She is wet and more
+    than ready to open her legs for Jim.
+    
+  - Jim arranges for two of his students to hide in the closet so they can watch
+    him fuck V.  During the fuck-session they suddenly make themselves known to
+    V.  At first she is scared but then the is turned on, especially after they
+    expose their oversized cocks.
+
+  - V watched them stroke their cocks while Jim fucks her every which way.  She
+    is out of control and starts talking to the two men while they stroke
+    themselves.  She asks if they'd like to get between her legs, but she is
+    just teasing, unless Jim agrees.  She asks Jim "Baby, would you mind if they
+    put their huge cocks in my pussy?" Jim pulls out and cums all over her ass.
  
 - Scenes
   - Scene 1: V and Jim have a conversation about sexual acts that may not be
@@ -264,6 +364,25 @@ older than me.  Jim was a fantastic lover but I will save that for another story
     friend make themselves known based on a pre-arranged signal.  V is surprised
     and a little scared but watching the two men stroke their big cocks has made
     her forget her fear.  Jim promises that all they will do is watch.
+
+- Scene 1
+I need his hardness in me.  I'm wet, hot, tight, all the things men love and I
+needed his hard cock in my at this moment.  I hadn't seen him since this morning
+when I sucked his cock.  He made me cum, fucking me from behind then left for
+his morning training session.
+
+I was bored all day not it's time for him to pay attention to me.  Of course I
+will do my part, taking his harness into my mouth.  Using my tongue to coax a
+drop of precum.  God, how I needed his cock.  I laid back and said "Baby, be a
+doll and lick my pussy."  He readily obliged by placing a pillow under my ass
+and started to eat my pussy.  I closed my eyes and let my mind wander.  I
+thought of a previous lover who had a particularly large cock.  I hated sucking
+it but God it felt so good when he would push into me from behind.
+
+I returned to the present and could feel my orgasm rising.
+
+
+
 ** The Big Apple
 - Story
   V says goodby to her old man in style
@@ -280,15 +399,13 @@ older than me.  Jim was a fantastic lover but I will save that for another story
 
 ** What Happens in Vegas Stays in Vegas
 - Story
-  V fucks multiple lovers in Vegas.
+  V visits Vegas for the first time and shows her appreciation.
 
 - Characters
-  Characters, Places, Scenes, Quotations are notes on those things that are to be
-  included in the story.
+  V - Her first time in Vegas and still leaning to be a slut.
+  Jim - Her much older teacher.
 
 - Plot
-  Plot contains the shape of the story, as it is at the time. This gets rewritten
-  as I go on. It also acts as a reminder of what I've done so far.
 
 - Scenes
 
@@ -305,6 +422,124 @@ older than me.  Jim was a fantastic lover but I will save that for another story
   as I go on. It also acts as a reminder of what I've done so far.
 
 - Scenes
+
+** Tequila Sunrise
+ - Story
+   V sucks the old-mans cock while watching the sunrise. 
+ 
+- Characters
+  V - On vacation with the old-man in Thailand.  she is in full animal sex-mode.
+  Old-Man - Intent on introducing V to all forms of debauchery.
+
+- Plot
+  - V is turned on by the sunset and starts to suck the old-mans dick.
+  - They are watched by another couple who make themseves known after the old-man
+  cums.
+  - They suggest to V and the old-man a partner trade.
+  - V is hesitant at first but agrees.
+
+- Scenes
+
+** Trading Places
+ - Story
+   V agrees to trade partners that witnessed her sucking off the old-man.
+ 
+- Characters
+  V - Ready to try new slutty things.
+  Old-Man - Traded V to another couple.
+  Scott - Husband to Jennifer with an oversized cock.
+  Jennifer - Hot and sexy fucks like a pornstar.
+ 
+- Plot
+  - After watching V's performance at sunset a married couple proposes trading
+    places.
+  - V is reluctant at first but then Jennifer pulls our her husbands cock which
+    is the biggest V has ever seen.  She immediately agrees.
+  - V is alone with Scott and is afraid of his big cock.  He reassures her and
+    teaches her how to handle his monster.
+  - V learns how to deal with his huge cock by using lots of lube.  In the
+    process she comes to love being stretched and pounded deep.
+ 
+- Scenes
+  Correspond to the plot.  This is the actual story.
+
+* California Dreamin
+** Sidetracked
+- TODOS
+
+  - TODO When V starts playing with herself Rick describes her body and why she
+    is so sexy. See Delta of Venus "Pierre"
+
+- Story V sucks dick on the side of the highway on the way to Vegas.
+
+- Characters 
+  V - Recently divorced with a new outlook on her sexuality.
+  Unburdened by her previous life she pusues erotic adventures all over the
+  world. 
+  Rick - Met V on a trip to her country and has fallen in love.  What he really
+  loves is the way V takes care of him in the bedroom.
+  
+- Plot
+  - V and her lover have a conversation about sex. V and her lover are still in
+    the honeymoon phase which means lots of fucking. V's lover asks where V has
+    sucked dick in the past. V tells him in all sorts of places theater, parking
+    lot, beach, car. V starts to rub her lovers cock, he has a hard time
+    concentrating on driving. V's pussy is throbbing, she is thinking of sucking
+    his cock while he drives. They are on the highway going to Vegas about 10
+    miles outside of Barstow in the middle of nowhere.
+  
+  - V's proposes a roadside blowjob. V has a flashback to the year before
+    sucking dick in a car. She tells her lover the story but doesn't say who it
+    is. It's her previous lover who is also friends with her current lover. She
+    thinks about how much better a fuck her former lover is. She asks him to
+    pull over and begins to suck his dick.
+  
+  - V's sucks her lovers cock. She loves a hard cock in her mouth. She's been
+    sucking dick since she was 16. She's never had a bad experience sucking
+    dick. She loves how it makes her lover feel. She does it out of love.
+ 
+We were two hours into a four our drive about 10 miles outside of Barstow on our
+way to Vegas.  God, it was hot even though the AC in the truck was going full
+blast.
+
+Rick is my fiance.  53 years old, somewhat balding, with a paunch for a belly he
+wasn't exactly the stud I imagined but he was a good man and slightly above
+average in bed.  We were introduced a year ago by my former lover, Jim.  Jim was
+20 years older than me and a world renown lover.  That's right I said "world renown."
+Apparently Jim wrote a book on Ancient Lovemaking Techniques and is also a
+lifelong student and teacher of Kung Fu.  I met Jim right around the time I got
+divorced but apparently it was not a chance meeting.  It was actually a setup by
+my very good friends, an attempt to boost my confidence and self-esteem.  To put
+it bluntly Jim was called upon to fuck me back to being beautiful and he was
+quite successful.  He was passionate lover with a sizeable cock who could last as long
+as I needed him too.  I'm sorry I shouldn't be talking about Jim, but sometimes
+I can't help it.  He was truly a good fuck but I will save those stories for
+later.
+
+Rick wasn't a bad lover but he was no Jim either.  His cock was about two inches
+shorter and half as thick.  I'm not a size queen but after experiencing Jim's
+size it was hard for me to feel anything less. What I did like about Rick's size
+was he was easy to go down on.  Ladies, have you ever tried to suck a thick
+cock? I can tell you that after about five minutes your jaw starts to ache and
+you feel like giving up.
+
+For the last hour Rick has been asking me about my past sexual adventures.  I
+think this is common with all men, needless to say he hasn't been the first man
+to ask me about such things.  I find it amusing, if you tell them the
+truth they get jealous, hurt, or start lacking confidence. The topic of this
+conversation was oral sex.  The usual stuff how many have you had? Too many to
+count I thought with a smile.  What's the largest you've had? Twice as large and
+thick as you my dear Rick.  Where have you done it? Now that one I was willing
+to answer, just to see his reaction.
+
+"Where have I gone down. let's see." I said "Locker room, park, movie theater,
+elevator, beach, dorm room, changing room, countless hotel rooms, balconies, to
+name a few."
+
+ 
+
+
+** Another Vegas Vacation
 
 * Higher Learning
 ** Lick It Up
