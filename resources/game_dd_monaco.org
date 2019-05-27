@@ -1,0 +1,19 @@
+#+TITLE: Game Design Doc Monaco
+
+[[https://www.facebook.com/notes/monaco/the-original-monaco-game-design-from-2003/496033541995/][Monaco
+Game Design Document]]
+
+* Instant Summary 
+  Two sentence description of the game.
+
+* Look and Feel
+  Give some examples of what the game looks like
+
+* Game Design
+  Brief description of the game design
+  
+  How does the game derive inspiration?
+  How is this married to the features of a modern wargame?
+
+* User Interface
+  Flow chart with all the screens depicted. 
