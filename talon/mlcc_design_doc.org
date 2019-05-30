@@ -6,6 +6,7 @@
    * Easy to play. 
    * Tactical decision simulation. 
    * Corp/Division level operations vs a high tech enemy.
+   * Playable in a browser over the internet or LAN.
 
 ** Features
    * Safe environment to try different course of action.
@@ -22,9 +23,11 @@
    * Minimal sound.
    * Easy to play.
      
+** What sets this project apart?
 ** Target Audience
    * Cadet or military science student.
    * Staff Officers.
+   * Anyone who is interested in tactical decision-making and problem-solving.
 
    * TODO Create user profiles for cadets and staff officers. 
  
@@ -36,7 +39,7 @@
 
    * TODO provide a page with the most common unit icons.
 
-** Influences (Brief)
+** Influences
 	 - SPI NATO Division Commander
    - SPI Central Front Series
    - SPI Modern Battles Series
@@ -128,8 +131,6 @@
    levels.
 
    - TODO need a list of admin tasks the umpire performs
-
-** What sets this project apart?
    
 * Project
   - <Game Time Scale>
@@ -180,7 +181,6 @@
   (example)
 ** Controls
 	  How will the player interact with the game? Will they be able to choose the controls? What kind of in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
-** Replaying and Saving 
 ** Help System
 * Assets
 ** Graphics  
@@ -201,9 +201,8 @@
     model of the universe that the game works under. Think of it as a
     simulation of a world, how do all the pieces interact? This actually can be
     a very large section.
-** Physics 
-   – How does the physical universe work?
-** Movement in the game
+** Orders
+** Movement 
    – how to pick them up and move them
 ** Combat 
    – If there is combat or even conflict, how is this specifically modeled?
@@ -211,7 +210,27 @@
    including whatever switches and buttons are used, interacting with objects, and what means of communication are used
 ** Game Options 
    – What are the options and how do they affect game play and mechanics?
+** Save and Replay 
 * Game Tools
+** Scenario Editor
+   The Scenario editor is used to combine elements from the Unit and Terrain
+   editors.
+
+** Unit Editor
+   The unit editor is used to create unit data.
+
+** OOB Editor
+   The OOB editor is used to combine different unit types into an organized
+   fighting force.
+
+** Terrain Editor
+   The Terrain Editor is used to create the terrain data for a specific piece of
+   ground.
+
+** Script Editor
+   The Script Editor is used to calibrate the behavior of units.
+
+** Scenario Design Workflow
 * Artificial Intelligence
 ** Opponent and Enemy AI  
    – The active opponent that plays against the game player and therefore requires strategic decision making
@@ -226,3 +245,23 @@
      - Example
      - etc.
  
+
+* Game Files
+There are several game files that are required to play the game.
+- Map image.  This is a simple jpg image that serves as a visual reference for
+  the player.
+- Map Terrain File.  This file defines the terrain for the map.
+- Scenario file.  This file defines the operational environment for a specific
+  scenario.
+- Unit and game icons.  These files are png or jpg and depict units and other
+  game functions.
+* Scenario File
+The scenario file defines the operational environment for the game.
+- Orders of battle for both sides.  The order of battle specifies which units
+  will be available for the scenario.
+- Map image and corresponding terrain file.
+- Weather conditions.
+- Mission objectives.
+- Operations order file.  This is a link to the OPORD briefing which provides
+  the player with the information they need to plan their mission.
+- json format?
