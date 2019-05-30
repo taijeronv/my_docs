@@ -14,16 +14,6 @@ adjacent opposing units and expressing the comparison as a simplified
 probability ratio (odds).  A dies is rolled and the outcome indicated on the
 combat results table is applies to the units involved.
 
-* Game Files
-There are several game files that are required to play the game.
-- Map image.  This is a simple jpg image that serves as a visual reference for
-  the player.
-- Map Terrain File.  This file defines the terrain for the map.
-- Scenario file.  This file defines the operational environment for a specific
-  scenario.
-- Unit and game icons.  These files are png or jpg and depict units and other
-  game functions.
-
 * Map
 - The game map is a 2d representation of a land-based area of operations.
 - A hexagonal grid is superimposed upon the map image to control movement and
@@ -53,17 +43,6 @@ The terrain file defines the terrain elements for a specific map.
   platoons.
 - Hexes represent 5 to 10 kms on the ground.
 - Each turn represents 3 to 6 hours of time.
-
-* Scenario File
-The scenario file defines the operational environment for the game.
-- Orders of battle for both sides.  The order of battle specifies which units
-  will be available for the scenario.
-- Map image and corresponding terrain file.
-- Weather conditions.
-- Mission objectives.
-- Operations order file.  This is a link to the OPORD briefing which provides
-  the player with the information they need to plan their mission.
-- json format?
 
 * Sequence of Play
 ** The Game-Turn

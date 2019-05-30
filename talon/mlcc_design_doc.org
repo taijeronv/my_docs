@@ -1,0 +1,267 @@
+#+TITLE: Modern Land Combat Commander
+#+AUTHOR: Vincent 'TJ' Taijeron
+
+* Game Overview
+** Elevator Pitch
+   * Easy to play. 
+   * Tactical decision simulation. 
+   * Corp/Division level operations vs a high tech enemy.
+   * Playable in a browser over the internet or LAN.
+
+** Features
+   * Safe environment to try different course of action.
+   * Opportunities to plan and execute missions.
+   * Quick to setup and easy to learn.
+   * The player makes the appropriate level of decisions.
+   * Low resource requirements in both hardware and people.
+   * Customizable through the use of plugins.
+   * Scriptable behaviors.
+
+** Game Concept
+   * Single player game 1 vs the computer.
+   * 2d graphics. 
+   * Minimal sound.
+   * Easy to play.
+     
+** What sets this project apart?
+** Target Audience
+   * Cadet or military science student.
+   * Staff Officers.
+   * Anyone who is interested in tactical decision-making and problem-solving.
+
+   * TODO Create user profiles for cadets and staff officers. 
+ 
+** Look and Feel
+   * The game should look very much like a military map exercise.
+   * The map should be a standard topographic map or a tactical pilotage map
+     image overlaid with a hexgrid.  Hexes are used to control movement and combat.
+   * Game icons are standard NATO icons.
+
+   * TODO provide a page with the most common unit icons.
+
+** Influences
+	 - SPI NATO Division Commander
+   - SPI Central Front Series
+   - SPI Modern Battles Series
+   - SPI NATO
+** Monetization
+   1. Subscription playable in a browser over the internet.
+      - Custom configuration for different users.
+      - No requirement to install the program locally.
+      - Easy code maintenance.
+   2. Local Server installation.
+      - Playable in a browser over a local area network.
+      - Can be configured locally or remotely.
+      - Code maintenance remotely.
+   3. Development Services
+      - Create custom packages of scenarios to meet specific learning
+        requirements.
+      - Custom databases .
+      - Custom maps and terrain data.
+   4. Training and Facilitation
+      - Scenario and database development (turn-key package)
+      - Map making.
+
+* Gameplay
+** Scenario
+*** Situation Report 
+    - Provides the player with information they will need to plan their mission.
+    - Brief overview of the current information to include some enemy and
+      friendly troop dispositions.
+    - Weather.
+
+*** Mission Enemy Terrain Troops
+    - Information regarding the mission, enemy, type of terrain and friendly
+      troops that are available for the operations.
+
+*** Mission Objectives
+    - Players win by achieving mission objectives.  These objectives are listed
+      in the scenario briefing.
+
+    - Terrain oriented objectives focus on seizing, retaining, controlling, or
+      occupying terrain, for example a town or hill.
+
+    - Force oriented objectives are focused on destroying, neutralizing, or
+      suppressing the enemy.
+
+** Units
+   - Combat units such as infantry, armor, and artillery are represented by
+     battalion and brigade icons.
+   - Symbols are NATO standard.
+   - Units have attributes that enable them to perform real-life functions such
+     as move or combat.
+   - Every unit in the game has data associated with hit which is used to
+     determine what or how a unit can perform certain tasks.
+   - Unit data is kept in a database.
+
+** Maps and Terrain
+   - Two components make up a "map."
+   - The first component is a jpg or png image file which is an image of the
+     operations area.  Note the image is just a visual reference, the program
+     simply displays it.
+   - The terrain file corresponds to a specific map image and provides all of
+     the data used by the program to perform various functions such as movement
+     and combat.
+
+** Sequence of Play
+   1. The player begins by selecting a scenario.
+   2. After reviewing the scenario the player has the opportunity to start
+      planning the operations.  They may reposition units if allowed to do so by
+      the scenario.  They can start issuing orders.  Keep in mind players do not
+      have to plan in the game, they may plan outside of the game then reenter
+      orders in the game.
+    3. When a player is happy with their plan and order gave been issued the
+       player presses the "Execute" button at which point the execution phase begins.
+
+   The player begins by selecting a scenario.  The scenario contains all the
+   information a player needs to plan and execute their mission.
+
+   Scenario elements may include a mission briefing, information regarding the
+   terrain, friendly and enemy orders of battle.
+
+   The first step to playing the game is to plan.  During the this phase the
+   player may place their units within the designated setup area on the map.
+   They may issue orders to their units which will be executed during the
+   execution phase.
+
+   When a player is satisfied with their planning they execute the turn.  The
+   computer umpire takes over and conducts movement, combat, and other game
+   functions such as detection.  The computer umpire also does all the
+   administrative work like keeping track of unit locations, supply and combat
+   levels.
+
+   - TODO need a list of admin tasks the umpire performs
+   
+* Project
+  - <Game Time Scale>
+		- Cost? (How much will it cost?)
+  - Time Scale (How long will it take to make this game?)
+  - <Team Size>
+	- <Core Team>
+    - Team Member name?
+    - What does he/she do?
+    - <Cost to employ them full time or part time>
+  (List as many core team members as you need to)
+- <Marketing Team>
+		- Team Member name?
+			- What does he/she do?
+			- <Cost to employ them full time or part time>
+		- Etc.
+(List as many marketing team members as you need to)
+	- <Licenses / Hardware / Other Costs>
+	- <Total Costs with breakdown>
+
+* Technical
+** Target Hardware
+   - Can be played on any operating system as long as there is a network (LAN or
+     Internet) connection.
+   - Must be able to be played in all popular browsers, i.e. Chrome, Opera,
+     Firefox, IE, etc.
+
+** Development hardware and software, including Game Engine
+   - Javascript or Python.
+   - CSS/HTML.
+   - Phaser game framework or something simular.
+   - Major browsers.
+  
+** Network requirements
+   - TBD
+
+* Interface
+** Visual System
+   If you have a HUD, what is on it?  What menus are you displaying? What is the camera model?
+** Screens
+      1. Title Screen
+          a. Options
+      2. Level Select
+      3. Game
+          a. Inventory
+          b. Assessment / Next Level
+      4. End Credits
+  (example)
+** Controls
+	  How will the player interact with the game? Will they be able to choose the controls? What kind of in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
+** Help System
+* Assets
+** Graphics  
+   1. Units
+      1) Blue Forces or BLUEFOR
+      2) Opposing Forces or OPFOR
+
+   2. Maps 
+      1) Common areas of operations
+
+   3. Game Markers
+      1) Provides at a glance information to the player for certain types of information.
+
+** Audio 
+** Animation
+* Mechanics
+  – What are the rules to the game, both implicit and explicit. This is the
+    model of the universe that the game works under. Think of it as a
+    simulation of a world, how do all the pieces interact? This actually can be
+    a very large section.
+** Orders
+** Movement 
+   – how to pick them up and move them
+** Combat 
+   – If there is combat or even conflict, how is this specifically modeled?
+** Actions
+   including whatever switches and buttons are used, interacting with objects, and what means of communication are used
+** Game Options 
+   – What are the options and how do they affect game play and mechanics?
+** Save and Replay 
+* Game Tools
+** Scenario Editor
+   The Scenario editor is used to combine elements from the Unit and Terrain
+   editors.
+
+** Unit Editor
+   The unit editor is used to create unit data.
+
+** OOB Editor
+   The OOB editor is used to combine different unit types into an organized
+   fighting force.
+
+** Terrain Editor
+   The Terrain Editor is used to create the terrain data for a specific piece of
+   ground.
+
+** Script Editor
+   The Script Editor is used to calibrate the behavior of units.
+
+** Scenario Design Workflow
+* Artificial Intelligence
+** Opponent and Enemy AI  
+   – The active opponent that plays against the game player and therefore requires strategic decision making
+** Non-combat and Friendly Characters
+** Support AI 
+   - Player and Collision Detection, Pathfinding
+** Code
+     - Character Scripts (Player Pawn/Player Controller)
+     - Ambient Scripts (Runs in the background)
+     - Example
+   - NPC Scripts
+     - Example
+     - etc.
+ 
+
+* Game Files
+There are several game files that are required to play the game.
+- Map image.  This is a simple jpg image that serves as a visual reference for
+  the player.
+- Map Terrain File.  This file defines the terrain for the map.
+- Scenario file.  This file defines the operational environment for a specific
+  scenario.
+- Unit and game icons.  These files are png or jpg and depict units and other
+  game functions.
+* Scenario File
+The scenario file defines the operational environment for the game.
+- Orders of battle for both sides.  The order of battle specifies which units
+  will be available for the scenario.
+- Map image and corresponding terrain file.
+- Weather conditions.
+- Mission objectives.
+- Operations order file.  This is a link to the OPORD briefing which provides
+  the player with the information they need to plan their mission.
+- json format?
