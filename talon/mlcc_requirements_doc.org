@@ -1,0 +1,188 @@
+#+TITLE: MLCC Requirements v0.5
+#+Author: TJ
+#+VERSION: 0.5
+#+Date: 2019.05.30
+#+STARTUP: indent 
+
+* [[https://www.guru99.com/functional-vs-non-functional-requirements.html#3][Requirement]]
+
+** Functional
+   - A functional requirement describes what a software system should do, while
+     non-functional requirements place constraints on how the system will do so.
+
+     An example of a functional requirement would be:
+
+     A system must send an email whenever a certain condition is met (e.g. an
+     order is placed, a customer signs up, etc).
+
+   - What is a Functional Requirement? In software engineering, a functional
+     requirement defines a system or its component. It describes the functions a
+     software must perform. A function is nothing but inputs, its behavior, and
+     outputs. It can be a calculation, data manipulation, business process, user
+     interaction, or any other specific functionality which defines what function
+     a system is likely to perform.
+
+     Functional software requirements help you to capture the intended behavior
+     of the system. This behavior may be expressed as functions, services or
+     tasks or which system is required to perform.
+
+   - Example Functional Requirements:
+     - The software automatically validates customers against the ABC Contact
+       Management System.
+     - The Sales system should allow users to record customers sales.
+     - The background color for all windows in the application will be blue and have a hexadecimal RGB color value of 0x0000FF.
+     - Only Managerial level employees have the right to view revenue data.
+     - The software system should be integrated with banking API.
+
+** Non-functional
+   - What is Non-Functional Requirement? A non-functional requirement defines the
+     quality attribute of a software system. They represent a set of standards
+     used to judge the specific operation of a system. Example, how fast does the
+     website load?
+
+     A non-functional requirement is essential to ensure the usability and
+     effectiveness of the entire software system. Failing to meet non-functional
+     requirements can result in systems that fail to satisfy user needs.
+
+     Non-functional Requirements allows you to impose constraints or restrictions
+     on the design of the system across the various agile backlogs. Example, the
+     site should load in 3 seconds when the number of simultaneous users are
+     > 10000. Description of non-functional requirements is just as critical as a
+     functional requirement.
+
+   - A related non-functional requirement for the system may be:
+
+     Emails should be sent with a latency of no greater than 12 hours from such
+     an activity. The functional requirement is describing the behavior of the
+     system as it relates to the system's functionality. The non-functional
+     requirement elaborates a performance characteristic of the system.
+
+     Simply put, the difference is that non-functional requirements describe how
+     the system works, while functional requirements describe what the system
+     should do.
+
+   - Example Non-functional Requirements:
+    - Users must change the initially assigned login password immediately after the first successful login. Moreover, the initial should never be reused.
+    - Employees never allowed to update their salary information. Such attempt should be reported to the security administrator.
+    - Every unsuccessful attempt by a user to access an item of data shall be recorded on an audit trail.
+    - A website should be capable enough to handle 20 million users with affecting its performance
+    - The software should be portable. So moving from one OS to other OS does not create any problem.
+    - Privacy of information, the export of restricted technologies, intellectual property rights, etc. should be audited.  
+
+
+* Requirement Types
+
+* Movement
+1. General 
+   1. During the players movement phase the player may move some, none, or all of
+      his units that are eligible to move.
+   2. A player is never obligated to move any of his units.
+   3. A unit may never exceed it movement allowance.
+   4. Unused movement points CANNOT be accumulated nor transferred to another
+      unit.
+   5. Movement points are reset at the beginning of a turn.
+      
+2. Restrictions
+   1. A unit cannot move if it does not have any mp
+   2. Exception to 1: A unit may always move at least one hex but CANNOT move from
+      one enemy controlled hex to another enemy controlled hex.
+   3. A unit CANNOT enter a hex if it does NOT have enough mp to pay the cost.  
+   4. If a unit enters an enemy controlled hex it must stop and may not move again
+      in that movement phase.  However there is no mp cost to enter an enemy
+      controlled hex, only normal terrain costs apply.
+   5. A unit may never move from one enemy controlled hex to another enemy
+      controlled hex.
+   6. If a unit starts its movement phase in an enemy controlled hex it may move
+      out and re-enter another enemy hex, providing it does not move directly from
+      one to another.  It must first enter at least one non-controlled hex.
+
+** I want to move my units from point A to point B.
+1. How it works:
+   1. The user clicks on a unit they want to move.
+   2. They initiate a move order.
+   3. They plot a route for the unit.  There is no path finding currently
+      implemented which means they will have to plot a route with each individual
+      hex.
+   4. When the player is done plotting the units route they need to "finalize" or
+      "issue" the order.
+
+2. Test Criteria
+   1. Unit moves along the plotted route.
+   2. Unit does not have any movement points = Notify user unit does not have mp
+      and unit remains stationary
+   3. Unit does not have enough movement points to enter terrain.
+   4. Indicator that notifies the player they are attempting a prohibited move.
+
+** When a unit enters an enemy zone of control it must stop.
+- How it works:
+  1. The six hexes adjacent to a unit are its zone of control (ZOC).
+  2. If an enemy unit enters one of those hexes it must stop.
+  3. A unit can never move from one enemy controlled hex to another enemy
+     controlled hex.
+  4. A unit may move to an uncontrolled enemy hex and then move to an enemy
+     controlled hex.
+     
+- Test Criteria:
+  1. The enemy unit stops after entering an enemy controlled hex.
+  2. A unit in an enemy controlled hex cannot move to another enemy controlled
+     hex.
+  3. A unit in an enemy controlled hex can move to a hex that is not controlled
+     by the enemy.
+  
+** Keep track of movement points and display them to the user.
+1. How it works:
+   - As a player plots movement a message should be displayed showing how many
+     points have been used and how many remain.
+2. Test Criteria:
+   - A message is displayed with mp spent/used numbers.
+
+** Display a visual indicator that a unit has moved.
+1. How it works:
+   - A visual indicator is shown on the unit to indicate
+     it has moved.
+2. Test Criteria:
+   - After the unit has moved there should be an indicator.
+
+** When selecting a unit highlight the surrounding hexes that are eligible for movement, i.e. unit has enough mp to move to.
+1. How it works:
+   1. The player clicks on a unit.
+   2. Adjacent hexes that are eligible for a unit to move are highlighted in
+      Green.
+   3. If the unit does not have enough mp to enter a hex OR the hex is prohibited
+      terrain the hex should be highlighted in Red.
+
+2. Test Criteria
+   1. Eligible terrain should be highlighted in Green.
+   2. Prohibited terrain or terrain that exceeds the units mp should be colored
+      Red.
+
+* Combat
+** I want to attack unit A.
+1. Requirements
+   1. Issue an Attack order to the unit.
+   2. Designate the unit being attacked.
+** A visual que to indicate a battle is taking place.
+** If the unit is ineligible to attack notify the player.
+** Notify the player of the results after the attack is complete.
+
+2. Test Criteria
+   1. During the execution phase the unit conducts its attack.
+  
+* Reporting
+** I want a status report for an individual unit.
+** I want a summary status report for all units.
+* Command and Control
+** When I click on a unit I want units in the same formation to be highlighted.
+** When I click on a HQ unit I want all subordinate and attached units to be highlighted.
+* Maps and Terrain
+** When I click on a map-hex I want to see a report on the terrain type.
+* Game
+** I want to load a scenario.
+** I want to save the current game-state.
+* Network
+** Must be playable in all major web browsers
+** Must be playable over the internet
+** Must be playable over a LAN
+* Hardware
+** Must be playable in any OS.
+** Minimum Hardware Requirements
