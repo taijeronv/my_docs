@@ -103,20 +103,22 @@
    3. They plot a route for the unit.  There is no path finding currently
       implemented which means they will have to plot a route with each individual
       hex.
-   4. When the player is done plotting the units route they need to "finalize" or
-      "issue" the order.
+   4. When the player is done plotting the route they "finalize" or
+      "issue" the order which completes the move order.
 
 2. Test Criteria
-   1. Unit moves along the plotted route.
-   2. Unit does not have any movement points = Notify user unit does not have mp
-      and unit remains stationary
-   3. Unit does not have enough movement points to enter terrain.
-   4. Indicator that notifies the player they are attempting a prohibited move.
+   1. The unit moves along the plotted route.
+   2. If the user attempts to move a unit that does not have any mp notify him
+      that the unit does not have any mp.  The move order is automatically canceled.
+   3. The player attempts to move a unit into a hex with a terrain cost that is
+      greater then what the unit has available. The player is notified that the
+      unit does not have enough movement points to enter that terrain. 
 
 ** When a unit enters an enemy zone of control it must stop.
 - How it works:
   1. The six hexes adjacent to a unit are its zone of control (ZOC).
-  2. If an enemy unit enters one of those hexes it must stop.
+  2. If an enemy unit enters a hex that is adjacent to an enemy unit it must
+     stop.  It is in that units ZOC.
   3. A unit can never move from one enemy controlled hex to another enemy
      controlled hex.
   4. A unit may move to an uncontrolled enemy hex and then move to an enemy
@@ -125,7 +127,8 @@
 - Test Criteria:
   1. The enemy unit stops after entering an enemy controlled hex.
   2. A unit in an enemy controlled hex cannot move to another enemy controlled
-     hex.
+     hex.  Notify the user of the violation "Cannot move from one enemy
+     controlled hex to another."
   3. A unit in an enemy controlled hex can move to a hex that is not controlled
      by the enemy.
   
@@ -133,20 +136,24 @@
 1. How it works:
    - As a player plots movement a message should be displayed showing how many
      points have been used and how many remain.
+
 2. Test Criteria:
    - A message is displayed with mp spent/used numbers.
 
 ** Display a visual indicator that a unit has moved.
 1. How it works:
+   - TODO design an icon that indicates a unit has moved.
+
    - A visual indicator is shown on the unit to indicate
      it has moved.
 2. Test Criteria:
-   - After the unit has moved there should be an indicator.
+   - After the unit has moved there should be an indicator overlaid on top of
+     the unit icon.
 
 ** When selecting a unit highlight the surrounding hexes that are eligible for movement, i.e. unit has enough mp to move to.
 1. How it works:
    1. The player clicks on a unit.
-   2. Adjacent hexes that are eligible for a unit to move are highlighted in
+   2. Adjacent hexes that are eligible for a unit to move to are highlighted in
       Green.
    3. If the unit does not have enough mp to enter a hex OR the hex is prohibited
       terrain the hex should be highlighted in Red.
@@ -162,18 +169,61 @@
    1. Issue an Attack order to the unit.
    2. Designate the unit being attacked.
 ** A visual que to indicate a battle is taking place.
+- TODO design an icon that represents ground combat.
+
+- How it works:
+  1. When battle takes place a ground combat icon is placed on top of the units
+     involved.
+
+- Test Criteria:
+  1. Ground combat icon is displayed when units are in engaged.
+
 ** If the unit is ineligible to attack notify the player.
+- How it works:
+  1. If a unit is ineligible to conduct an attack a message notifying the player
+     as to the reason should be displayed.
+
+- Test criteria:
+  1. A message notifying the player cannot conduct an attack is displayed along
+     with the reason.
+
 ** Notify the player of the results after the attack is complete.
+1. How it works:
+   1) Combat is complete.
+   2) Display the results to the player.
 
 2. Test Criteria
-   1. During the execution phase the unit conducts its attack.
+   1) During the execution phase the unit conducts its attack and the results
+      are displayed.
   
 * Reporting
 ** I want a status report for an individual unit.
+1. How it works:
+   1) When a player clicks on a unit a report is displayed with the unit's
+      status.
+   2) Supply, combat, protection, posture, readiness, levels are displayed.
+
+2. Test criteria:
+   1) The status is displayed when a unit is clicked.
+
 ** I want a summary status report for all units.
 * Command and Control
 ** When I click on a unit I want units in the same formation to be highlighted.
+1. How it works:
+   1) When a unit is clicked other units belonging to the same parent
+      organization one level above in addition to the parent organization are highlighted.
+
+2. Test criteria:
+   1) Clicking on a unit highlights other units with the same parent as well as
+      the parent.
+
 ** When I click on a HQ unit I want all subordinate and attached units to be highlighted.
+1. How it works:
+   1) When a player clicks on a HQ unit subbordinate units are highlighted.
+
+2. Test criteria:
+   1) Clicking on a HQ unit highlights subbordinate units.
+
 * Maps and Terrain
 ** When I click on a map-hex I want to see a report on the terrain type.
 * Game
