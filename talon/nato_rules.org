@@ -39,16 +39,18 @@ The terrain file defines the terrain elements for a specific map.
 * Charts and Tables
 * Scale
 - Combat units represent battalions and brigades.
-- Some combat such as Artillery or Air Defense may be represented by batterys or
+- Some combat units such as Artillery or Air Defense may be represented by batterys or
   platoons.
 - Hexes represent 5 to 10 kms on the ground.
 - Each turn represents 3 to 6 hours of time.
 
 * Sequence of Play
 ** The Game-Turn
-MLCC is played in turns called game-turns.  Each game-turn consist of two
-player-turns.  Each player-turn is composed of three phases.  The player whose
-player-turn is in progress is call the phasing player.
+- MLCC is played in turns called game-turns.  
+- Each game-turn consist of two player-turns.  
+- Each player-turn is composed of three phases Move, Combat, Move.  
+- The player whose player-turn is in progress is call the phasing player. 
+- The other player is called the non-phasing player.
 
 ** Sequence
 1) First Player Turn:
@@ -81,49 +83,62 @@ player-turn is in progress is call the phasing player.
 - Unused movement points may NOT be accumulated nor transferred to another unit.
 - Movement points are reset at the beginning of a turn.
 
+- Eligible Units:
+  - Units may move only one time per turn, either in the first movement phase
+    or second movement phase.
+  - Units must have enough movement points to move into a hex.
+ 
 ** Procedure
-Move each unit individually, tracing a path of its movement through the
-hexagonal grid.  One a unit has been moved and the player's hand withdrawn, the
-unit may not be moved again, nor the path retraced and/or changed during that
+- Move each unit individually, tracing a path of its movement through the
+hexagonal grid.
+- One a unit has been moved and the player's hand withdrawn, the unit may not be
+  moved again, nor the path retraced and/or changed during that
 movement phase.
 
 ** How to Move
-During the movement phase only the phasing player's units are allowed to move;
-all, some, or none of his units may be moved.  No enemy movement, and no combat,
-may occur during a movement phase.
+- During the movement phase only the phasing player's units are allowed to move;
+all, some, or none of his units may be moved.
+- No enemy movement, and no combat, may occur during a movement phase.
 
-Movement is calculated in terms of movement points.  Basically each unit expends
-one movement point of it's total allowance for each hex it enters.
+- Movement is calculated in terms of movement points.
+- Basically each unit expends one movement point of it's total allowance for
+  each hex it enters.
 
 ** Movement Restrictions
-A unit's movement allowance may be decreased by supply considerations, lowering
-the number of available movement points in a given movement phase.  The number
-of movement points to enter a given hex accumulates by addition i.e. to enter a
-woods hex while crossing a river the hexside would cost three movement points:
-Two for the woods and one for crossing the river (see terrain effects chart).
-All effects of reducing available movement points and increasing the number of
-movement points to enter a given hex are cumulative.
+- A unit's movement allowance may be decreased by supply considerations,
+  lowering the number of available movement points in a given movement phase.
 
-A unit may always move a single hex in a given movement phase as long as it is
-not leaving one enemy controlled hex and directly entering another, and is not
-entering a sea hex or crossing a sea hexside (exceptions see 5.4)
+- The number of movement points to enter a given hex accumulates by addition
+  i.e. to enter a woods hex while crossing a river the hexside would cost three
+  movement points: Two for the woods and one for crossing the river (see terrain
+  effects chart). All effects of reducing available movement points and
+  increasing the number of movement points to enter a given hex are cumulative.
+
+- A unit may always move a single hex in a given movement phase as long as it is
+  not leaving one enemy controlled hex and directly entering another, and is not
+  entering a sea hex or crossing a sea hexside (exceptions see 5.4)
 
 ** Special Movement Abilities
-Airmobile Units.  There are two types of airmobile units airmobile divisions
-(composed of one base element and two airmobile elements) and Tricap divisions
-(composed of one base element and one airmobile element).  The airmobile element
-of these units may ignore all effects of the first enemy controlled hex they
-enter in any friendly movement phase, as long as they did not begin that
-movement phase in an enemy controlled hex.  If they did begin in an enemy
-controlled hex, they may only enter another enemy controlled hex (even an
-adjacent one).  Thus airmobile elements have a limited ability to move through
-enemy controlled hexes.
+Airmobile Units.
+- There are two types of airmobile units airmobile divisions (composed of one
+  base element and two airmobile elements) and Tricap divisions (composed of one
+  base element and one airmobile element).
+- The airmobile element of these units may ignore all effects of the first enemy
+  controlled hex they enter in any friendly movement phase, as long as they did
+  not begin that movement phase in an enemy controlled hex.
+- If they did begin in an enemy controlled hex, they may only enter another
+  enemy controlled hex (even an adjacent one).
+- Thus airmobile elements have a limited ability to move through enemy
+  controlled hexes.
 
-Air Transportable Units.  These units have the unique ability to move without
-regard to movement allowance and the hex grid.  At the beginning of any friendly
-movement phase, any supplied air-transportable unit not in an enemy controlled
-hex may be removed from the map and placed on any other hex with four
-restrictions: 
+Air Transportable Units.
+- These units have the unique ability to move without regard to movement
+  allowance and the hex grid.
+- At the beginning of any friendly movement phase, any supplied
+  air-transportable unit not in an enemy controlled hex may be removed from the
+  map and placed on any other hex with four
+
+- Restrictions:
 
 1. The may not be placed on enemy occupied or controlled hexes.
 2. They may not be placed on all-sea or all-lake hexes.
@@ -132,18 +147,19 @@ restrictions:
    Hexes are blocked by impassable terrain, enemy occupied hexes and enemy
    controlled hexes not occupied by friendly units.
 4. They may only air transport from one clear terrain hex to another clear
-   terrain hex. 
+   terrain hex.
 
 * Zones of Control
 ** Movement Effects
-- Upon entering an enemy controlled hex a unit must stop and may not move again in
-  that movement phase (exception 6.2).  However, units expend no additional
-  movement points to enter an enemy controlled hex (only normal terrain costs).
+- Upon entering an enemy controlled hex a unit must stop and may not move again
+  in that movement phase (exception 6.2).
+- However, units expend no additional movement points to enter an enemy
+  controlled hex (only normal terrain costs).
 - A unit may never move from one enemy controlled hex directly to another enemy
   controlled hex (see exception 6.2).
 - A unit that starts its movement phase in an enemy controlled hex may move out
   and re-enter another enemy controlled hex, providing it does not move directly
-  from one to another.  It must first enter at least one non-controlled hex.
+  from one to another. It must first enter at least one non-controlled hex.
 
 ** Airmobile Effects
 The airmobile elements of Airmobile and Tricap units may move from one enemy
@@ -205,19 +221,22 @@ Images of units broken into sub units.
 
 * Combat
 ** General Rule
-Combat occurs between adjacent opposing units a the phasing player's
-discretion.  The phasing player is the attacker, the non-phasing player the
+- Combat occurs between adjacent opposing units at the phasing player's
+discretion.  
+- The phasing player is the attacker, the non-phasing player the
 defender, regardless of their overall strategic position.
 
 ** Procedure
-Total the combat strengths for all the attacking units in a specific attack
-and compare it to the total combat strength of all unit in the hex under
-attack.  State the comparison as a probability ration: attacker's strength to
-defender's strength.  Round off the ratio in favor of the defender to conform
-to the simplified odds found on the combat results table, roll the die and
-read the result on the appropriate line under odds.  Apply the result
-immediately, before resolving any other attacks being made during that combat
-phase.
+1. Total the combat strengths for all the attacking units in a specific attack
+   and compare it to the total combat strength of all unit in the hex under
+   attack.
+2. State the comparison as a probability ration: attacker's strength to
+   defender's strength.
+3. Round off the ratio in favor of the defender to conform to the simplified odds
+   found on the combat results table, roll the die and read the result on the
+   appropriate line under odds.
+4. Apply the result immediately, before resolving any other attacks being made
+   during that combat phase.
 
 ** Which Units May Attack
 1. During the combat phase of his player-turn, the phasing player may attack any
@@ -238,36 +257,41 @@ phase.
 
 ** Multiple Unit and Multi-hex Combat
 - All units defending in a given hex must be involved in the combat, and they
-  must all be attacked as a single strength.  The defender may not voluntarily
-  withhold any units in a hex under attack.  The attacker must attack all the
-  units as a whole, i.e., the strengths of all the units in the hex are totaled,
-  and this total strength is attacked.  Different units in a given hex may not,
-  therefore, be attacked separately.
+  must all be attacked as a single strength.
+
+- The defender may not voluntarily withhold any units in a hex under attack.
+- The attacker must attack all the units as a whole, i.e., the strengths of all
+  the units in the hex are totaled, and this total strength is attacked.
+- Different units in a given hex may not, therefore, be attacked separately.
 
 - Other units in a hex that contains an attacking unit need not participate in
-  that same attack or any other attack.  Thus when one unit in a stack of three
-  is attacking a given hex, one or the other units could attack a different hex,
-  and the third could participate in no attack.
+  that same attack or any other attack.
+- Thus when one unit in a stack of three is attacking a given hex, one or the
+  other units could attack a different hex, and the third could participate in
+  no attack.
 
 - If a unit or units is adjacent to more than one enemy-occupied hex, it could
-  attack all of them in a single combat.  Thus units in a single hex can attack
-  more than one other hex.  the only requirement is that all attacking units
-  must be adjacent to all defending units.
+  attack all of them in a single combat.
+- Thus units in a single hex can attack more than one other hex. the only
+  requirement is that all attacking units must be adjacent to all defending
+  units.
 
 ** Combat Odds Calculation
-Combat odds are always rounded off in favor of the defender.  For example, an
-attack with a combat strength of 26 points against a hex defending with nine
-strength points, for an odds ratio of 26:9, would round off to a 2-1 combat
-situation for combat resolution purposes.  That column on the combat results
-table would be used.
+- Combat odds are always rounded off in favor of the defender.
+- For example, an
+  attack with a combat strength of 26 points against a hex defending with nine
+  strength points, for an odds ratio of 26:9, would round off to a 2-1 combat
+  situation for combat resolution purposes. That column on the combat results
+  table would be used.
 
 ** Effect on Unit Strength
-Combat strengths of units may be affected by terrain and supply considerations
-(see terrain effects chart and the supply rules).  This is always expressed as
-the combat strength being "halved", all fractions are retained.  This an
-unsupplied unit attacking across a river hexside would be quartered in attack
-strength (halved and then halved again).  In this case a unit with an attack
-strength of five would effectively use 1.25 strength points in the attack.
+- Combat strengths of units may be affected by terrain and supply considerations
+  (see terrain effects chart and the supply rules). This is always expressed as
+  the combat strength being "halved", all fractions are retained.
+- This an unsupplied unit attacking across a river hexside would be quartered in
+  attack strength (halved and then halved again).
+- In this case a unit with an attack strength of five would effectively use 1.25
+  strength points in the attack.
  
 ** NATO Battlegroups
 1. If, due to any combat result (De, Ae, or Ex) a blue forces 5-5-8 or 6-6-8
