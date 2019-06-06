@@ -70,29 +70,32 @@
     - Privacy of information, the export of restricted technologies, intellectual property rights, etc. should be audited.  
 
 
-* Requirement Types
+* Units
+- Unit icons must use NATO symbols.
+- The image format for unit and game icons is jpg or png.
+- Should we use a texture atlas??
 
 * Movement
 1. General 
-   1. During the players movement phase the player may move some, none, or all of
+   a. During the players movement phase the player may move some, none, or all of
       his units that are eligible to move.
-   2. A player is never obligated to move any of his units.
-   3. A unit may never exceed it movement allowance.
-   4. Unused movement points CANNOT be accumulated nor transferred to another
+   b. A player is never obligated to move any of his units.
+   c. A unit may never exceed it movement allowance.
+   d. Unused movement points CANNOT be accumulated nor transferred to another
       unit.
-   5. Movement points are reset at the beginning of a turn.
+   e. Movement points are reset at the beginning of a turn.
       
 2. Restrictions
-   1. A unit cannot move if it does not have any mp
-   2. Exception to 1: A unit may always move at least one hex but CANNOT move from
+   a. A unit cannot move if it does not have any mp
+   b. Exception to 1: A unit may always move at least one hex but CANNOT move from
       one enemy controlled hex to another enemy controlled hex.
-   3. A unit CANNOT enter a hex if it does NOT have enough mp to pay the cost.  
-   4. If a unit enters an enemy controlled hex it must stop and may not move again
+   c. A unit CANNOT enter a hex if it does NOT have enough mp to pay the cost.  
+   d. If a unit enters an enemy controlled hex it must stop and may not move again
       in that movement phase.  However there is no mp cost to enter an enemy
       controlled hex, only normal terrain costs apply.
-   5. A unit may never move from one enemy controlled hex to another enemy
+   e. A unit may never move from one enemy controlled hex to another enemy
       controlled hex.
-   6. If a unit starts its movement phase in an enemy controlled hex it may move
+   f. If a unit starts its movement phase in an enemy controlled hex it may move
       out and re-enter another enemy hex, providing it does not move directly from
       one to another.  It must first enter at least one non-controlled hex.
 
@@ -166,65 +169,76 @@
 * Combat
 ** I want to attack unit A.
 1. Requirements
-   1. Issue an Attack order to the unit.
-   2. Designate the unit being attacked.
-** A visual que to indicate a battle is taking place.
+   a. Issue an Attack order to the unit.
+   b. Designate the unit being attacked.
+
+** I want an indicator to show where a battle is taking place.
 - TODO design an icon that represents ground combat.
 
 - How it works:
-  1. When battle takes place a ground combat icon is placed on top of the units
+  a. When battle takes place a ground combat icon is placed on top of the units
      involved.
 
 - Test Criteria:
-  1. Ground combat icon is displayed when units are in engaged.
+  a. Ground combat icon is displayed when units are in engaged.
 
-** If the unit is ineligible to attack notify the player.
+** I want to know if a unit is eligible to conduct an attack.
 - How it works:
-  1. If a unit is ineligible to conduct an attack a message notifying the player
+  a. If a unit is ineligible to conduct an attack a message notifying the player
      as to the reason should be displayed.
 
 - Test criteria:
-  1. A message notifying the player cannot conduct an attack is displayed along
+  a. A message notifying the player cannot conduct an attack is displayed along
      with the reason.
 
-** Notify the player of the results after the attack is complete.
+** I want to know the results of an attack.
 1. How it works:
-   1) Combat is complete.
-   2) Display the results to the player.
+   a. Combat is complete.
+   b. Display the results to the player.
 
 2. Test Criteria
-   1) During the execution phase the unit conducts its attack and the results
+   a. During the execution phase the unit conducts its attack and the results
       are displayed.
   
 * Reporting
 ** I want a status report for an individual unit.
 1. How it works:
-   1) When a player clicks on a unit a report is displayed with the unit's
+   a. When a player clicks on a unit a report is displayed with the unit's
       status.
-   2) Supply, combat, protection, posture, readiness, levels are displayed.
+   b. Supply, combat, protection, posture, readiness, levels are displayed.
 
 2. Test criteria:
-   1) The status is displayed when a unit is clicked.
+   a. The status is displayed when a unit is clicked.
 
 ** I want a summary status report for all units.
 * Command and Control
 ** When I click on a unit I want units in the same formation to be highlighted.
 1. How it works:
-   1) When a unit is clicked other units belonging to the same parent
+   a. When a unit is clicked other units belonging to the same parent
       organization one level above in addition to the parent organization are highlighted.
 
 2. Test criteria:
-   1) Clicking on a unit highlights other units with the same parent as well as
+   a. Clicking on a unit highlights other units with the same parent as well as
       the parent.
 
 ** When I click on a HQ unit I want all subordinate and attached units to be highlighted.
 1. How it works:
-   1) When a player clicks on a HQ unit subbordinate units are highlighted.
+   a. When a player clicks on a HQ unit subbordinate units are highlighted.
 
 2. Test criteria:
-   1) Clicking on a HQ unit highlights subbordinate units.
+   a. Clicking on a HQ unit highlights subbordinate units.
 
 * Maps and Terrain
+- The image format for the map is jpg.
+- Map colors to be determined.  Flashpoint Campaign values.
+- Individual hex for the grid is 72 px tall with the flat side facing up.
+- Size of the map can vary depending on the operations area.
+** Terrain File
+The terrain file defines the terrain elements for a specific map.
+- json format??
+- Terrain movement costs (see terrain effects table).
+- Combat modifiers.
+
 ** When I click on a map-hex I want to see a report on the terrain type.
 * Game
 ** I want to load a scenario.
@@ -233,6 +247,7 @@
 ** Must be playable in all major web browsers
 ** Must be playable over the internet
 ** Must be playable over a LAN
+
 * Hardware
 ** Must be playable in any OS.
 ** Minimum Hardware Requirements
