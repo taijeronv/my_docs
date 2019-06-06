@@ -1,0 +1,9 @@
+#+TITLE: My Notes
+
+Linux
+- [[https://github.com/amanusk/s-tui][s-tui cpu and resource monitor.]]
+ Stress-Terminal UI, s-tui, monitors CPU temperature, frequency, power and
+  utilization in a graphical way from the terminal.
+
+-  [[https://github.com/erpalma/throttled][Throttling fix for linux]] 
+  Fix Intel CPU Throttling on Linux
