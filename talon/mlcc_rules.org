@@ -23,6 +23,11 @@ equal abilities.
    on the map.
 
 * Units 
+- Rating Units
+  See how Matrix units are rated.
+- Unit Data
+  Game data - Used to quantify unit abilities.
+  
 * Scale
 1. Combat units represent battalions and brigades.
 2. Some combat units such as Artillery or Air Defense may be represented by batterys or
@@ -133,43 +138,40 @@ Second Player Turn:
    d. They may only air transport from one clear terrain hex to another clear
       terrain hex.
 
-* Zones of Control
+* Zones of Control (zoc)
 ** Movement Effects
-1. Upon entering an enemy controlled hex a unit must stop and may not move again
-   in that movement phase (exception Airmobile Units).
-2. Units do not spend additional movement points to enter an enemy
-   controlled hex (only normal terrain costs).
-3. A unit may never move from one enemy controlled hex directly to another enemy
-   controlled hex (Airmobile Units).
-4. A unit that starts its movement phase in an enemy controlled hex may move out
-   and re-enter another enemy controlled hex, providing it does not move directly
-   from one to another. It must first enter at least one non-controlled hex.
+1. Upon entering an zoc a unit must stop and may not move again in that movement
+   phase (exception Airmobile Units).
+2. Units do not spend additional movement points to enter a zoc hex (only normal terrain costs).
+3. A unit may never move from one enemy zoc directly to another zoc (Airmobile Units).
+   and re-enter another enemy controlled hex.
+4. It must first enter at least one non-controlled hex.
 
 ** Airmobile Effects
-The airmobile elements of Airmobile and Tricap units may move from one enemy
-controlled hex directly to another enemy controlled hex once per movement phase
-(see 5.4).  They are the only units with this ability.
+1. The airmobile elements of Airmobile and Tricap units may move from one enemy
+   controlled hex directly to another enemy controlled hex once per movement phase
+   (see 5.4).  
+2. They are the only units with this ability.
 
 ** Combat Effects
-Zones of control do not affect combat attacking is completely voluntary and the
-presence of a unit's zone of control in a friendly occupied hex does not force
-combat.
+- If a unit enters a zone of control it is not obligated to attack.
 
 ** Retreat Effects
-Units may not retreat (due to combat; see the CRT) into or through an enemy
-controlled hex, unless another friendly unit already occupies the controlled
-hex.  Thus, for retreat purposes, enemy controlled hexes are negated by friendly
-units.
+1. Units may not retreat (due to combat; see the CRT) into or through an enemy
+   controlled hex, unless another friendly unit already occupies the controlled
+   hex.  
+2. Thus, for retreat purposes, enemy controlled hexes are negated by friendly
+   units.
 
 ** Supply Effects
-Supply lines may not be traced through enemy controlled hexes unless that hex is
-occupied by a friendly unit.  Thus, for supply purposes, friendly units negate
-enemy controlled hexes.
+1. Supply lines may not be traced through enemy controlled hexes unless that hex is
+   occupied by a friendly unit.  
+2. Thus, for supply purposes, friendly units negate enemy controlled hexes.
 
 * Stacking
-1. The opposing forces may stack a maximum of two units of any type per hex, while
-   the blue forces player may stack only one division or its equivalent.  
-2. A supply unit counts as a division-sized unit for both sides where stacking is concerned.
+1. The opposing forces may stack a maximum of two units of any type per hex
+2. The blue forces player may stack only one division or its equivalent.  
+3. A supply unit counts as a division-sized unit for both sides where stacking is concerned.
 
 ** Movement Effect
 1. Units may not move through hexes in violation of the stacking limitations.  
@@ -209,26 +211,34 @@ Images of units broken into sub units.
 
 * Combat
 ** General Rule
-- Combat occurs between adjacent opposing units at the phasing player's
-  discretion.  
-- The phasing player is the attacker, the non-phasing player the
-  defender, regardless of their overall strategic position.
+- TODO This needs to be adjusted according to how the computer processes a turn.
+- TODO How does the computer determine which attacks to conduct first?
+- TODO We should consider allowing the player to determine in what order attacks
+  are resolved.
+- TODO What process do we use to allow the player to "coordinate" their attacks.
+- TODO Maybe we should rate a HQ for it's ability to coordinate and synchronize
+  actions.
+- TODO We should also apply modifiers to units from different HQs.
+
+- The computer umpire executes all attacks that were planned during the Planning Phase.
+- The phasing player is the attacker, the non-phasing player the defender,
+  regardless of their overall strategic position.
 
 ** Procedure
 1. Total the combat strengths for all the attacking units in a specific attack
-   and compare it to the total combat strength of all unit in the hex under
+   and compare it to the total combat strength of all units in the hex under
    attack.
-2. State the comparison as a probability ration: attacker's strength to
-   defender's strength.
+2. State the comparison as a ratio: attacker's strength to
+   defender's strength (attacker strength : defender strength)
 3. Round off the ratio in favor of the defender to conform to the simplified odds
-   found on the combat results table, roll the die and read the result on the
-   appropriate line under odds.
-4. Apply the result immediately, before resolving any other attacks being made
+   found on the combat results table
+4. Roll the die and read the result on the appropriate line under odds.
+5. Apply the result immediately, before resolving any other attacks being made
    during that combat phase.
 
 ** Which Units May Attack
 1. During the combat phase of his player-turn, the phasing player may attack any
-   and all enemy units adjacent to friendly units.
+   and all enemy units adjacent to friendly units.  
 2. Only those friendly units directly adjacent to a given enemy unit may
    participate in an attack upon that unit.
 3. Attacking is completely voluntary; units are never compelled to attack, and
@@ -277,22 +287,20 @@ Images of units broken into sub units.
 ** NATO Battlegroups
 1. If, due to any combat result (De, Ae, or Ex) a blue forces 5-5-8 or 6-6-8
    unit is eliminated, it is removed from the map and replaced with a
-   "battlegroup" unit (1-2-8). Only blue force 5-5-8 or 6-6-8 units receive this
-   benefit. The battlegroup unit is immediately placed on the hex in which the
-   blue force 5-5-8 or 6-6-8 unit was eliminated, and suffers no further combat
-   effects in that phase. Thus, if the original unit was eliminated due to
-   inability to retreat, the battlegroup unit need not retreat (however, see
-   Nuclear Combat Rules).
-
-2. In cases where a battlegroup unit is formed due to an "Exchange" combat result,
+   "battlegroup" unit (1-2-8). 
+2. Only blue force 5-5-8 or 6-6-8 units receive this benefit. The battlegroup unit is immediately placed on the hex in which the
+    blue force 5-5-8 or 6-6-8 unit was eliminated, and suffers no further combat
+    effects in that phase. 
+3. Thus, if the original unit was eliminated due to inability to retreat, the battlegroup unit need not retreat (however, see
+    Nuclear Combat Rules).
+4. In cases where a battlegroup unit is formed due to an "Exchange" combat result,
    the opposing force player must still remove a number of strength points equal
    to or greater than the original unit, not the original unit minus the strength
    points of the battlegroup formed.
-
-3. Battlegroup units are identical in all ways to regular brigades of their
+5. Battlegroup units are identical in all ways to regular brigades of their
    respective nationality, i.e. they are considered brigades for stacking
-   purposes and may be used as such in building units (see 7.3).  Unit types may
-   be ignored in replacing with battlegroups.
+   purposes and may be used as such in building units (see 7.3).  
+6. Unit types may be ignored in replacing with battlegroups.
 
 * Combat Results Table
 
@@ -310,6 +318,19 @@ Odds less than 1-1 are NOT permitted; Odds greater than 10-1 are treated as
 10-1.
 
 ** Explanation of Results
+- Drx = Where x is the number of hexes.  In this result the defender must
+  retreat , i.e move in a direction away from enemy units.
+- De = Defeding units are eliminated.
+- Arx = Where x is the number of hexes.  In this result the attacker must
+  retreat, i.e. move away from enemy units.
+- Ae = Attacking units are eliminated.
+- Ex = Exchange.  
+
+- TODO at some point I would like to transition to a more doctrine based
+  effects.  For example suppress, neutralize, destroyed, or disrupted.
+  Regarding retreats that should be left up to the player and could be adjusted
+  by thresholds.
+
 ** How to Retreat
 ** Advance After Combat
 
