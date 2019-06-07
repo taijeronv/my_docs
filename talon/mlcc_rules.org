@@ -68,26 +68,26 @@ Second Player Turn:
    his units that are eligible to move.  
 2. A unit may be moved as many or as few hexes as the phasing player desires.
 3. A unit may not exceed its movement allowance during any of its movement phases.  
-4. Unused movement points may NOT be accumulated nor transferred to another unit.
-5. Movement points are reset at the beginning of a turn.
-6. Eligible Units:
-   a. Units may move only one time per turn, either in the first movement phase
-      or second movement phase.
-   b. Units must have enough movement points to move into a hex.
+4. Unused movement points may NOT be accumulated 
+5. Unused movement points cannot be transferred to another unit.
+6. Movement points are reset at the beginning of a turn.
+
+** Eligible Units:
+1. Units may move only one time per turn, either in the first movement phase
+   or second movement phase.
+2. Units must have enough movement points to move into a hex.
  
 ** Procedure
-1. Move each unit individually, tracing a path of its movement through the
-   hexagonal grid.
-2. Once a unit has been moved and the player's hand withdrawn, the unit may not be
-   moved again, nor the path retraced and/or changed during that movement phase.
+1. Movement routes are plotted during the planning phase.
+2. Routes can be edited or deleted.
+3. Move each unit individually or as a stack.
+4. Create a route by selecting individual hexes.
 
 ** How to Move
-1. During the movement phase only the phasing player's units are allowed to move;
-   all, some, or none of his units may be moved.
-2. No enemy movement, and no combat, may occur during a movement phase.
-3. Movement is calculated in terms of movement points.
-4. Basically each unit expends one movement point of it's total allowance for
-   each hex it enters.
+1. During the Execution Phase the computer umpire handles all movement.
+2. Whatever routes the player plotted during the Planning Phase are executed.
+3. In some situations the units may be obligated to stop for example when
+   entering an enemy zone of control.
 
 ** Movement Restrictions
 1. A unit's movement allowance may be decreased by supply considerations,
@@ -136,11 +136,11 @@ Second Player Turn:
 * Zones of Control
 ** Movement Effects
 1. Upon entering an enemy controlled hex a unit must stop and may not move again
-   in that movement phase (exception 6.2).
-2. However, units expend no additional movement points to enter an enemy
+   in that movement phase (exception Airmobile Units).
+2. Units do not spend additional movement points to enter an enemy
    controlled hex (only normal terrain costs).
 3. A unit may never move from one enemy controlled hex directly to another enemy
-   controlled hex (see exception 6.2).
+   controlled hex (Airmobile Units).
 4. A unit that starts its movement phase in an enemy controlled hex may move out
    and re-enter another enemy controlled hex, providing it does not move directly
    from one to another. It must first enter at least one non-controlled hex.

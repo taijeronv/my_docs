@@ -107,6 +107,20 @@ CLOSED: [2019-05-19 Sun 06:47]
     - [ ] Modify rofi
     - [ ] Configure title bar.
 
+
+*** Install
+- arandr
+- compton
+- rofi
+- ranger
+- feh
+- lxappearance
+- moka icons
+- nerd fonts
+- source code pro font
+- conky
+
+
 *** TODO i3blocks not working
 *** TODO Setup conky
 *** TODO Add more images to the wallpaper dir
