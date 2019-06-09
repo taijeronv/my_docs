@@ -1,0 +1,238 @@
+#+TITLE: Brigade Operations v1.0
+#+AUTHOR: Vincent 'TJ' Taijeron
+
+* Introduction
+  Brigade Operations or Brigade Ops is played on a map that represents a
+  land-based area of operations. The map is divided up into spaces (called
+  ‘hexes’) in order to position the playing pieces and to regulate their movement.
+  These hexes perform the same function as squares on a checkerboard.
+
+  - Models Brigade operations using companies as the primary maneuver unit.
+  - Each turn represents several hours of realtime.
+  - Each player gets four turns to accomplish their mission.
+  - The Opfor mission is to take all four cities on the map.
+  - The Bluefor mission is to prevent Opfor from accomplishing their mission.
+
+  General Description of Play One player controls the movement and combat of the
+  Bluefor units and the other player controls the movement and combat of the Opfor
+  units.
+
+* Random Numbers
+  - Typically an "analog" or paper-based game would use six-sided die (singular)
+    or dice (plural) to generate random numbers.
+  - Brigade Ops uses random numbers between 1 and 6.
+
+* Game Setup
+  - When the game begins, units should automatically be placed in their starting
+    positions on the map.
+  - The appropriate map should be loaded with the appropriate terrain file.
+
+* Map
+** Map Image
+   1. The map represents a 2d land-based area of operations. 
+   
+** Hex Grid
+   1. The map is overlaid with a hexagonal grid.
+   2. Each hex represents specific types of terrain such as woods, or towns.
+   3. Three hexes on the map should be town hexes with a name label.
+   4. Five hexes should be woods hexes.
+   5. Each hex is numbered using a four-digit system where the first two digits
+      indicate the hex column and the last two digits count down to the hex row.
+** Terrain
+   1. Terrain affects movement and combat.
+   2. Terrain data: ID number, terrain Type, movement modifier, and combat modifier.
+   3. This version of Brigade Ops has three types of terrain Clear, Woods (Frest) and
+      Towns.
+   4. Units can move into a Wood hex, it cost two movement points.
+   5. Unit can move into a Town hex, it cost two movement points.
+   6. Units can move into a Clear hex, it cost one movement point.
+
+*** Terrain File
+    1. The Terrain file contains data for each hex in the grid.
+    2. The Terrain file specifies which map image to load.
+    3. The terrain file should be in the Json format.
+
+* Units
+  1. Units are icons that use NATO symbols to represent their type and function.
+  2. Units have data that determine what they can do.
+
+** Unit Data
+   - Icon used to represent the unit.  Usually the name of a png or jpg file.
+   - Unit ID. This is the name of the unit.
+   - Combat Strength. The number of points a unit can use during combat operations.
+   - Movement Points. The number of points a unit can use when moving.
+
+* Sequence of Play
+  - Planning Phase
+    During the planning phase players issue movement and combat orders to their
+    units.
+
+  - Execution Phase
+    During the Execution Phase the computer executes the player's orders.
+
+  - Turn Sequence
+    The computer should follow these steps to complete one turn.
+
+    1. Execute all movement orders for the Opfor player.
+
+    2. Execute all combat order for the Opfor player.
+
+
+    3. Execute all movement orders for the Bluefor player.
+
+    4. Execute all combat orders for the Bluefor player.
+
+    The above four Steps make up a complete Game Turn.
+
+    The game ends after four game turns have been completed.  The last step will
+    be to determine who wins.
+
+* Movement
+  - During the planning phase the player may issue orders to some, none, or all
+    of their units.
+  - Players are not obligated to move any of their units.
+  
+** Movement Points
+   - Each unit is allowed to move 1 to 4 hexes.  Each hex is one movement point.
+     So a unit has a maximum of 4 movement points.
+   - A unit cannot move more than 4 hexes.
+   - Movement points cannot be accumulated from turn to turn.  For example if a
+     unit uses  two points in turn 1, it cannot save the other two movement points
+     for turn 2.  
+   - At the beginning of the next turn movement points are reset back to four.
+  
+** Prohibited Movement
+   - A player’s units can never enter or pass through a hex while it contains one
+     of the opposing player’s units. ● Units can never move off the map. 
+   - In the Standard Game, units can never enter or pass through any Woods hexes on the map.
+   - In the Standard Game, a player may move one or more of his units through a hex
+     containing one of his own units, but he can never end the movement part of the
+     turn with more than one of his units in any hex. YES The top two movement paths
+     shown in the diagram below are not allowed (and have been marked “NO”). The
+     bottom movement path is allowed (marked “YES”) because it does not enter or pass
+     through either the Woods hex or the hex occupied by the opposing unit.
+
+** Enemy Zones of Control (zoc)
+   - A unit’s Zone of Control (abbreviated ‘ZOC’) are the six adjacent hexes
+     surrounding its current location.
+
+   - All units exert a ZOC at all times.
+
+   - The presence of Zones of Control is never affected by other units, enemy or
+     friendly. 
+
+   - Whenever a unit enters a hex that is directly adjacent to any of the
+     opposing player’s units, the moving unit must immediately stop in that hex
+     and move no further that turn. 
+
+   - Stopping In Hexes Adjacent to Opposing Units This rule states that
+     whenever a player is moving one of his pieces and he moves it into one of the
+     spaces adjacent to (right next to) one of the other player’s pieces, the moving
+     piece must stop immediately and not be moved any further that turn.
+
+   - Leaving an Enemy ZOC: If a player’s unit begins his movement part of the
+     turn in a hex in an Enemy Zone of Control, the unit may leave that hex and move
+     normally, however:
+
+   - No ‘Infiltration’ Movement: During his movement part of the turn, a
+     player may never move one of his units directly from one hex to another if both
+     those hexes are in Enemy ZOCs (i.e., adjacent to one or more of the opposing
+     player’s units). A moving unit may begin and end its move adjacent to enemy
+     units if one (or two) of the hexes it enters during the middle of its move are
+     not adjacent to the opposing player’s unit(s).
+
+* Combat
+  1. During the Planning Phase the player may give orders for their units to
+     attack enemy units.
+  2. The computer executes those order during the Execution Phase.
+  3. The computer decides in what order combat is resolved.
+
+** How Units Attack
+   1. Only units that are adjacent an enemy unit can conduct an attack.
+   2. Attacking is Voluntary: Units are never forced to attack simply because
+      they are adjacent to one or more of the opposing player’s units. Attacking is
+      completely voluntary. 
+   3. Defending against an attack, however, is not voluntary.
+   4. The defending unit does not have a choice it must ‘accept’ the attack.
+   5. Attacking with More Than One Unit in a Single Battle: More than one
+      attacking unit may take part in a single Battle. Because all the units must be
+      adjacent to the unit that they are attacking, no more than six units could take
+      part in an attack against a single opposing unit.
+   6. Limitations: No more than one of the opposing player’s units may be the
+      object of a particular attack. No unit may be attacked more than once per turn.
+   7. No unit may take part in more than one Battle per player’s turn.
+
+** Conducting a Battle: 
+   A ‘Battle’ (or ‘attack’) is defined as one or more ‘attacking’ units
+   targeting a single adjacent ‘defending’ unit, rolling a die, and consulting
+   the Combat Results Table to determine the outcome. 
+
+  - Using the Combat Results Table: The result of each Battle is determined by
+    rolling a die and cross-indexing the results with the appropriate column of
+    the Combat Results Table.
+
+  - The number of attacking units in that Battle determines which column of the
+    Combat Results Table is used, and the die roll result determines which row
+    of that column is read to find the Combat Result.
+
+  - The die is thrown only once for each Battle, regardless of how many
+    attacking units are involved in it. Assume that three Opfor units are
+    attacking one adjacent Bluefor unit. Refer to the Standard
+
+  - Explanation and Application of Combat Results Note that the player who is
+    making the attack is referred to as the ‘attacker’ and the player whose unit
+    is the object of the attack is referred to as the ‘defender.’ The following
+    paragraphs define the results indicated on the Combat Results Table:
+    Defender Eliminated: The defending unit is eliminated (removed from the map)
+    and the attacker may Advance After Combat (see 5.7). Defender Retreats 1
+    Hex: The defending player retreats his unit one hex away from the attacking
+    unit(s); the attacker may Advance After Combat (see 5.7).
+
+* Retreat Restrictions: 
+  1. Retreats may not be made into hexes presently occupied by either player’s
+     units. 
+  2. Retreats may not be made into Woods hexes or off the edge of the map. 
+  3. Retreats may not be made into a hex in an Enemy ZOC (i.e., a hex adjacent to
+     any of the opposing player’s units). 
+
+  4. If the only retreat available to a unit is one of the types forbidden, the
+     unit is eliminated instead.
+
+  5. Attacker Retreats: All of the attacking units in this Battle are moved back
+     one hex by the attacker as per the above Retreat Restrictions.
+
+  6. Attacker Eliminated: The unit making that attack is eliminated (immediately
+     removed from the map). 
+
+  7. Advance After Combat: When the defender’s hex has been vacated (through
+     Retreat or Elimination) due to Battle, the attacker may Advance After Combat
+     any one of his units that took part in that particular Battle into the
+     defender’s vacated hex.
+
+     a. Advance After Combat is completely voluntary. 
+     b. This Advance must be made immediately, before the attacker goes on to
+        resolve any remaining Battles during that Step. 
+
+     c. This one-hex Advance is not considered normal movement for that unit, and
+       it may be made regardless of the presence of Enemy Zones of Control (4.3)
+       and regardless of the number of hexes it moved during his Movement Step
+       that turn (4.1).  
+     d. Victorious defending units may never Advance After Combat; only victorious attacking units.
+
+* How to Win
+  At the end of four complete Game Turns check the following:
+
+  1. If the Opfor Player physically occupies at least two out of three of the
+     Town hexes on the map they win.
+
+  2. The Bluefor Player wins if he prevented this from happening. 
+* References and Resources
+  - [[https://www.youtube.com/watch?v=yjv9ku_fjN4&list=PLk5K-IfEIqTtb2XCumq4JyFFifnDA6Rr][The Operational Art of War IV]]-
+    Note this game closely resembles what Brigade Ops should look like, to
+    include how the game is played.  TOAW uses NATO symbols on the unit icons,
+    this is the style that Brigade Ops should use.
+
+  - [[https://www.youtube.com/watch?v=8RvQNfFX3Hc&list=PLpwSx4NqtVLyrXRDYAv6UkRSWnZfsK3sL][Flashpoint Campaigns Red Storm]]
+    This is another game that can be used for inspiration.  In this game the
+    icons use vehicle outlines also known as silhouettes or shadows.  The maps
+    in this game are really good.
