@@ -243,8 +243,7 @@
      - Example
    - NPC Scripts
      - Example
-     - etc.
- 
+     - etc. 
 
 * Game Files
 There are several game files that are required to play the game.

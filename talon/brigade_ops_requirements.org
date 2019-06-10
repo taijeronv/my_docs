@@ -17,19 +17,85 @@
   Bluefor units and the other player controls the movement and combat of the Opfor
   units.
 
+* Glossary
+- Area of operations or AO
+  a clearly defined area where a military can operate.
+
+- Battle or 'Attack'
+  One or more ‘attacking’ units targeting a single adjacent ‘defending’ unit,
+  rolling a die, and consulting the Combat Results Table to determine the
+  outcome.  
+
+- Battalion or Bn
+  A battalion is a military unit. The use of the term "battalion" varies by
+  nationality and branch of service. Typically a battalion consists of 300 to 800
+  soldiers and is divided into a number of companies. A battalion is typically
+  commanded by a Lieutenant Colonel.
+
+- Blue Forces or Bluefor
+  One side of the conflict typically represented by color Blue.
+
+- Brigade or Bde
+  a major tactical military formation that is typically composed of three to six
+  battalions plus supporting elements. It is roughly equivalent to an enlarged
+  or reinforced regiment. Two or more brigades may constitute a division .
+
+- Company (companies) or Co
+  a military unit, typically consisting of 80–150 soldiers and usually commanded
+  by a major or a captain. Most companies are formed of three to six platoons,
+  although the exact number may vary by country, unit type, and structure. 
+
+- Combat Step 
+  One of the steps that make a "phase." The player has the opportunity to
+  conduct attacks directed against enemy units.
+
+- Combat Results Table or crt
+  The crt shows the results of combat. 
+
+- Movement Step
+  One of the steps that make a "phase." The player has the opportunity to move
+  all, some, or none of his units. 
+
+- Non-phasing player
+  The player who is not currently active.
+
+- Opposing Force(s) or Opfor
+  Bluefor's enemy typically represented by the color Red.
+
+- Phase
+  A phase consist of the Movement and Combat steps.
+
+- Phasing Player
+  The active player.  In other words the player who is currently conducting the
+  Movement and Combat steps.
+
+- Terrain Effects Chart or TEC
+  A chart that shows how movement and combat are affected by terrain.
+
+- Turn
+  A turn consist of two phases one for each player.  A phase consists of the
+  Movement and Combat steps.
+
+- Zone of Control or zoc
+  All combat units have a zone of control.  The zone of control are the six
+  hexes adjacent to that units location.
 * Random Numbers
-  - Typically an "analog" or paper-based game would use six-sided die (singular)
-    or dice (plural) to generate random numbers.
-  - Brigade Ops uses random numbers between 1 and 6.
+  1. Typically an "analog" or paper-based game would use six-sided die (singular)
+     or dice (plural) to generate random numbers.
+  2. Brigade Ops uses random numbers between 1 and 6.
 
 * Game Setup
-  - When the game begins, units should automatically be placed in their starting
-    positions on the map.
-  - The appropriate map should be loaded with the appropriate terrain file.
+  1. When the game begins, units should automatically be placed in their starting
+     positions on the map.
+  2. The appropriate map should be loaded with the appropriate terrain file.
 
 * Map
 ** Map Image
-   1. The map represents a 2d land-based area of operations. 
+   1. The map image is a jpg or png file.
+   2. The map is displayed in the background and serves as a visual reference
+      for the player.  A terrain file is associated with the map image and
+      provides the terrain data that is used by the game. 
+   3. The map represents a 2d land-based area of operations.
    
 ** Hex Grid
    1. The map is overlaid with a hexagonal grid.
@@ -41,29 +107,40 @@
 ** Terrain
    1. Terrain affects movement and combat.
    2. Terrain data: ID number, terrain Type, movement modifier, and combat modifier.
-   3. This version of Brigade Ops has three types of terrain Clear, Woods (Frest) and
+   3. This version of Brigade Ops has three types of terrain Clear, Woods (Forest) and
       Towns.
    4. Units can move into a Wood hex, it cost two movement points.
    5. Unit can move into a Town hex, it cost two movement points.
    6. Units can move into a Clear hex, it cost one movement point.
 
+*** Terrain Effects Chart or TEC
+    | Type  | Movement Effects | Combat Effects |
+    |-------+------------------+----------------|
+    | Clear | 1 mo to enter    | None           |
+    | Town  | 2 mp to enter    | None           |
+    | Woods | 2 mp to enter    | None           |
+    |       |                  |                |
+     
 *** Terrain File
     1. The Terrain file contains data for each hex in the grid.
     2. The Terrain file specifies which map image to load.
     3. The terrain file should be in the Json format.
 
 * Units
-  1. Units are icons that use NATO symbols to represent their type and function.
-  2. Units have data that determine what they can do.
+  1. Units are show using icons that with NATO symbols that represent their type and function.
+  2. Units have data that determine what that unit can do, and how well it
+     performs during certain activities like combat and movement.
 
 ** Unit Data
-   - Icon used to represent the unit.  Usually the name of a png or jpg file.
-   - Unit ID. This is the name of the unit.
-   - Combat Strength. The number of points a unit can use during combat operations.
-   - Movement Points. The number of points a unit can use when moving.
+   - There should be a data element that "points" or specifies what image to use
+     for that unit.  The image format should be jpg or png. 
+   - Unit ID = Two digit number the first number is what side the unit belongs
+     to Bluefor or Opfor, the second number is the units assigned "name."
+   - Combat Strength = 1
+   - Movement Points = 4
 
 * Sequence of Play
-  - Brigade is played in turns.
+  - Brigade Ops is played in turns.
   - A turn has two phases one for each player.
   - Each phase has two steps Movement and Combat.
   - The Opfor player goes first and conducts phase 1 performing his Movement and Combat steps.
@@ -71,29 +148,29 @@
     Combat Steps.
   
 ** Turn Sequence
-   - Phase 1 Opfor Player
-     - Movement Step 
-       - Move some, none, or all eligible units.
-       - When the player is finished moving units he must indicate that he wants
-         to end his movement step.  At which point we move to the Combat step.
-     - Combat Step
-       - The player has the option to designate combat operations directed
-         against enemy units.
-       - When the player is finished with combat he must indicate that he no
-         longer wishes to conduct combat operations.  At which point the Bluefor
-         player is allowed to conduct Movement and Combat.
+   1. Phase 1 Opfor Player
+      1. Movement Step 
+         a) Move some, none, or all eligible units.
+         b) When the player is finished moving units he must indicate that he wants
+            to end his movement step.  At which point we move to the Combat step.
+      2. Combat Step
+         a) The player has the option to designate combat operations directed
+            against enemy units.
+         b) When the player is finished with combat he must indicate that he no
+            longer wishes to conduct combat operations.  At which point the Bluefor
+            player is allowed to conduct Movement and Combat.
 
-   - Phase 2 Bluefor Player
-     - Movement Step 
-       - Move some, none, or all eligible units.
-       - When the player is finished moving units he must indicate that he wants
-         to end his movement step.  At which point we move to the Combat step.
-     - Combat Step
-       - The player has the option to designate combat operations directed
-         against enemy units.
-       - When the player is finished with combat he must indicate that he no
-         longer wishes to conduct combat operations.  At which point one turn has
-         been completed and the game proceeds to the next turn.
+   2. Phase 2 Bluefor Player
+      1. Movement Step 
+         a) Move some, none, or all eligible units.
+         b) When the player is finished moving units he must indicate that he wants
+            to end his movement step.  At which point we move to the Combat step.
+      2. Combat Step
+         a) The player has the option to designate combat operations directed
+            against enemy units.
+         b) When the player is finished with combat he must indicate that he no
+            longer wishes to conduct combat operations.  At which point one turn has
+            been completed and the game proceeds to the next turn.
 
 
      The game ends after four game turns have been completed.  The last step will
@@ -104,15 +181,15 @@
   adjacent to an enemy unit more information is provided and the unit is
   considered to be detected.
 
-  - Undetected units should display a "question icon" to show that it has not
+  - Undetected units should display a "question mark (?) icon" to show that it has not
     been detected.
   - An enemy unit is detected by moving a friendly unit next to it.
-  - When a unit is detected the player should see its actual icon.
-  - When a unit is detected it remains detected for the rest of the game. 
+  - When a unit is detected its actual icon should be displayed. 
+  - When a unit is detected it remains detected for the rest of the game.
+ 
 * Movement
-  - During the planning phase the player may issue orders to some, none, or all
-    of their units.
-  - Players are not obligated to move any of their units.
+  1. The player may move some, none, or all of his units that are eligible to move.
+  2. Players are not obligated to move any of their units.
   
 ** Movement Points
    1. Each unit is allowed to move 0 to 4 hexes.  Each hex is one movement point.
@@ -127,11 +204,10 @@
    1. A player’s units can never enter or pass through a hex while it contains one
       of the opposing player’s units. 
    2. Units can never move off the map. 
-   3. In the Standard Game, units can never enter or pass through any Woods hexes on the map.
-   4. A unit cannot move through a hex that contains another unit either enemy
+   3. A unit cannot move through a hex that contains another unit either enemy
       or friendly.
  
-** Enemy Zones of Control (zoc)
+** Enemy Zone of Control (zoc)
    1. A unit’s Zone of Control (abbreviated ‘ZOC’) are the six adjacent hexes
       surrounding its current location.
 
