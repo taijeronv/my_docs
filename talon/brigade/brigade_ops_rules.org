@@ -17,23 +17,24 @@
   Bluefor units and the other player controls the movement and combat of the Opfor
   units.
 
+  This is a technical document that defines the "Business Rules" for the game.
+
 * Glossary
 - Area of operations or AO
-  a clearly defined area where a military can operate.
+  a clearly defined area where military units operate.
 
 - Battle or 'Attack'
-  One or more ‘attacking’ units targeting a single adjacent ‘defending’ unit,
-  rolling a die, and consulting the Combat Results Table to determine the
-  outcome.  
-
+  An attack is when one or more units conduct combat operations against one or
+  more enemy units.  The unit that begins or initiates the combat is known as
+  the 'attacker', the target unit is known as the 'defender.' 
+ 
 - Battalion or Bn
-  A battalion is a military unit. The use of the term "battalion" varies by
-  nationality and branch of service. Typically a battalion consists of 300 to 800
-  soldiers and is divided into a number of companies. A battalion is typically
+  A battalion is a military unit that typically consist of 300-800 soldiers.
+  A battalion is divided into a number of 3-4 companies. A battalion is typically
   commanded by a Lieutenant Colonel.
 
 - Blue Forces or Bluefor
-  One side of the conflict typically represented by color Blue.
+  The Bluefor player is player 2 and is represented by blue icons.
 
 - Brigade or Bde
   a major tactical military formation that is typically composed of three to six
@@ -41,29 +42,30 @@
   or reinforced regiment. Two or more brigades may constitute a division .
 
 - Company (companies) or Co
-  a military unit, typically consisting of 80–150 soldiers and usually commanded
-  by a major or a captain. Most companies are formed of three to six platoons,
+  A military unit consisting of 80–150 soldiers and usually commanded
+  by a Captain  or Major. Most companies are formed of three to six platoons,
   although the exact number may vary by country, unit type, and structure. 
 
-- Combat Step 
-  One of the steps that make a "phase." The player has the opportunity to
-  conduct attacks directed against enemy units.
+- Combat Step or subphase
+  One of the steps that make up a "phase." During combat step the player has the
+  opportunity to conduct attacks directed against enemy units.
 
 - Combat Results Table or crt
-  The crt shows the results of combat. 
+  The crt specifies the effects of combat operations.   
 
 - Movement Step
-  One of the steps that make a "phase." The player has the opportunity to move
-  all, some, or none of his units. 
+  One of the steps that make up a "phase." During this phase the player has the
+  opportunity to move all, some, or none of his units. 
 
 - Non-phasing player
   The player who is not currently active.
 
 - Opposing Force(s) or Opfor
-  Bluefor's enemy typically represented by the color Red.
+  Player 1 is known as the Opposing Forces player or Opfor.  Opfor is
+  represented by Red icons. 
 
 - Phase
-  A phase consist of the Movement and Combat steps.
+  A phase consist of two steps or subphases Movement and Combat steps.
 
 - Phasing Player
   The active player.  In other words the player who is currently conducting the
@@ -79,6 +81,7 @@
 - Zone of Control or zoc
   All combat units have a zone of control.  The zone of control are the six
   hexes adjacent to that units location.
+
 * Random Numbers
   1. Typically an "analog" or paper-based game would use six-sided die (singular)
      or dice (plural) to generate random numbers.
@@ -96,6 +99,7 @@
       for the player.  A terrain file is associated with the map image and
       provides the terrain data that is used by the game. 
    3. The map represents a 2d land-based area of operations.
+   4. See Appendix B for an explanation regarding types of terrain.
    
 ** Hex Grid
    1. The map is overlaid with a hexagonal grid.
@@ -104,41 +108,11 @@
    4. Five hexes should be woods hexes.
    5. Each hex is numbered using a four-digit system where the first two digits
       indicate the hex column and the last two digits count down to the hex row.
-** Terrain
-   1. Terrain affects movement and combat.
-   2. Terrain data: ID number, terrain Type, movement modifier, and combat modifier.
-   3. This version of Brigade Ops has three types of terrain Clear, Woods (Forest) and
-      Towns.
-   4. Units can move into a Wood hex, it cost two movement points.
-   5. Unit can move into a Town hex, it cost two movement points.
-   6. Units can move into a Clear hex, it cost one movement point.
-
-*** Terrain Effects Chart or TEC
-    | Type  | Movement Effects | Combat Effects |
-    |-------+------------------+----------------|
-    | Clear | 1 mo to enter    | None           |
-    | Town  | 2 mp to enter    | None           |
-    | Woods | 2 mp to enter    | None           |
-    |       |                  |                |
-     
-*** Terrain File
-    1. The Terrain file contains data for each hex in the grid.
-    2. The Terrain file specifies which map image to load.
-    3. The terrain file should be in the Json format.
-
 * Units
   1. Units are show using icons that with NATO symbols that represent their type and function.
   2. Units have data that determine what that unit can do, and how well it
      performs during certain activities like combat and movement.
-
-** Unit Data
-   - There should be a data element that "points" or specifies what image to use
-     for that unit.  The image format should be jpg or png. 
-   - Unit ID = Two digit number the first number is what side the unit belongs
-     to Bluefor or Opfor, the second number is the units assigned "name."
-   - Combat Strength = 1
-   - Movement Points = 4
-
+     
 * Sequence of Play
   - Brigade Ops is played in turns.
   - A turn has two phases one for each player.
@@ -323,3 +297,57 @@
     This is another game that can be used for inspiration.  In this game the
     icons use vehicle outlines also known as silhouettes or shadows.  The maps
     in this game are really good.
+* Appendix A: Unit Data
+  Unit data is used by the game to determine what a unit can do, its
+  limitations, and other game related functions.
+
+  - Unit image
+    This piece of data determines what image icon to load.  The image format
+    can be png or jpg.
+
+  - Unit Type
+    A units type determines what a unit can do, its strengths and weaknesses
+    relative to other unit types, its mobility in certain types of terrain and
+    its survivability.  This version of the game only has one type of unit which
+    is 'Infantry' future versions will have more types which makes this data
+    type more important.  
+
+  - Unit Side
+    What side the unit belongs to either Bluefor or Opfor.
+
+  - Unit Location
+    Where the unit is currently located on the map.  Note this should be a four
+    digit number that represents the hex where the unit is located.
+  
+  - Unit ID = Two digit number the first number is what side the unit belongs
+    to Bluefor or Opfor, the second number is the units assigned "name."
+
+  - Combat Rating = 1
+    This is the combat strength for the unit and is used to calculate combat
+    results (see CRT).
+
+  - Movement Points = 4
+    Movement points determine how far a unit can travel in one turn (see
+    Terrain)
+* Appendix B: Terrain
+  1. Terrain affects movement and combat.
+  2. Terrain data: ID number, terrain Type, movement modifier, and combat modifier.
+  3. This version of Brigade Ops has three types of terrain Clear, Woods (Forest) and
+     Towns.
+  4. Units can move into a Wood hex, it cost two movement points.
+  5. Unit can move into a Town hex, it cost two movement points.
+  6. Units can move into a Clear hex, it cost one movement point.
+
+** Terrain Effects Chart or TEC
+   | Type  | Movement Effects | Combat Effects |
+   |-------+------------------+----------------|
+   | Clear | 1 mo to enter    | None           |
+   | Town  | 2 mp to enter    | None           |
+   | Woods | 2 mp to enter    | None           |
+   |       |                  |                |
+     
+** Terrain File
+   1. The Terrain file contains data for each hex in the grid.
+   2. The Terrain file specifies which map image to load.
+   3. The terrain file should be in the Json format.
+       
