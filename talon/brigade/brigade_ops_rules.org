@@ -10,12 +10,6 @@
   - Models Brigade operations using companies as the primary maneuver unit.
   - Each turn represents several hours of realtime.
   - Each player gets four turns to accomplish their mission.
-  - The Opfor mission is to take all four cities on the map.
-  - The Bluefor mission is to prevent Opfor from accomplishing their mission.
-
-  General Description of Play One player controls the movement and combat of the
-  Bluefor units and the other player controls the movement and combat of the Opfor
-  units.
 
   This is a technical document that defines the "Business Rules" for the game.
 
@@ -83,14 +77,19 @@
   hexes adjacent to that units location.
 
 * Random Numbers
-  1. Typically an "analog" or paper-based game would use six-sided die (singular)
-     or dice (plural) to generate random numbers.
-  2. Brigade Ops uses random numbers between 1 and 6.
+  The game model uses random numbers to add some chance to certain action like
+  combat, or detecting enemy units.
+  
+  - Generate random numbers in the range from 1 to 6.
+  - This represents rolling one six-sided die (singular for dice).
 
 * Game Setup
-  1. When the game begins, units should automatically be placed in their starting
-     positions on the map.
-  2. The appropriate map should be loaded with the appropriate terrain file.
+  The game should automatically load a file that specifies unit start positions,
+  maps and terrain to load, and victory conditions.  This file is called the
+  scenario file and defines a number of situational data for the game. 
+
+  In future versions of the game the player should be given the opportunity to
+  load a scenario of their choosing.
 
 * Map
 ** Map Image
@@ -108,7 +107,25 @@
    4. Five hexes should be woods hexes.
    5. Each hex is numbered using a four-digit system where the first two digits
       indicate the hex column and the last two digits count down to the hex row.
+
+** Hex Grid Resources
+    [[https://www.redblobgames.com/grids/hexagons/implementation.html][Implement Hex Grid]] 
+    This resource has several source code examples, most importantly Javascript
+    source.
+
+     [[https://www.redblobgames.com/grids/hexagons/][Math Reference for Hex Grids]]
+     This is a math reference not necessary for implementation.
+
 * Units
+  Units represent organizations or groupings of soldiers.  Units share some
+  common abilities for example movement, but some units have special
+  capabilities such as combat.  
+
+  Players use their units to conduct combat operations directed towards enemy
+  units to achieve mission objectives.  Some units can be used to add their
+  special abilities which may increase combat power or provide some other
+  benefit for example the ability to detect enemy units more effectively.
+
   1. Units are show using icons that with NATO symbols that represent their type and function.
   2. Units have data that determine what that unit can do, and how well it
      performs during certain activities like combat and movement.
@@ -351,3 +368,13 @@
    2. The Terrain file specifies which map image to load.
    3. The terrain file should be in the Json format.
        
+* Appendix C: Wargame Problems
+** Doesn't look right
+** Doesn't feel right
+** Complicated
+   - Limit a units abilities to one or two things.  For example artillery units have the
+     ability to project combat power at a distance.  Electronic Warfare units
+     can either jam or counter-jam.
+   - TODO develop a list of units and their special abilities.
+   - Players create an effective force by combining units of different
+     abilities.  
