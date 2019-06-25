@@ -370,7 +370,18 @@
        
 * Appendix C: Wargame Problems
 ** Doesn't look right
+   - The battlefield geometry does not look right because of the ariticial
+     heagonal grid.
+   - Units of different commands should not be allowed to stack in the same AO
+     if they are larger than a battalion.
+
 ** Doesn't feel right
+   - The "pace" of games seems to fast.  In other words units seem to do too
+     much.
+   - We need to determine a fixed time scale based on the echelon of the unit.
+     For example division level operations may be six hour turns.  Brigade
+     operations may be three hour turns.
+
 ** Complicated
    - Limit a units abilities to one or two things.  For example artillery units have the
      ability to project combat power at a distance.  Electronic Warfare units

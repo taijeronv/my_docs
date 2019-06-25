@@ -1,0 +1,497 @@
+#+TITLE:Red Storm Rising Rules V2.0 
+
+* Set Up
+** NATO
+   35 Units - set up first within set up areas and must have at least 1 Unit in every space along the iron curtain. 
+     - Orange – Denmark / Netherlands = 5 Units (3 x DE, 2 x NL) 
+     - White – Belgium / United Kingdom = 5 Units (2 x BL, 3 x UK) 
+     - Red – United States / Canada = 9 Units (8 x US, 1 x CN) 
+     - Yellow – France = 5 Units (5 x F) 
+     - West Germany = 11 Units (11 x WG) set up anywhere in West Germany
+     - Airborne = 4 Units (2 x US, 2 x WG), may be set up on board or start
+       off-board to be brought on by Air Transport or as Reinforcements.
+
+** Warsaw Pact  
+   36 Units – set up last within set up areas
+     - Grey – 2nd Guards Tank Army = 7 Units (16G, 2G, 207, 94G, 21, 4G-EG, 1G-EG) 
+     - Blue – 20th Guards Army = 6 Units (90G, 32G, 25, 20G, 9-EG, 35) 
+     - Yellow – 3rd Shock Army = 5 Units (10G, 72G, 47G, 7-EG, 3) 
+     - Orange – 8th Guards Army = 6 Units (79G, 8G, 39G, 57G, 27G, 8-EG)
+     - White – 1st Guards Army = 5 Units (11G, 9, 6G, 1G, 20G) 
+     - Purple – Central Group of forces = 7 Units (15G, 31, 1Cz, 18G, 48, 30G, 2Cz) 
+     - Airborne – 6 Units (103G, 76G, 7G, CF, NF, WF) may be set up on board or start off-board to be brought on
+       by Air Transport or as Reinforcements.
+
+  The reminder (27 NATO and 29 Warsaw Pact) form the reinforcement pools.
+
+    * Each player places their Assets (24 Warsaw Pact and 18 NATO) in their respective
+      on board boxes.
+
+    * The Warsaw Pact player places 15 Support Markers in their on board Support box.
+
+  Each player has an Air Reinforcement Pool (9 Air Units for NATO, 12 Air Units
+  for the Warsaw Pact). 
+
+*** NATO Air Reinforcements 
+    1 US E-3 Sentry (AWAC) 
+    1 US A-10 
+    3 US F-4 
+    1 US Cobra 
+    1 UK Tornado 
+    1 French Jaguar 
+    1 Belgian Alphajet
+
+*** Warsaw Pact Air Reinforcements 
+    1 Mainstay (AWAC) 
+    4 Mig-21 
+    3 Mig-23 
+    2 Su-17 
+    2 Su-24
+
+  The remaining Air Units (31 for NATO, 37 for Warsaw Pact) are the Air Units
+  available on the first Turn.
+
+** Game Length and Victory 
+   The Game lasts a variable number of Turns (the NATO 27 reinforcements can be
+   used to track Turns the last NATO reinforcements being received on Turn 9).
+     1. End of Turn 9 roll 1d10 with 7-10 ending the game
+     2. End of Turn 10 roll 1d10 with 5-10 ending the game
+     3. End of Turn 11, game ends automatically 
+  
+   At game end total up each sides controlled Cities with bonus Cities being
+   worth 2 if controlled by the opponent (Warsaw Pact controlling NATO bonus
+   Cities and NATO controlling Warsaw Pact bonus Cities). 
+     1. Warsaw Pact greater than NATO = Warsaw Pact win
+     2. Warsaw Pact equals NATO = Draw 
+     3. Warsaw Pact less than NATO = NATO win
+
+** Airborne Units and VPs 
+   Airborne Units can take control of cities but these do not count for VPs
+   until occupied by a friendly non-airborne Land Unit or trace path of 4 or
+   less spaces, unoccupied by enemy Land Units or enemy controlled cities, to
+   friendly Ground Unit.
+
+* Sequence or Play
+  1. Air Deployment
+     1. Both sides secretly distribute Air Units amongst Northern and Southern Sector
+        Air Missions – Command, Tactical and Air Superiority.
+
+  2. Air-to-Air Combat
+     1. Command Mission Aircraft Attacks declared and performed (by Sector).
+     2. Air to-Air Combat (by Sector).
+
+  3. Warsaw Pact Attacks
+     1. Add or remove Assets. 
+     2. Add Support Markers (maximum 6 per Turn). 
+     3. Attempt to place Tactical Mission Air units in any space to perform Ground attacks (by Sector).
+     4. Perform Ground and Air Attacks.
+
+  4. Warsaw Pact Movement
+     1. NATO attempts to place any Tactical Mission Air Units in Spaces to perform
+        Interdiction (by Sector). 
+     2. May Breakdown 4 AR Infantry or 5 AR Armor Movement of Ground Units,
+        including attempted placement of up to 3 off-board Airborne Units. 
+
+  5. NATO Movement
+     1. Warsaw Pact attempts to place any Tactical Mission Air Units in Spaces to
+        perform Interdiction (by Sector). 
+     2. May Breakdown 4 AR Infantry or 5 AR Armor.
+     3. Movement of Ground Units, including attempted placement of up to 3 off-board
+        Airborne Units.
+
+  6. NATO Attacks
+     1. Add or remove Assets Add Support Markers (maximum 6 per Turn). 
+     2. Attempt to place Tactical Mission Air units in any space to perform
+        Ground attacks (by Sector). 
+     3. Perform Ground and Air Attacks.
+
+  7. Reinforcements
+     1. Each side receives 1 Support Marker. 
+     2. Both randomly draw 3 Air Units if available. 
+     3. Each side may receive 3 Ground Unit replacements NATO draws and places 3
+        Reinforcements and offboard Airborne Units may arrive as Reinforcements. 
+     4. Warsaw Pact draws and places 1d10 on Turns 1 and 2, or 1d10 halved
+        (round-down) thereafter, and offboard Airborne Units may arrive as
+        Reinforcements. 
+
+* Attacking
+** Assets
+   At start of a player Attack Step can choose to add or remove Assets from Land
+   Units (cannot remove an Asset and place it on another Unit in the same Turn).
+   
+   NATO assets must be assigned to army pieces with matching nationality whilst
+   Warsaw Pact Assets must be placed with their correct Army, with exception of
+   striped Assets which can be assigned to any Warsaw Pact Land Units. 
+
+   Maximum of 2 Assets on an undamaged Land Unit or 1 Asset on a piece with 1 or
+   2 Hits (if 2 Assets and take a Hit, controlling player chooses which Asset to
+   return to Asset Box).
+
+     * Artillery Asset – increase AR of Unit by 1 
+     * Armor Asset (Warsaw Pact only) – increases AR of Unit by 1 
+     * Engineer Asset – Unit ignores rivers, both when attacking and moving.
+
+** Support Markers
+   Place Support Markers before any Attacks are made. The Warsaw Pact can play up
+   to 6 Support Markers and NATO can play up to 2 per Turn Allow the front Unit to
+   roll 2d10 and pick the best result. 
+
+   Can place 2 Support Markers on a space with an Armor Unit to the rear,
+   allowing any Breakthrough attack to also roll 2d10 and pick the best result,
+   but if the first space is not cleared the extra Supply Marker is discarded
+   unused.
+
+   All Support Markers are discarded after used.
+
+** Place Air Units attempting Ground Attacks
+    Place all Air Units from Tactical Missions by Sector with up to 3 per space wish
+    to perform ground attacks against. The opponent then rolls on the appropriate
+    Airstrike loss table for each (see tactical Air Missions). 
+
+    Any remaining can then be used to Attack Ground Units in their space at any
+    time during the Attack Step.
+
+** Land Unit Attacks
+    Land Units can attack enemy Land Units in an adjacent space. Each Unit may only
+    attack one enemy space per Turn. 
+
+    If 2 Units in the Attackers space only the front unit attacks. If 2 Units in
+    the opponents space only their front unit is attacked initially but if
+    retreats or eliminated get to immediately attack the second Unit.
+    
+    Roll 1d10 against the Units modified AR 
+    | Asset                                               | Modifier |
+    |-----------------------------------------------------+----------|
+    | AR per Artillery Asset                              |       +1 |
+    | AR per Armor Asset                                  |       +1 |
+    | if across a minor river (negated if Engineer Asset) |       -1 |
+    | if across a major river (negated if Engineer Asset) |       -2 |
+    | if into a Forest space                              |       -1 |
+    | if into a Rough space                               |       -1 |
+    | if Armor Unit attacking into a city space           |       -1 |
+     
+
+    If Roll equal or less the modified AR (or 1) the attack succeeds.
+      * Roll equal to modified AR - the opponent can take a Hit or retreat. 
+      * Roll below AR but greater than 1 – opponent takes a Hit and retreats. 
+      * Roll of 1 – if modified AR equal or higher than opponents modified (for
+        Assets) AR the Unit is eliminated and loses an Asset (chosen by the
+        controlling player), otherwise if  AR below opponents AR the Unit takes
+        a Hit, retreats and loses an Asset. 
+ 
+** Hits
+   Hits are marked on the Unit using a damage flag 
+      * 1 to 2 AR Unit is eliminated on first Hit 
+      * 3 AR Unit can take 1 Hit 
+      * 4 or 5 AR Unit can take 2 Hits.
+
+** Retreats 
+   Can retreat into any adjacent space holding 1 friendly Land Unit (cannot
+   retreat into space holding 2 friendly Land Units) 
+
+   Can retreat into an adjacent empty space providing are no closer to enemy’s
+   map edge in spaces than space retreating from.
+
+   Additionally must retreat into a space that is not adjacent to an enemy Unit
+   if possible. 
+
+** Breakthrough
+   If a space attacked is cleared of enemy Units, have an Armor Unit in the same
+   space and at the back of the attacking Unit, can use this to perform a
+   Breakthrough. 
+
+   Cannot perform a Breakthrough over a major river (unless the Armor Unit has
+   an Engineer Asset) The Armor Unit is moved into the cleared space and can
+   then attack enemy Units in an adjacent space (even against previously
+   retreated). 
+
+* Movement
+  Opponent places Air Units Attempting Air Interdiction The opponent
+  places any Air Units in Tactical Missions by Sector with up to 2 per space wish
+  to perform Air Interdiction. 
+
+  Once all placed, the opponent then rolls on the appropriate Airstrike loss
+  table for each (see tactical Air Missions).
+
+  Any remaining will then get to perform Air Interdiction against each Land Unit
+  that enters that space.
+
+** Division Breakdowns
+   Each player has 12 Breakdown Units, broken down into 4 groups numbered 1, 2, 3
+   and 4. 
+
+   Each group represents the components of a Division with NATO further dividing
+   into 2 US groups and 2 WG groups.
+     * 4 AR infantry replaced by 2, 1, 1 group. 
+     * 5 AR Armor replaced by 2, 2, 1 group. 
+
+   NATO Units must be broken down into a group of the same nationality. 
+
+   If the Unit has a Hit replace with any 2 Breakdown Units of that group, whilst if 2
+   Hits replace with any 1 of that group. 
+
+   Cannot recombine breakdown Units back into a division. If all breakdown Units
+   of a group are eliminated, another Unit can reuse them. 
+
+   All breakdown Units of a group are placed in the same space but must have a
+   maximum of 2 Land Units per space at the end of movement. 
+
+** Movement of Ground Units
+   Normally each Land Unit can move up to 2 spaces but not into any space
+   containing enemy Land Units. If a Land Unit does not start and does not move
+   adjacent to a space holding an enemy Land Unit can move up to 4 spaces that
+   Turn. 
+
+   If cross a minor or major river then movement is reduced by 1 space,
+   unless have an Engineer Asset when is ignored. 
+
+   Additionally during movement can freely rearrange any spaces holding 2 of
+   their Land Units front-to-back.
+
+** Moving Through Cities
+   If a Land Unit enters an enemy controlled City they capture it, place a Control
+   marker, or flip if a Control maker already there. 
+
+   The Land Unit can continue moving.
+
+** Crowding
+   At the end of a players move cannot have more than 2 Land Units per space. 
+   
+   If more than 2 Land Units the player must eliminate any excess. 
+
+   When a second land Unit enters a space, including retreats, must arrange so
+   one is placed in front of the other.
+
+* Reinforcements 
+** Support Markers
+   Each player receives 1 Support marker placed in their pool.
+
+** Air Reinforcements
+   Each player randomly draws 3 Air Unit reinforcements if available.
+
+** Replacements
+   Land Units with Hits can remove one Hit if not adjacent to an enemy Land Unit
+   and within 2 spaces of a friendly city that has never been held by the enemy
+   (cities with a control marker cannot be used for replacements). 
+   
+   Each player can only repair up to 3 Units and only 1 Hit per Unit.
+
+** Land Reinforcements
+    NATO randomly draws 3 Land Unit reinforcements with Belgium, France and
+    Netherlands Units starting in their native countries, whilst WG, US or UK
+    set op on or next to a NATO controlled city in West Germany.
+
+    The Warsaw Pact randomly draws 1d10 on Turns 1 or 2, or 1d10 halved
+    round-down, on subsequent Turns, Land Units which are place on or next to a
+    Warsaw Pact city not controlled by NATO.
+
+    Reinforcements cannot be placed adjacent to enemy Land Units and can never
+    have more than 2 Land Units per space. 
+
+    Both players are free to bring on off-board airborne Units, provided not
+    aborted from an attempted air transport move this Turn.
+
+* The Air/Land Game  
+** Color coded Attack Ratings
+     * Yellow AR – roll 2d10 when attacking other Air Units, against land units
+       have 1d10 and 1 AR  
+     * Green AR – roll 2d10 against Land Units but against other Air Units have
+       1d10 and 1 AR  
+     * Black AR – Attack both land and air with 1d10 using same AR for both
+      
+** Stealth Fighters 
+   The 2 NATO F-19s have several special properties
+     * On first Turn an F-19 on an Air Superiority Mission can choose to Attack the
+       Warsaw Pacts Command Mission Aircraft in that Sector and no Warsaw Pact
+       Air Units can be used to attack them. If both F-19s in same Sector can
+       use both in that Sector. 
+     * On Tactical Missions with an F-19 the Warsaw Pact has a +2 on Airstrike loss
+       roll. 
+     * If F-19 used in Air-to-Air combat Warsaw Pact Air Units have -2 AR
+       against them (minimum of 1). 
+
+* Air Deployment 
+  Place a divider down the middle of the Air Board so neither player can see
+  the opponent’s side, only revealing when both have placed their Air Units.
+
+  Each player secretly divides their Air Units amongst the Northern and
+  Southern Sectors Missions – Command Tactical or Air Superiority. 
+
+  Command Missions are for AWACs only If have 2+ Air Units assigned to a particular
+  Mission type must assign Air Units to both Sectors and must have at least ¼ of
+  those Units in the weaker Sector.
+
+** Command Mission and Air-Air Combat 
+    If 1+ AWACs in a Command Mission then all
+    air-to-air attacks for that Sector are increased by +1 AR.
+
+** Attacking Command Mission Aircraft
+  These are assumed to occur simultaneously but with the Warsaw Pact declaring
+  first, may assign up to 1 Air Unit from each Sectors Air Supremacy Mission to
+  attack the opponents AWACs in that Sector. 
+
+  The opponent gets to use as many Air Superiority Mission Air Units in that
+  Sector as wished to perform air-to-air attacks against the opponents Air Unit
+  (exception F-19s on first Turn), and only if survive this does the Air Unit
+  get to perform air-to air attacks against the AWACs.
+
+  Regardless of the outcome all Air Units used are removed from the Air
+  Board.
+
+** Air Superiority
+   Each Sector is performed separately. Warsaw Pact matches up the opponents Air
+   Superiority Air Units matching up as evenly as possible. 
+
+   Must assign 1 Air Unit against an enemy Air Unit before can assign a second, etc. 
+
+   If outnumbered can use Air Units with Yellow AR to attack 2 enemy Air Units
+   with 1d10 against each. 
+    
+   If equal or outnumber each can only attack 1 Air Unit. Once the Warsaw Pact has
+   performed all their attacks the process is reversed with the NATO player
+   matching up their Air Units to those of the Warsaw Pact
+
+** Air-to-Air Combat Effects
+   All attacks are assumed to occur simultaneously 
+     * If roll equal to AR enemy Air Unit is Aborted 
+     * If roll under AR enemy Unit is Damaged and Aborted 
+   A Damaged Air Unit is flipped over if blank or have already been Damaged are
+   eliminated instead. 
+    
+   An Air Unit suffering more than 1 hit is eliminated. 
+
+   Each Air Unit Aborted, Aborted and Damaged or Eliminated is placed in the
+   appropriate box, only after all attacks have been rolled by both sides are
+   these acted upon.
+
+   Aborted are removed off board for use in another turn, Aborted and Damaged are
+   flipped to their Damaged side and also placed off-board, whilst eliminated are
+   permanently removed from play. 
+
+   If both players have 1+ Air Units (or both have 0 Air Units) in a Sector,
+   then is contested.
+
+   If only 1 player has Air Units in that Sector then they have Air Superiority.
+
+** Tactical Air Missions 
+   Any Air Units in a player’s Tactical Mission boxes by Sector on the Air board
+   can be used to perform attacks or interdict enemy Land Units in the
+   opponents move. 
+
+*** Airstrike Loss Tables
+    Regardless of when placed, opponent rolls 1d10 against every Unit attempt to
+    place on the board. 
+       * -1 Helicopter 
+       * +1 space contains no enemy Units 
+       * +1 space contains friendly Unit (paratroopers dropped this Turn NA) 
+       * +2 US F-19 
+    Consult the Airstrike loss table by Air Superiority in that Sector of the
+    player placing the Unit.  
+       * An Aborted unit is placed off-board. 
+       * An Aborted and damaged unit takes damage (or a hit if airborne Unit), if
+         survive is placed off-board.  
+       * A damage and mission performed takes damage (Hit) but if survives is placed on
+         board. 
+       * Mission performed means successfully brought down.
+
+*** Terrain Effects on Tactical missions
+    For both Air Attacks and Interdiction the Air Units AR may be modified, down
+    to minimum of 1 AR. 
+       * Forest -1 AR 
+       * City -1 AR
+
+*** Air to Ground Attacks 
+    At the start of the Attack Step can attempt to place up to 3 Air Units per
+    space holding enemy Units by Sector. Once all placed the opponent rolls for
+    Airstrike loss against each.
+
+    Remaining Air Units can then attack enemy Units in that space at any time
+    during that Attack Step Can attack any Land Unit, regardless of if front or
+    behind or can attack one of the Land Units Assets.
+
+      - If roll AR or less the Land Unit takes one Hit or if against Asset is
+        eliminated.
+
+    If a Green AR then get to perform 2 attacks, either against the same Unit or
+    Asset or against another, but the targets must be declared before make the
+    first roll.
+
+    Air attacks do not force a Land Unit to retreat and nor does rolling a 1
+    have any special effect.  
+
+    As Air Attacks are performed remove the Air Unit off- board
+
+*** Air Interdiction 
+    At the start of a player’s Movement Step, opponent can attempt to bring down
+    up to 2 Air Units per space by Sector. Once all placed opponent rolls for
+    Airstrike Loss against each. 
+
+    Remaining Air Units then perform Interdiction against each and every Land
+    Unit that moves into their space that Turn.
+
+    If equal AR the Land Unit stops move. If less than AR, land Unit stops move
+    and takes 1 Hit. 
+
+    If a space being Interdicted by enemy Air Units contains 2 Land Units no
+    further Land Units can enter that space.
+
+    At the end of the opponents move all Interdicting Air Units are removed
+    off-board.
+
+* Air Transport 
+   During a players movement can attempt to bring down up to 3
+   Airborne Units by Air Transport. 
+
+   Place the Airborne Unit on an appropriate space, the opponent then gets to
+   roll on the appropriate Airstrike loss table (see Tactical Air Missions).
+
+   Aborted Units cannot be brought on by air transport or as reinforcements
+   until a future Turn.
+
+   Moving by air transport, counts as the Units entire move. Once brought onto
+   the map an Airborne Unit cannot again use air transport.
+     * Paratroops – can only be placed on a clear space (not a rugged, forest or city
+       space) without enemy Land Units. 
+     * Airmobile – can be placed on any space holding a friendly Land Unit,
+       including a paratroop Unit also brought on by air transport that Turn.
+
+* Chemical Munitions 
+  Both players have special Chemical Assets, 5 for the Warsaw Pact and 2 for
+  NATO.  
+
+     - A Chemical Asset adds +2 AR to that Land Unit
+
+  NATO cannot use (including placing) their chemical assets until after the Warsaw
+  Pact has used any of theirs. 
+
+  If the Warsaw Pact uses a Chemical Asset (defined as placing one on any Land
+  Unit), immediately remove all remaining EG Units from play.
+
+* Assets
+   | Asset     | Modifier                  |
+   |-----------+---------------------------|
+   | Artillery | +1 AR                     |
+   | Armor     | +1 AR                     |
+   | Chemical* | +2 AR                     |
+   | Engineer  | Rivers NA attack and move |
+    *Warsaw Pact must use first and lose all EG Land Units
+        
+* Terrain Effects 
+   | Terrain     | Ground        | Tactical Air |
+   |-------------+---------------+--------------|
+   | Rough       | -1            |              |
+   | Forest      | -1            |           -1 |
+   | City        | -1 (Armor)    |           -1 |
+   | Minor River | -1 (Eng NA)*  |              |
+   | Major River | -2 (Eng NA)** |              |
+   * + 1 Space of movement to cross (Eng NA)
+   ** +1 Space of movement to cross no Breakthrough (Eng NA)
+ 
+* Airstrike Loss Table Modifiers 
+   | Aircraft                 | Modifier |
+   |--------------------------+----------|
+   | Helicopter               |       -1 |
+   | US F-19                  |       +2 |
+   | Space with no enemy unit |       +1 |
+   | Space with friendly unit* |       +1 |
+    *Unless Paratrooper brought in by air transport that turn.
