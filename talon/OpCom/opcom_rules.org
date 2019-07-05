@@ -1,0 +1,1701 @@
+#+TITLE: OpCom Master Rules 
+
+
+* 1. Introduction
+These rules started out as a set of guidelines for the operational megagame
+Operation Market Garden. This game was run twice, once in 1988 and again
+in 1993. In the course of these outings, the rules altered and benefited from
+considerable feedback from participants. The game system I offer here is a
+distillation of that feedback from users, together with additional thoughts and
+research. 
+
+It is intended as a generic map gaming system for WW2 operations in
+the Western Europe Theatre, that is, covering operations from Normandy to the
+Baltic. With some alteration they might be suitable for the campaigns in Italy,
+although the terrain and operational practices make that theatre sufficiently
+different to make a rethink of the rules a good idea. The rules are not suitable
+for the Eastern Front or the Far East. 
+
+The underlying assumptions vary far too
+much. Operation Market Garden was a large and complicated operational game. It
+involved forces down to battalion level and headquarters up to Corps. When
+running such a game there is a lot to bear in mind, and the game system has to
+be robust in order that things progress smoothly. Of course, these rules do not
+need to be used only in the context of a full sized 100 player megagame there
+are plenty of smaller operations that they could as easily be used for in the
+context of a club game for half a dozen players. In addition to the reasonably
+straightforward aspects of ground combat the rules consider the problems of
+air-ground operations (both close support and airborne operations) and logistics
+(hopefully not quite as boring as some folk make out!). I hope you find this
+system usable and useful. Please send me feedback on how you get on with it, or
+just to ask questions. I will be happy to answer emails. 
+
+Jim Wallman Streatham
+2004 eMail : opcom@pastpers.co.uk Dedication: These rules have had influences
+from a number of people of the years - many more than could be usefully listed.
+I'd like to dedicate these rules to the late Steve Hale (1955-2000) who
+introduced me to wargaming over 30 years ago, was a founder member of Chestnut
+Lodge Wargames Group and was one of the most important influences in the
+original runs of the Operation Market Garden Megagame.
+
+
+* 2. Notes on Running a Game
+This system assumes a standard set up for map games. This consists of a minimum
+of three maps, one for each side, and a master map. The scale is unimportant, so
+long as they are clearly marked, and easy to update. It follows therefore that
+the game can be played with a minimum of three participants - one Game Control
+and two players. It is more fun if there are more players and teams of three per
+Divisional HQ (or the equivalent) and 1 control per team is ideal. With more
+players, or for larger and more complex battles, higher headquarters can be
+introduced and divisional teams need to be a little larger. The Game Control’s
+role is to keep the game going and to make sure the players feel that they are
+experiencing as realistic a simulation of the battle as possible. For this
+reason Control should never refer to the game mechanisms when talking to
+players. All reported battle results should be, as far as practicable, in
+'real-world' terms. Even if the players know all about how the combat system
+works, this is important because it helps with the ‘willing suspension of
+disbelief’ aimed at in good operational wargames. As Control you may often feel
+the urge to inject some arbitrary ruling at various times. Try to resist the
+gratuitous exercise of your power. If you feel that something has to be ruled on
+that isn't in the rules, then that is fine - the rules are not exhaustive - but
+in the interests of consistency this should be kept to a minimum. Often you will
+be called upon to apply common sense and a knowledge of inherent military
+probability to problems. The main aim of these rules is to provide a framework
+upon which you can successfully base that assessment.
+
+* 3. Scales, Level and Resolution
+The smallest represented unit is the Battalion (or equivalent) Players represent
+the staff at Divisional level or higher. Each game turn is half a day. Map
+scales etc. will vary with the map used, but counter sizes must match the map
+scale. Assume a counter frontage of around 1km per battalion or the equivalent.
+
+* 4. Sequence of Action
+Each full turn should take no more than about 25 minutes to adjudicate,
+preferably much less. For games with just one divisional team a side a game turn
+should take around 15 minutes to adjudicate. Control Actions
+1. Team Control takes players written orders for the
+
+turn on a standard proforma, reads them, clarify unclear points and prepares to
+work out the results.
+
+2. When Control are ready, the Team Controls move
+all counters on master map, and then assess the results of combat.
+3. Team Control orally brief the players on the
+outcome of combat. (This can be concurrent with 2. above if telephones &/or
+radios are available).
+4. Map Control position new reinforcement and
+supply counters on the main map for the coming move.
+
+Max Time Taken
+2-3 minutes
+
+No more than 5-10
+minutes
+2-3 minutes
+
+3-5 minutes
+
+Total 12-21 minutes
+Player Actions:
+5. Clarify orders when requested by Control.
+6. While Control are working out the update, prepare as much of next orders
+as possible and communicate with other HQs and superiors/subordinates.
+Carry out map updates.
+7. Be prepared for battle updates as they occur.
+
+
+* 5. Orders
+Each turn players will issue orders for units or groups of units with the same
+task (i.e. battlegroups, regiments, brigades). An order sheet is then passed to
+the team Game Control person who check they can understand it, before
+going to the main map and implementing the orders.
+Game control then annotate the order sheet as the combat is resolved and
+return to the players to report.
+A typical sheet might look like this:
+
+The headings are mostly self-explanatory, except ‘general intentions’ which
+are:
+Action
+Breakthrough
+
+Attack
+
+Probe
+
+This is only available to armoured units. An all out attack
+intended to break through the enemy formations and
+continue movement on the other side. This can mean the
+units fight more than one action during the turn, and will wear
+out units faster.
+Attack the units in the direction indicated in orders, with the
+intention of dislodging or destroying them and taking an
+objective.
+Intensive patrolling to determine the location and extent of
+units to the front. The unit will advance until it makes contact
+then conform to the enemy’s deployment, when found. This
+also give some unit identification of the facing units.
+
+
+Hold
+Move
+Prepare
+Posture
+Tact
+Non-Tact
+
+Rest
+
+Dig in and remain in current positions. If specified in orders
+this might be a ‘stand fast’ or ‘hold at all costs’ in which case
+the unit might take additional casualties rather than be
+pushed back.
+Move from ‘A’ to ‘B’. If enemy encountered, the unit stops
+and does not attack.
+Prepare for an attack. This is essential if an attack is to be
+successful.
+Tactical – ready for combat deployed and expecting trouble.
+Non-Tactical. Not ready for combat, not expecting trouble.
+Ammunition stowed, weapons slung. But allows faster
+movement.
+In some cases units can recover fighting effectiveness by
+resting. Typically this needs to be for several days before
+any improvement is felt.
+
+* 6. Unit Movement
+Movement
+As a guide, the ABSOLUTE MAXIMUM movement distance, in kilometres, on
+the map are shown below.
+Individual unit movement will almost always be much less than this maximum,
+especially the road movement rates which can be affected by weather,
+congestion, choke points and other road conditions
+REMEMBER, THESE FIGURES REPRESENT
+
+
+Obviously, movement can be interrupted for combat. Units which have
+moved for more than half a turn cannot fight in that turn (i.e. they fight in the
+next turn).
+Armoured units which are breaking through, may move on after a combat depending upon how fierce the fighting was.
+Examples of things that slow down unit movement
+• Moving down narrow, twisty lanes
+• Coming under fire
+• Traffic jams
+• Bad weather
+• Preparing for an attack
+
+River Crossing
+On the operational maps only river obstacles of major importance are marked.
+There are numerous minor obstacles that have been factored into the
+movement rates.
+[NB: If you are using a real map, you should ignore minor streams and
+waterways.]
+These river obstacles can only be crossed at a bridge by units indicated
+above as 'River Crossing = impossible'.
+Other units may cross canals and minor rivers, but not major rivers without a
+marked bridge (using minor unmarked footbridges and locks or otherwise
+improvising).
+Most bridges have a weight classification. For most purposes we are
+interested primarily in whether tanks can cross. Therefore there are only two
+classifications of bridge/Ferry:
+a. Light bridge/Ferry - equates to the Class 9, and is only passable for
+infantry and transport units (but not loaded tank transporters).
+b. Heavy bridge/ferry - equates to a class 40 Bailey bridge (or larger)
+and is passable to all types of unit
+Rail Movement
+It takes one turn to embark an infantry unit, two turns to embark a unit with
+tanks or trucks.
+It takes half a turn to disembark an infantry unit, or a whole turn for others.
+Embarkation must be done at a town or village on the railway line.
+Disembarkation can be done anywhere for infantry – but must be at a
+town/village for vehicles.
+A train is given a lift capacity in Unit Points, typically around 5-10.
+Once embarked the unit may move down the rail network freely, taking one
+complete turn to go as far as it likes.
+The availability of trains to move troops will be laid don in the scenario.
+
+
+Passing By There are circumstances when units may wish to pass through the
+enemy, or between units where there appears to be a gap. This needs careful
+treatment, because this sort of infiltration or exfiltration did sometimes
+happen. As a general rule of thumb, it is not possible to pass by an enemy unit
+closer than 2km in the open. The movement is stopped, as if they had bumped into
+the unit directly (unless they have orders to attack, of course). If the
+movement is through woods, or at night, then the passing distance is 1km. Units
+in contact cannot ‘rub past’ an enemy unit they are in contact with, without
+fighting it. They must break contact first. Night Movement. The first part of
+the morning turn, and the last part of the afternoon turn are, obviously,
+night-time. If orders explicitly require night movement, then movement is
+limited to a ceiling around ¼ of the maximum moves permissible.
+
+* 7. Traffic
+Unit Points
+At any major crossing, the bridge or ferry will be given a capacity in terms of
+'Unit Points Per Turn'
+Each unit is given a score (indicating its size in vehicles). During any major
+troop movement, bridges will form the main choke points for traffic, and this
+will be reflected in the game.
+The unit points are marked on the counters concerned.
+Game Note: If you want to calculate the size of units for yourself, for your own games, as a
+very rough rule of thumb I have used the scale of 1 Unit Point = approx 50 vehicles of all
+types.
+
+
+The capacity rating for each area will be marked on the main umpire map, and
+the information should be available to defenders who have been in the area
+for a while, or to units that conduct a terrain recce of the area.
+None of these figures are hard and fast, of course.
+Circumstances can dramatically alter the capacity of a given river crossing.
+The above figures must be regarded as only a general guide and you must
+use your judgement as the game progresses.
+
+* 8. Blowing Bridges
+It was common for the German army to prepare bridges for demolition, and for
+the various airforces to destroy bridges without reference to ground forces.
+Often the destruction of a bridge was out of the hands of commanders at the
+player level, so we have a die roll for it.
+Unless otherwise defined in the scenario, bridges may dice to blow if fought
+over, or you may test at Map Control's discretion should the circumstances
+warrant it. Roll a 1 on 1d6 to blow.
+Once tested and failed to blow, the bridge should be assumed 'safe' if
+checked or passed over by an Allied unit - mark the bridge 'safe' on the
+master map to prevent another umpire from re-testing it.
+
+* 9. Combat
+Unit Status
+In this game we use the 'Patel Profiling System' for unit status.
+At any given point in the battle all units have a status level, from 0 to 10.
+It is important to realise that these levels are NOT strength points, although
+strength is a consideration, neither are they solely combat effectiveness, they
+are an amalgam of the two.
+A unit may take a number of step reductions as a result of combat which
+usually means a reduction in status - although this is not a 1:1 relationship.
+For example, and infantry battalion might have the following status profile:
+Step
+Reduction
+
+Undamaged
+0
+
+-1
+
+-2
+
+-3
+
+5
+
+3
+
+2
+
+1
+
+Status
+Level
+
+-4
+No longer an
+effective unit
+
+See Annex A for a summary of typical unit profiles.
+
+This profiling system means that a unit counter used on the master map can
+show a series of numbers, like this:
+
+5-3-2-1-0
+and Control can cross off a number to represent a step loss, and see the
+resulting Status Level.
+Example Master Map Counter
+Main Formation
+
+Unit Size
+
+Unit short title
+
+Logistics lift
+
+Unit type symbol
+Status points profile
+
+If you are unsure of the unit type symbols used, see annex B
+Example Player Map Counter
+The players should never be given data on the exact unit status numbers.
+Therefore, where players use map counters at all, they should look like this:
+
+10
+
+© Jim Wallman 2003
+
+Master Ruleset
+
+Support Units
+Some units have a primarily support role. In this case the status profile will
+appear in square brackets, thus: [5 – 3 – 2 – 1 – 0]
+This means that the unit’s status value can only be used in attack or defence
+in conjunction with another unit of at least equal status.
+Defence only units.
+Status profile values in brackets indicate that they can only be used in
+defence, i.e. (2) - (1) - 0
+Attacking
+A unit may make two attacks in a day, provided it has the time and the
+supplies.
+Normally no more than one attack per turn should be permitted (except - see
+Overrun Attacks below).
+Combat is assessed in terms of attacks. In the case of an encounter battle,
+work out who attacks first, and proceed from there.
+It takes one turn to prepare an effective attack.
+(NB: It is possible to attack unprepared, but see the -2 factor below)
+Orders to prepare for an attack must be made on the order sheet.
+Supplies
+Units cannot attack without supplies.
+Supplies are represented by coloured counters.
+They have their own special movement rules (see below).
+Supplies are only used up in the attack. Units may use supplies as follows:
+
+ANY ATTACK
+ANY ARTILLERY USE
+DEFENDING
+MECHANISED UNITS
+
+1 Supply point per unit
+1 Supply point per unit
+No Supply points
+1 FUEL Supply point per unit per turn moved or in
+combat (either defence or attack).
+
+When a unit falls below status 1, it ceases to be effective.
+It is not removed from play, but is incapable of withstanding any attack, or
+even putting up a fight, will retreat if at all possible. If unable to retreat then it
+is, in effect, captured (players get reports of large numbers of prisoners from
+the unit).
+
+11
+
+© Jim Wallman 2003
+
+Master Ruleset
+Combat Assumptions
+• Combat is extremely wearing on all troops. Even if they win a battle, the
+winner’s attacking units will take many casualties, often more than the
+defenders. It is important for commanders to ensure that they do not
+exhaust their entire force by continually using, say, their entire division to
+attack.
+• Paratroops and some German infantry formations lack substantial numbers
+of heavy weapons, and are therefore disadvantaged in the attack, or facing
+tanks in open country.
+• Infantry have an advantage over tank formations when defending built-up
+areas or closely wooded country.
+• Preparation is everything. All attacks need at least one game turn of
+preparation (i.e. waiting, or moving up a short distance) if they are to stand
+the best chance of success. Obviously, sometimes attacks must be hastily
+organised and immediate – but be warned, success is less likely in hasty
+attacks.
+• Co-ordination in battle is very hard. Units from the same Brigade /
+Regiment / Battlegroup are used to working together – but additional units,
+especially from another command or division make the task of battle coordination harder. So in a single fight, two brigades from the same division
+will be more effective than two brigades form different divisions.
+• Tactical air power in the close support role can be decisive in an attack.
+But it does require several squadrons of effort to do so.
+• Artillery is essential to both attack and defence. Attacking without artillery
+support is a definite disadvantage.
+• Combined arms attacks – making good use of infantry, armour and artillery
+in the same attack – increase the chances of success considerably.
+• Tank units are quite potent in battle, but have limits. A well deployed
+infantry battalion can hold up tanks, especially in close country.
+• It takes time to do anything. For the vast majority of units, the following
+timings apply:
+a. To prepare a brigade/battalion for an attack takes 1 turn.
+b. Attach a battalion to a different division takes 1 turn.
+Players must have allowed for these timings in their orders.
+
+12
+
+© Jim Wallman 2003
+
+Master Ruleset
+Analysing Combat
+1. Get the orders from both sides for the action.
+2. Check that you understand all the movements involved before resolving
+any combats. Sometimes a key instruction is included with some
+seemingly unimportant order at the bottom of the page.
+3. Check that the orders relate to the situation – sometimes key things have
+changed, such as an enemy they were expecting to attack has vacated
+their positions suddenly. IN cases like this – refer back to the players for
+an instant decision. These should be instant – no discussion is allowed.
+4. Work out what constitutes the combat to be adjudicated. This will typically
+be where a single formation of up to regimental/brigade size is attacked.
+The forces involved will be the defenders vs all units involved in the attack,
+in a single combat calculation (see below). If there are defenders in very
+different situations. This might be something like one battalion of a
+brigade is in a built up area and the neighbouring battalion is in the open –
+then you might break down the combat into two separate calculations.
+5. When you have decided how to group all the combats – move to the
+Combat Procedure (below) and work out the results. Don’t do combat
+resolution until you have decided this for all combats (because it can get
+messy otherwise).
+Combat Procedure
+1. Total the attacker's status points (including supporting artillery / air) and
+ADD Factors that apply to the attacker to arrive at the Attacker’s Score
+2. Total the Defender's status points (including supporting artillery / air) and
+ADD the factors that apply to the defender to arrive at the Defender’s Score
+3. Subtract the Defender’s score from the Attacker’s score.
+4. Add the score of 1d6
+5. Look up the result in the table
+FACTORS (apply to both attacker and defender if appropriate)
++1 per unit for each clear tactical advantage(1)
++1 per unit if 'Combined Arms'(2) (prepared)
+-1 per unit if light infantry(3) attacking
+-2 per unit for unprepared attack
++1 per unit if defending close country(4) against tanks
+-1 per unit if unsupported infantry(5) in open against tanks
+-1 per mechanised unit with no fuel
+-2 per units if moving non-tactically
+
+13
+
+© Jim Wallman 2003
+
+Master Ruleset
+-1 for each unit from another formation(6)
++4 for ordinary air support
++6 for superior air support
++8 for overwhelming air support
++10 for apocalyptic air support
+Notes:
+(1) These cannot always be codified - but things like holding a river crossing, overlooking
+the enemy, or having spent several days preparing defences - that sort of thing would qualify
+(2) A combined arms attack or defence is one in which there is a balanced force of infantry
+and tanks and supported by artillery. Acceptable balances would be, say, no less than 1 tank
+status point per 3 infantry or 1 infantry to 3 tank. Any amount of artillery counts. This can only
+be applied to prepared attacks.
+(3) Light infantry are British & US paratroops, US glider troops transport and HQ units, adhoc units, units fighting out of role (i.e. tanks or artillery units fighting as infantry).
+(4) Close country is defined at built up areas or woods.
+(5) Unsupported infantry are infantry with no tank or anti-tank units with them and no artillery
+allocated to their defence.
+(6) Units from another formation are units that are not part of the main brigade or division
+leading in the attack. Particularly common where an ad-hoc defence or hasty attack has
+been organised.
+
+Supporting Artillery
+Unit
+Field Artillery
+Medium Artillery
+Rocket Artillery
+Infantry Guns
+EFFECT
+
+Effective Range (km)
+8
+12
+6
+6
+Normal Status
+
+Long Range (km)
+12
+20
+n.a.
+n.a.
+HALF status
+
+Artillery Units join the combat as additional unit status in the combat
+calculation.
+Defending artillery specifically allocated to the task can be counted for the
+defenders and use ammo in the process.
+Artillery units can be moved and fired, but obviously their effect is reduced in
+proportion to how much of the turn they spend moving and what part of the
+turn they move in.
+For example, an artillery regiment moving up during the first half of a turn
+could not, obviously, support an attack commencing at the beginning of that
+turn.
+Air-Ground Attacks (Close Air Support)
+Close air support (CAS) of a ground battle is very difficult to organise
+successfully.
+This can only be done in prepared attacks (i.e. those having spent the
+previous turn with 'prepare' orders)
+Also the effectiveness of the attack is influenced by the presence of
+specialised air liaison units - in the case of Allied forces called 'Tentacle' or
+Germans, ‘FLIVO’.
+
+14
+
+© Jim Wallman 2003
+
+Master Ruleset
+German doctrine seems to have been to use their limited air power to hit rear
+areas and vulnerable targets - so most of the time they will use the
+interdictions rules (see later).
+Air attacks are always by squadrons or the equivalent
+The various bomb-loads and tactical doctrines have been averaged out in the
+interests of simplicity.
+All allied air attacks by Typhoons, Mosquitoes, Spitfires and all the rest of the
+tactical airforces are treated as 'Ground Attack'.
+Long range heavy and medium bombers are the only type treated differently.
+Squadrons needed to achieve…
+Type
+
+German Ground
+Attack Squadrons
+Allied Ground
+Attack Squadrons
+Heavy Bomber
+Squadrons
+
+Normal
+support (+4)
+
+Superior
+support (+6)
+
+Overwhelming
+support (+8)
+
+Apocalyptic
+support (+10)
+
+1-2
+
+3-5
+
+6-9
+
+10 or more
+
+1
+
+2-3
+
+4-7
+
+8 or more
+
+-
+
+-
+
+1-2
+
+3 or more
+
+Team Control (or Air Control is one is being used) must quickly place an
+appropriate air attack marker on the master map so that the air attack factor is
+added into the combat.
+
+Cab Rank. This was a system whereby a number of squadrons would be in
+the air and on call for 'immediate' CAS missions. This option is only available
+to the Allies.
+A Cab Rank has to be allocated to a specific formation for an entire day (2
+turns), and takes 2 squadrons to provide 1 squadron's worth of cover.
+Only Europe-based air units can participate in Cab Rank.
+The main effect is that by using Cab Rank CAS is made available for
+unprepared attacks and can be allocated to defence.
+
+15
+
+© Jim Wallman 2003
+
+Results Table
+Score
+
+12 +
+
+8-11
+
+5-7
+
+4 to 1
+Less
+than
+-1
+
+Standard Results
+
+Special Results
+
+Total success.
+Attacker takes one step loss per unit
+Defender takes 2 step loss per unit, and must retire at
+least 2d6 km in open or half that in woods / close country.
+Defender loses two supply points per unit, and may not
+counter-attack next turn.
+Success.
+Attacker wins, takes one step loss per unit.
+Defender takes one step loss per unit and must retire 1d6
+km in the open or half that in woods / close country.
+Defender loses one supply point per unit.
+Limited Success.
+Attacker wins, and takes one step loss per unit.
+Defender takes one step loss per unit and must retire 2 km
+in open or 1 km in woods / close.
+Defender may counter-attack if so ordered.
+Defender loses one supply point per unit.
+Confused combat.
+Both sides take one step loss per unit, and remain in
+position. No counter-attacks possible this turn.
+Attackers badly beaten.
+Defender takes no loss. Attackers all take one step loss
+per unit and are thrown back to start line or at least 1 km
+whichever is greater. Defender may counter-attack if so
+ordered.
+
+16
+
+If attacker mostly armoured and has TWICE status of defender and has 'BREAK
+THROUGH' orders, then it is a SUCCESSFUL OVERRUN ATTACK. Move
+through defeated enemy up to half remaining movement.
+If this brings the unit into contact with more enemy, then an unprepared attack is
+permitted in the same turn at player's discretion.
+If attacker mostly armoured and has TWICE status of defender and has 'BREAK
+THROUGH' orders, then it is a SUCCESSFUL OVERRUN ATTACK. Move
+through defeated enemy up to half remaining movement and take 1 extra status
+loss on attackers.
+If this brings the unit into contact with more enemy, then an unprepared attack is
+permitted in the same turn at player's discretion.
+If attacker mostly armoured and has TWICE status of defender and has 'BREAK
+THROUGH' orders, then it is a SUCCESSFUL OVERRUN ATTACK. Move
+through defeated enemy up to one quarter of remaining movement and take 1
+extra status loss on attackers.
+If this move brings the unit into contact with more enemy, halt.
+
+© Jim Wallman 2003-4
+
+NOTES:
+1. Units forced to retire will do so straight back usually or to a specific location to
+their rear if that is more reasonable - for example into a nearby town or wood, or
+across a bridge etc. - even if this might mean altering the distance pushed back
+slightly.
+2. Units ordered to stand fast or holding a vital spot (such as the end of a bridge for
+example) may choose to give up an additional step loss and ignore a retreat result.
+3.
+
+Units in marked city areas do not retreat on anything less than a 'Total Success'
+result.
+
+Example of Combat Procedure
+Defender
+2nd Para Bn is defending the north end of Arnhem Bridge.
+It has a current status of 6, and is supported by 5 AL Atk Battery with a status of 2. Total
+Status 8. The whole force is in a built up area.
+The defender’s score starts off as 8
+The defenders have been in position in the city for a day, which Control deem to be a 'tactical
+advantage' to the defenders
++2
+Bringing the final defender’s score to 10
+Attacker
+This is attacked by an ad-hoc force of Germans made up of:
+20 SS PzGR Bn, status 6
+9 SS PzJg Abt (fighting as infantry} status 4
+9 SS Pz Abt (fighting as infantry) status 4
+9 SS PzArtR (fighting as infantry) status 4
+Supported by field artillery within effective range - status 6
+Total status 24
+All the attacking units spend the previous turn with 'prepare' orders.
+So the attacker’s score starts off with 24
+Three of the attacking units are classed as 'light infantry' -3
+Making the final attacker’s score as 21
+Less the defender’s score (of 10): 21 – 10 = +11
+The Germans roll a 2 on 1d6, bringing the score to +13
+This is a Total Success. This would normally force the British out of position, but they had
+orders to 'hold at all costs', so they can ignore the retreat at a cost of extra status loss.
+The defenders take 3 status steps lost on 2nd Para Bn and the Atk Bty. This reduces the Atk
+Bty to zero effectiveness, and the Para Bn to a status of 3
+The attackers take one step loss on each unit involved (except the supporting artillery,
+obviously) and remain in position.
+The attackers used up 5 ammo counters and 1 fuel in the attack, the defenders used up no
+ammo.
+
+17
+
+© Jim Wallman 2003-4
+
+Master Ruleset
+Bombing/Interdiction
+When carrying out interdiction attacks or flak suppression either by aircraft or
+long range artillery, the rules are different.
+Take the number of squadrons used and use the following table:
+Roll 1d6 per unit in the interdicted area.
+Force being used
+
+Result on Die
+
+Tactical Sqns
+or Arty Bns per
+map square
+
+Heavy
+Squadrons per
+map square
+
+One Step loss
+& immobilised
+
+Immobilised
+
+No effect
+
+1-2
+3-4
+5-6
+7-8
+10-12
+12+
+
+1
+2-3
+4-5
+6-7
+8+
+
+6
+6
+5-6
+5-6
+4-6
+3-6
+
+5
+4-5
+3-4
+2-4
+2-3
+2
+
+1-4
+1-3
+1-2
+1
+1
+1
+
+Interdiction can be a point on a road, or a bridge or similar choke-points. The
+effect is therefore on every unit that tries to pass through.
+Counter-Battery
+Units must be allocated to CB for the entire turn. If any enemy artillery is used
+within range of the CB forces – roll 1d6 – score 6 for a successful ‘fix’ on the
+unit’s location. Use the Interdiction table above for results.
++1 to die roll for every turn after the first that the enemy artillery fires form the
+same location.
+
+10. Hints on Reporting Combat Results
+The realistic feel of the game depends on how well Game Control report back
+to players. This, as mentioned before, must be in the same way a real
+commander might get information.
+This can be in the form of a story of the events of the battle – adding all sorts
+of colour to make it sound like a real battle account.
+Or, if there is a lot of reporting to do, it might be more streamlined with only an
+outline of events.
+It key thing to remember is what the player/commander needs to know. The
+following information must be imparted.
+Use the mnemonic ELETIS
+EFFECTIVENESS – LOCATION – ENEMY – TYPE – INDENTITY – SUPPLY.
+1. EFFECTIVENESS. An indication of the combat effectiveness of their own
+forces. You may not reveal status scores. However, remarks like “the
+
+18
+
+© Jim Wallman 2003
+
+Master Ruleset
+unit is very close to disintegration”, or “the unit has had light losses and is
+fully capable of further offensive action” are good. Units with a status of
+less that 3 are regarded as having low offensive power. Units with status
+of over 5 are regarded as have considerable combat power.
+2. LOCATION. The location of own forces. It is important that this is correct,
+because they are basing their next orders on these positions
+3. ENEMY. They should be told roughly how many battalion equivalents they
+are fighting. This may be modified – 3 weak status battalions might be
+mistaken for one full-strength one.
+4. TYPE. They should be told what sort of opposition they face. Tanks,
+artillery and air power MUST be mentioned if they are involved.
+5. INDENTITY. If they have been in contact with the same formation
+(division or regiment/brigade) for more than one turn, they should be given
+unit identification as well.
+6. SUPPLY STATE. The players must be told how many supply points they
+used up in the turn. This might be due to their own and/or enemy action.
+
+11. Supplies
+Supplies are represented by coloured counters, indicating:
+Red counters
+= British Ammo
+Green counters
+= American Ammo
+Blue counters
+= German Ammo
+Yellow counters
+= Fuel
+Typically, the Brigade/Regimental HQ units are used as the focal point for
+unit-held supplied. In reality, individual units, especially mechanised units,
+held quite a lot of supplies with their integral transport. This would lead to a
+very cluttered map – so we slightly fudge the representation and place all the
+supplies for a brigade/regimental group with the HQ unit – this then doubles
+as a supply focus. The HQ unit has a limit to the number of supply counters is
+can carry about – marked on the counter.
+Units can therefore draw on any supplies from their Bde/Regt HQ ‘stack’
+provided it is within 5km. In normal circumstances Game Control should
+assume the HQ unit follows the main units during an advance and positions
+itself appropriately to be able to supply its sub units – even if players forget to
+issue specific orders for the HQ.
+Supplies still need to be delivered to the HQ units and this is done in one of
+three ways:
+a. Using the resources of a divisional supply dump to deliver locally. This is
+usually up to a distance of about 10 km, but it does vary (i.e. it is a bit less
+
+19
+
+© Jim Wallman 2003
+
+Master Ruleset
+for an airborne division's dump). This facility is also limited in the number
+of supply counters it can move, and both this and the lift range are marked
+on the dump counter.
+b. Carried in a supply transport unit (which is a separate unit counter in a
+given formation). This will have its capacity marked on it, in terms of the
+number of supply points it can carry.
+Supply counters can be simply ‘parked’ at any point on the map – but this is
+not a dump (because a dump has it’s own delivery capacity).
+Example of logistics movement
+
+Attacking enemy
+
+These local supply
+points will be used
+for the immediate
+attack
+
+The unit can receive
+more supply points
+from this dump within
+10km
+
+Additional supply
+points are being
+delivered to the
+dump by transport
+units.
+
+Game note: Keeping an exact track of supplies in combat is notoriously difficult. In the event
+of uncertainty, it is Control’s view of what is available that is the definitive view.
+
+Moving A Supply Dump
+Supply dumps cannot be just ordered about like other types of unit. IN order
+to move a dump the Division allocates a new location for the dump, and the
+dump counter (without it’s attendant supply counters) is moved to the new
+location - up to the maximum move for lorries – taking a turn, but leaving it’s
+supplies behind. Supplies are then moved to the new dump using whatever
+transport units are available in the normal way.
+
+20
+
+© Jim Wallman 2003
+
+Master Ruleset
+
+12. Air Operations
+The main missions are: Air Transport, Close Air Support (CAS), Bombing,
+Recce and Escort.
+The map is divide up into air zones - each around 30km across. Most air
+deployment is by Air Zone.
+a. Air Transport: delivering supplies or troops either by landing, parachute
+or glider. Air transport deliveries are not by air zone, but to specific locations
+on the map.
+Air Resupply
+Use the following ready reckoner Roll 1d6 plus factors
+Factors
+Poor terrain
+-1
+If the zone is contested at the time of the drop, -3
+If the supplies are landed on an airstrip
++2
+If the supplies are landed on an airstrip with AFDAG deployed +5
+Enemy fighters intervene
+-3
+Enemy flak intervenes
+-2
+No of
+points
+
+6+
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+-1
+
+-2
+
+-3
+
+-4
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+9
+8
+7
+6
+5
+5
+4
+3
+2
+1
+
+8
+7
+6
+6
+5
+4
+3
+2
+2
+1
+
+7
+6
+6
+5
+4
+4
+3
+2
+1
+1
+
+6
+6
+5
+4
+4
+3
+2
+2
+1
+1
+
+5
+5
+4
+4
+3
+3
+2
+2
+1
+1
+
+4
+4
+3
+3
+2
+2
+2
+1
+1
+0
+
+3
+3
+2
+2
+2
+2
+1
+1
+1
+0
+
+2
+2
+2
+1
+1
+1
+1
+1
+0
+0
+
+1
+1
+1
+1
+1
+1
+0
+0
+0
+0
+
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+The lift for supplies will vary according to the plan and air interference etc.
+The resulting of supply counters will be placed on the appropriate dropzones
+by the Air Control Team.
+Parachute and Glider Drops
+The main casualties to units being delivered by parachute or glider are as a
+result of dispersion or non-arrival of key aircraft.
+In daylight drops most units arrived pretty well intact. Night drops were a
+good deal less predictable.
+Drops must be made into open areas or marsh or polder not less than 1km
+across.
+Drops may not be made into woods or built up areas. Or on lakes, before you
+ask.
+
+21
+
+© Jim Wallman 2003
+
+Master Ruleset
+Day Drops
+For each unit delivered by air, roll 1d6. Score 1 for a status loss.
+Roll again for those suffering a loss - score 1 again for it to be permanent,
+otherwise the lost status is recovered the after 1 clear turn (i.e the next day).
+If unengaged enemy fighters in the same air zone as the dropzone
+-2 on the first die roll.
+If under fire from Flak
+-2 on both die rolls
+If enemy on the drop zone
+-2 on both die rolls
+Night Drops
+For each unit delivered by air, roll 1d6. Score 1 or 2 for a status loss.
+Roll again for those suffering a loss - score 1 or 2 again for it to be permanent,
+otherwise the lost status is recovered the after 1d6 turns.
+If under fire from Flak
+If enemy on the drop zone
+
+-1 on both die rolls
+-1 on both die rolls
+
+Gliders
+Units delivered by glider have risks in addition to those above.
+Glider units landing on poor terrain (e.g.marsh / polder) roll 1d6, score 1 for a
+permanent status loss.
+Movement after landing
+It takes only a short time for airborne forces to be mobile after landing.
+However, the timing of landing is critical:
+Morning daylight drop
+- no movement in same turn as drop.
+Afternoon daylight drop
+- allow ½ full movement
+Morning night drop
+- allow ½ full movement
+Afternoon night drop
+- no movement allowed
+b. Close Air Support: Acting as artillery support to a given ground
+operation. This must be pre-ordered as part of the units orders - and must
+appear in BOTH ground AND air orders to be effective. Only available to
+Allied forces. See Combat section for how this works.
+c. Bombing: Bombing a given location or unit on the map behind enemy
+lines. This includes flak suppression actions. The bomb line is normally at
+least 2 km from the nearest friendly troops. See 'Bombing / Interdiction'
+d. Recce: Reconnaissance of an air zone per squadron/move.
+Units in cover have a vanishing small chance of being spotted, so we ignore it
+here (unless there is an exceptionally high concentration)
+Armoured and mechanised units in built up areas cannot claim cover.
++1 if more than 3 units in same grid square.
+
+22
+
+© Jim Wallman 2003
+
+Master Ruleset
+Results table 1d6
+Target:
+
+Die roll
+6
+
+Vehicles in
+Moving open
+
+Direction, type
+and size of unit
+reported
+5
+Direction and
+type reported
+4
+Direction
+reported
+3
+Direction
+reported
+2
+'Enemy
+spotted'
+1
+No report
+Explanation:
+
+Vehicles
+stationary in
+open
+
+Infantry / Guns /
+Supplies
+stationary in
+open
+
+Type and size
+reported
+
+Type reported
+
+Type reported
+
+'Enemy
+Spotted'
+No report
+
+Infantry Moving
+in open
+
+No report
+
+No report
+
+Direction, type
+and size of unit
+reported
+Direction and
+type reported
+'Enemy
+spotted'
+'Enemy
+spotted'
+No report
+
+No report
+
+No report
+
+No report
+
+'Enemy
+Spotted'
+No report
+
+No report
+
+Type = distinguish between trucks, tanks, assault guns, artillery, half tracks, infantry etc.
+Direction = the main direction of movement , eg "towards Arnhem"
+Size = "Battalion sized unit" or 'Several battalions", "small force" etc
+'Enemy Spotted' = a vague report that some sign of enemy activity has been seen in a given
+location, but no details.
+
+e. Escort: Close air cover to protect bombers or transport aircraft. See 'Air
+Conbat'
+f. Air Cover: Combat air patrols to dissuade enemy air operations. See 'Air
+Combat'
+Losses from Flak
+If a flak unit is the victim of a flak suppression mission – and it takes damage
+or is immobilised (see ‘Interdiction’ above) then it is also suppressed for that
+turn.
+Flak can be very damaging to nearby transport operations or on Bomber or
+Transport overflights.
+Target:
+1d6 per target air serial
+
+Overflight (not
+fighters)
+Loss Dam
+
+NE
+
+Air landing /or
+paradrop within 2km
+Loss Dam
+NE
+
+Air landing /or
+paradrop within 4km
+Loss Dam
+NE
+
+Heavy Flak
+6
+5
+1-4
+5-6
+3-4
+1-2
+6
+5
+Light Flak
+6
+1-5
+5-6
+4
+1-3
+6
+Loss = transported/landed unit loses one status AND air unit takes one
+damage (2 damage = one lost serial/squadron (aggregate over whole
+operation for the turn)
+Dam = air unit takes one damage.
+NE = no effect
+This is addition to the dispersal effects in the paratroop rules above.
+
+23
+
+1-4
+1-5
+
+© Jim Wallman 2003
+
+Master Ruleset
+
+13. Air to Air Combat
+Fighter vs Fighter
+1. Establish Air Cover patrol areas. If these are mutual you have a
+combat.
+2. Establish fly-in routes for air transport or bombers. If this coincides
+with enemy air cover you have a combat.
+3. Fighter Vs Fighter:
+Take the numbers of fighter squadrons on each side and roll 1d6. The side
+with the largest number of squadrons is always the attacker (and therefore
+rolls).
+ODDS:
+1-1
+2-1
+3-1
+4-1
+5-1
+6-1(+)
+Score
+Lose
+Lose
+Draw
+Draw
+Draw
+Win
+1
+Draw
+Draw
+Draw
+Draw
+Win
+Win
+2
+Draw
+Draw
+Draw
+Win
+Win
+Win
+3
+Draw
+Draw
+Win
+Win
+Win
+Win
+4
+Draw
+Win
+Win
+Win
+Win
+Win
+5
+Win
+Win
+Win
+Win
+Win
+Win
+6
+
+WIN
+
+=
+
+Attacker loses 10% of defender's strength
+Defender loses 20% of attacker's strength
+
+DRAW =
+
+Each side loses 10% of their opponent's strength.
+
+LOSE =
+
+Attacker loses 20% of defender's strength
+Defender loses 10% of attacker's strength
+
+Losses are in complete squadrons, rounded to the nearest squadron. Given
+the forces involved, few squadrons will be lost - but umpires should report
+'Light Losses' or 'Heavy Losses' as appropriate.
+4. Fighter Vs Transport Aircraft.
+If the fighters win against the air cover, they inflict losses on the transports.
+Losses are 1 transport serial out of action per squadron that breaks through to
+the stream.
+For attacks on bombers, quarter these losses.
+
+24
+
+© Jim Wallman 2003
+
+Master Ruleset
+ANNEX A
+
+Typical Unit Status Profiles
+These profiles assume that the unit concerned is at full strength. Note that German units
+were rarely in such a good condition, and one or two step reductions at the start would be
+usual in 1944-5.
+
+Unit Description
+
+Profile
+
+Size
+
+Logs Lift
+Capacity
+
+2-2-1-0
+2-2-1-0
+2-2-1-0
+7-6-5-4-3-2-1-0
+6-6-5-4-3-3-0
+8-6-5-4-3-2-1-0
+8-7-6-4-3-2-0
+8-4-1-0
+
+1
+1
+2
+1
+1
+1
+2
+2
+
+3
+6
+12
+0
+0
+0
+0
+4
+
+10 – 3 – 0
+
+2
+
+4
+
+[6 – 3 – 0]
+[2 – 1 – 0]
+4–3–2–1–0
+
+2
+1
+2
+
+4
+0
+0
+
+(1) –( 1) – 0
+
+4
+
+10
+
+USA
+Div HQ unit
+Regt HQ unit
+Armd/Mech Bde HQ
+Infantry Battalion
+Armored Battalion
+Para Battalion
+Glider Battalion
+Artillery Battalion
+
+2-2-1–0
+2-2-1–0
+2-2-1–0
+7-6-5-4-3-2-1-0
+8-7-6-4-3-2-0
+6-6-5–4-3-3-0
+6-6-5–4-3-3-0
+8-4-1–0
+
+1
+1
+2
+1
+2
+1
+1
+2
+
+3
+6
+12
+0
+0
+0
+0
+4
+
+German
+Div HQ unit
+Regt HQ unit
+Fallschirmjager Bn
+Grenadier Battalion
+Weak Gren Bn
+Panzer Grenadier
+Battalion
+Weak PzGren Bn
+Panzer Battalion
+Weak Pz Bn
+
+2-1-1–0
+2-1-1–0
+6-6-5–4-3-3-0
+7-6-5-4-3-2-1-0
+5–5–4–3–1–0
+9–8–7–6–5–4–2–
+0
+6–6–4–1–0
+9–7–6–2–0
+5–3–2–0
+
+1
+1
+1
+1
+1
+2
+
+9
+6
+0
+0
+0
+0
+
+1
+2
+1
+
+0
+0
+0
+
+British
+Div HQ unit
+Bde HQ unit
+Armd/Mech Bde HQ
+Rifle Battalion
+Para Battalion
+Airlanding Battalion
+Armoured Regiment
+Field Artillery
+Regiment
+Medium Artillery
+Regiment
+Anti-Tank Regiment
+AL Anti-Tank Battery
+Recce Regiment
+(Armoured Cars)
+RASC Company
+
+25
+
+© Jim Wallman 2003
+
+Master Ruleset
+Unit Description
+Heavy Panzer Bn
+JgPz Battalion
+Weak JgPz Bn
+Field Arty Bn
+Heavy Pz Battalion
+Infantry Gun Bn
+Rocket Arty Bn
+Pz Recce
+Weak Pz Recce
+Heavy Flak
+Light Flak
+Festungs Bn
+Fahrkolonne
+Schweres
+Kraftwagen Kolonne
+General
+Supply Unit
+Divisional Dump
+Engineer Battalion
+
+Profile
+
+Size
+
+10 – 8 – 5 – 3 - 0
+8-6–5-2–0
+4–2-0
+8-4-1–0
+10 - 8 - 5 - 3 – 0
+6–3–0
+8–2–0
+6–4–2–1–0
+4–2–1–0
+3-2-2–0
+2-1-1–0
+(2) – (2) – (1) - 0
+0–0
+(1) - 0
+
+2
+2
+1
+2
+2
+1
+1
+2
+1
+1
+1
+1
+1
+2
+
+Logs Lift
+Capacity
+0
+0
+0
+0
+0
+4
+4
+2
+2
+2
+2
+0
+3
+6
+
+(1) –( 1) – 0
+(1) – (0)
+5–4–3–3-0
+
+4
+0
+1
+
+10
+10
+2
+
+26
+
+© Jim Wallman 2003
+
+Master Ruleset
+ANNEX B
+
+Typical Unit Type Symbols
+unit type
+
+2
+T
+K
+V
+N
+3
+8
+!
+"
+£
+^
+&
+)
++
+9
+X
+g
+#
+U
+©
+
+description
+
+Anti Tank
+Transport / Logs
+Mountain Inf
+Airborne Arty
+Paras
+AA Arty
+Engineers
+Infantry
+Armour
+Mechanised
+Cavalry
+Recce
+Artillery
+SP Artillery
+Armoured Engineers
+Airborne Engineers
+Glider Infantry
+Mountain Arty
+HQ
+Blank
+
+27
+
+© Jim Wallman 2003
+
+Master Ruleset
+
+Ó
+
+Bridging Column
+
+28
+
+© Jim Wallman 2003
+
+
