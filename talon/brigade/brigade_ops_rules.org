@@ -1,5 +1,6 @@
 #+TITLE: Brigade Ops Rules v1.0
 #+AUTHOR: Vincent 'TJ' Taijeron
+Rules based on SPIs NATO
 
 * Introduction
   Brigade Operations or Brigade Ops is played on a map that represents a
@@ -77,11 +78,12 @@
   hexes adjacent to that units location.
 
 * Random Numbers
-  The game model uses random numbers to add some chance to certain action like
+  The game model uses random numbers to add chance to certain actions like
   combat, or detecting enemy units.
   
-  - Generate random numbers in the range from 1 to 6.
-  - This represents rolling one six-sided die (singular for dice).
+  1. Requirements:
+     1. Generate random numbers in the range from 1 to 6.
+     2. This represents rolling one six-sided die (singular for dice).
 
 * Game Setup
   The game should automatically load a file that specifies unit start positions,
@@ -131,12 +133,12 @@
      performs during certain activities like combat and movement.
      
 * Sequence of Play
-  - Brigade Ops is played in turns.
-  - A turn has two phases one for each player.
-  - Each phase has two steps Movement and Combat.
-  - The Opfor player goes first and conducts phase 1 performing his Movement and Combat steps.
-  - The Bluefor player goes second and conducts phase 2 performing his Movement
-    Combat Steps.
+  1. Brigade Ops is played in turns.
+  2. A turn has two phases one for each player.
+  3. Each phase has two steps Movement and Combat.
+  4. The Opfor player goes first and conducts phase 1 performing his Movement and Combat steps.
+  5. The Bluefor player goes second and conducts phase 2 performing his Movement
+     Combat Steps.
   
 ** Turn Sequence
    1. Phase 1 Opfor Player

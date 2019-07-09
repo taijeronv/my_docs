@@ -40,6 +40,55 @@
   - How do we model synchronization in the game?
   - What happens when a unit cannot achieve synchronization?
   - What does it mean to be synchronized?
+  - How do I de-synchronize the enemy? By disruption and delay.
+  - Synchronize on a single point or objective.
+  - Synchronize the location of key units or elements.
+
+** Ideas
+   - One way to model synchronization is to explicitly state who is synching
+     with whom.
+   - Another method would be to penalize units that do not have a formal command
+     relationship.  For example battalions in the same bde have a formal
+     relationship but they still need to be synched.  This would entail saying
+     explicitly they are going to cooperate.  We could use a staff rating to
+     model this. 
+  
+* Deliberate Attack
+  There is a very good mechanic for modeling Deliberate Attacks in the South
+  Atlantic War II rules set.  It factors in the units experience and consist of
+  waiting a number of turns before the attack has been successfully planned.
+  Basically after two turns, or one hour in game time, the player starts to roll
+  a die to determine if planning is complete.  Units with more experience plan
+  faster while inexperienced units take longer.  Modifiers based on the units
+  size are applied on each roll of the die.  As more time passes the modifier
+  gets bigger. 
+
+  I like the way time is modeled but I think it applies to games with short
+  realtime turns.  For example it wouldn't make sense to use this mechanic if a
+  game turn was three or more hours.  I'd say 30 mins to an hour would be
+  appropriate. 
+
+* Prepared Defense
+  South Atlantic War II also has a good rule concerning Prepared Defenses.
+  Basically there are three levels of prepared defense each one taking longer to
+  achieve.  A unit in a prepared defense can also go down a level if it is
+  successfully attacked. The time it takes to go from one level to the next is
+  fixed, they are 12, 24, and 72 hours.  Engineers can significantly reduce
+  those times.
+
+  If a unit in a prepared defense suffers a "D" or Disruption result then it
+  goes down a level.  If the unit wants to go back up a level it must wait until
+  it is no longer under offensive pressure from the enemy.  In other words the
+  attacking unit must switch to the defense or break contact.  Only then can the
+  defending unit reorganize their defense to the next level.  I think in this
+  case the time constraints should be reduced because most of the positions
+  should still be intact.  In other words they do not have to start from scratch.
+
+* Changing Orders
+  Units may change orders at the beginning of a turn BUT are restricted based on
+  their current orders.  For example a unit cannot go from a prepared defense to
+  a deliberate attack, but it can go to hasty attack.  Likewise a unit that is
+  moving can goto defend or hasty attack.
 
 * Decisions
   The player must decide what a unit needs to do.  He then needs to decide what
@@ -53,28 +102,28 @@
   to be done first?  
 
 * Combat
- - Simple Combat system.
- - Potential Combat Power is reflected on paper and based solely on material
-   and equipment.
- - Adjusted Combat Power uses factors such as training, experience, and
-   leadership to adjust the PCP.
- - Applied Combat Power this is the combat power that can be applied during
-   actual combat operations.  ACP is affected by enemy actions.
+  - Simple Combat system.
+  - Potential Combat Power is reflected on paper and based solely on material
+    and equipment.
+  - Adjusted Combat Power uses factors such as training, experience, and
+    leadership to adjust the PCP.
+  - Applied Combat Power this is the combat power that can be applied during
+    actual combat operations.  ACP is affected by enemy actions.
 
-   I think a simple ratio system will work for units that are battalion or
-   higher.  The challenge should be in applying the adjusted combat power to
-   an operational target.  
+    I think a simple ratio system will work for units that are battalion or
+    higher.  The challenge should be in applying the adjusted combat power to
+    an operational target.  
 
-   So how do you apply combat power?
-   - Get into a position of advantage like flank or rear.
-   - Mass or overwhelm the target by adding units to the operation.  Note this
-     can be a double edged sword because too many units will get in each
-     others way.  An enabler needs to be added in order to control multiple
-     units.  More units mean more or better enablers.
-   - Use the right unit for the job.  For example a light infantry unit will
-     be useless against an armor unit in open terrain.
-   - Use the right enablers.  A light infantry unit could be successful vs an
-     armor unit if it had the right enablers.
+    So how do you apply combat power?
+    - Get into a position of advantage like flank or rear.
+    - Mass or overwhelm the target by adding units to the operation.  Note this
+      can be a double edged sword because too many units will get in each
+      others way.  An enabler needs to be added in order to control multiple
+      units.  More units mean more or better enablers.
+    - Use the right unit for the job.  For example a light infantry unit will
+      be useless against an armor unit in open terrain.
+    - Use the right enablers.  A light infantry unit could be successful vs an
+      armor unit if it had the right enablers.
 
 * What are enablers?
   Enablers add additional combat power or special ability.  Organizing
@@ -121,94 +170,115 @@
   - Enable a unit to recover from exhaustion.
 
 * Task Organization
-Tasking organizing units is how a player adds capabilities to another unit.
-For example an armor unit is strong against certain types of units depending
-on the terrain.  We could add a armored infantry unit which would further
-enable the armor unit to operate in certain types of terrain or engage
-certain types of enemy. In this case we would use the infantry units ability
-to fight other infantry units.
+  Tasking organizing units is how a player adds capabilities to another unit.
+  For example an armor unit is strong against certain types of units depending
+  on the terrain.  We could add a armored infantry unit which would further
+  enable the armor unit to operate in certain types of terrain or engage
+  certain types of enemy. In this case we would use the infantry units ability
+  to fight other infantry units.
 
-Players must "design" or task organize their units to accomplish their
-mission under specific circumstances.  Two considerations would be enemy
-capabilities and terrain.  By task organizing a player can counter certain
-negative effects or enhance current strengths.  The best example is
-overcoming difficult terrain like a river.  By adding an engineer unit with a
-bridging capability rivers no longer are obstacles. 
+  Players must "design" or task organize their units to accomplish their
+  mission under specific circumstances.  Two considerations would be enemy
+  capabilities and terrain.  By task organizing a player can counter certain
+  negative effects or enhance current strengths.  The best example is
+  overcoming difficult terrain like a river.  By adding an engineer unit with a
+  bridging capability rivers no longer are obstacles. 
 
 * Stacking Penalty
-You may think that adding a bunch of the same enablers will benefit the unit
-but that is not the case.  Adding enablers of the same type does not
-automatically make a unit stronger.  There are diminishing returns associated
-with using the same enabling units.  In other words before you use two of the
-same enablers in one unit you may be better off taking that second enabler
-and assigning it elsewhere.
+  You may think that adding a bunch of the same enablers will benefit the unit
+  but that is not the case.  Adding enablers of the same type does not
+  automatically make a unit stronger.  There are diminishing returns associated
+  with using the same enabling units.  In other words before you use two of the
+  same enablers in one unit you may be better off taking that second enabler
+  and assigning it elsewhere.
 
-Think of it as if you are overloading the HQ.  Hmmm, maybe that's how we
-model this.  A HQ has a limited ability to command and control so many units.
-The quality of a HQ can be measured in its ability to C2 many units.  In
-other words the more units it can C2 the better a HQ it is. Once a HQ is
-overloaded it will have a negative effect on the unit.  
+  Think of it as if you are overloading the HQ.  Hmmm, maybe that's how we
+  model this.  A HQ has a limited ability to command and control so many units.
+  The quality of a HQ can be measured in its ability to C2 many units.  In
+  other words the more units it can C2 the better a HQ it is. Once a HQ is
+  overloaded it will have a negative effect on the unit.  
 
-- Negative Effects
-  - The enabling unit is no longer effective.
-  - The unit moves slower.
-  - The unit has applied combat power.
-  - The unit becomes disorganized.  I think this is the best effect.
+  - Negative Effects
+    - The enabling unit is no longer effective.
+    - The unit moves slower.
+    - The unit has applied combat power.
+    - The unit becomes disorganized.  I think this is the best effect.
 
 * Posture or readiness
-It is important that units be able to transition from one posture to another
-quickly and efficiently.  This takes planning.  Transitioning from one
-posture to another is sequential.  In other words a unit cannot transition
-from a static defense to an all out attack. 
+  It is important that units be able to transition from one posture to another
+  quickly and efficiently.  This takes planning.  Transitioning from one
+  posture to another is sequential.  In other words a unit cannot transition
+  from a static defense to an all out attack. 
 
-Hasty Advance (HA): Units spend movement points normally. May not be given to
-units with Deliberate or Prepared Defense orders. Entering this posture costs
-half of the unit's movement points if previous posture is other than Hasty or
-Administrative Advance.
+  Hasty Advance (HA): Units spend movement points normally. May not be given to
+  units with Deliberate or Prepared Defense orders. Entering this posture costs
+  half of the unit's movement points if previous posture is other than Hasty or
+  Administrative Advance.
 
-Deliberate Advance (DA): Units spend twice the normal movement points per hex.
-Units in this posture may advance into a hex vacated by retreating or
-withdrawing opposing units. May not be given to units with Deliberate or
-Prepared Defense orders.
+  Deliberate Advance (DA): Units spend twice the normal movement points per hex.
+  Units in this posture may advance into a hex vacated by retreating or
+  withdrawing opposing units. May not be given to units with Deliberate or
+  Prepared Defense orders.
 
-Prepared Advance (PA): May be issued only to units with DA orders that did not
-participate in battles during previous turn. Units that conducted offensive
-operations while in PA posture must downgrade to DA, HD, or HA the following
-turn. No Movement allowed except for advancing into hexes vacating by
-destroyed/retreating opposing forces.
+  Prepared Advance (PA): May be issued only to units with DA orders that did not
+  participate in battles during previous turn. Units that conducted offensive
+  operations while in PA posture must downgrade to DA, HD, or HA the following
+  turn. No Movement allowed except for advancing into hexes vacating by
+  destroyed/retreating opposing forces.
 
-Hasty Defense (HD): May be given to units in any Posture.
+  Hasty Defense (HD): May be given to units in any Posture.
 
-Deliberate Defense (DD): May be issued to any unit with HD orders. Units with
-those orders may not move (except to retreat) or initiate battle. They may not
-move into vacated hexes. Units with DD orders that performed offensive
-operations must downgrade to HD or HA during the following turn. Entering any
-Advance posture from PD costs half of the unit's movement points.
+  Deliberate Defense (DD): May be issued to any unit with HD orders. Units with
+  those orders may not move (except to retreat) or initiate battle. They may not
+  move into vacated hexes. Units with DD orders that performed offensive
+  operations must downgrade to HD or HA during the following turn. Entering any
+  Advance posture from PD costs half of the unit's movement points.
 
-Prepared Defense (PD): May be issued only to units with DD orders. Units with
-those orders may not move or initiate battle. They may not move except to
-retreat. Entering any Advance posture from PD costs half of the unit's movement
-points.
+  Prepared Defense (PD): May be issued only to units with DD orders. Units with
+  those orders may not move or initiate battle. They may not move except to
+  retreat. Entering any Advance posture from PD costs half of the unit's movement
+  points.
 
-Administrative Advance(AA): Unit may use the road movement rates. It may not
-enter hexes adjacent to opposing units or initiate battles. Units in contact
-with opposing ground forces may not be enter AA posture. Entering this posture
-costs half of the unit's movement points, unless previous posture is Hasty
-Advance.
+  Administrative Advance(AA): Unit may use the road movement rates. It may not
+  enter hexes adjacent to opposing units or initiate battles. Units in contact
+  with opposing ground forces may not be enter AA posture. Entering this posture
+  costs half of the unit's movement points, unless previous posture is Hasty
+  Advance.
    
-One mechanism could be to give a unit it's next order using the "on order"
-command.  This would enable a unit to transition from its current posture to
-whatever posture was given in the o/o command.  BUT if the player anticipates
-incorrectly and issues a different order from the o/o then a severe penalty
-is incurred.
+  One mechanism could be to give a unit it's next order using the "on order"
+  command.  This would enable a unit to transition from its current posture to
+  whatever posture was given in the o/o command.  BUT if the player anticipates
+  incorrectly and issues a different order from the o/o then a severe penalty
+  is incurred.
 
-Planning
-To add another element of planning we offer the player two ways to transition
-quickly from one posture to another.  The drawback is a penalty in
-performance during the transition.  Of course units with more experience or
-better leadership will not lose ability during the transition.
-   - On Order - The unit will perform its current task at 80% proficiency, but be
-     able to instantly transition to its o/o tasking at 80% proficiency.
-   - Be Prepared - The unit is preparing for the next order but will currently
-     perform its current task at 100% proficiency.  If it executes its prepared
-     task it will do so at 60% proficiency.
+  Planning
+  To add another element of planning we offer the player two ways to transition
+  quickly from one posture to another.  The drawback is a penalty in
+  performance during the transition.  Of course units with more experience or
+  better leadership will not lose ability during the transition.
+  - On Order - The unit will perform its current task at 80% proficiency, but be
+    able to instantly transition to its o/o tasking at 80% proficiency.
+  - Be Prepared - The unit is preparing for the next order but will currently
+    perform its current task at 100% proficiency.  If it executes its prepared
+    task it will do so at 60% proficiency.
+
+* Rules
+** Sequence of Play
+   - Plan
+   - Movement
+   - Combat
+** Movement
+   - Units are rated for moving in kilometers per hour.
+   - The player is never obligated to move a unit, there are no retreat rules.
+   - If a player wants a unit to retreat they must "program" the unit to do so
+     based on one or more triggers.
+   - The same goes for advancing.  
+
+** Terrain
+   - Terrain is rated for mobility, in other words how easy is it to move
+     through.
+   - How mobile a unit is depends on its mobility type.  There are four mobility
+     types, foot, wheeled, tracked, and air.
+   - Terrain is also rated for it's defensive capabilites.
+   - Terrain is also rated for "stacking" or how many units can effectively
+     operate in it.
