@@ -2,229 +2,227 @@
 
 
 * 1. Introduction
-These rules started out as a set of guidelines for the operational megagame
-Operation Market Garden. This game was run twice, once in 1988 and again
-in 1993. In the course of these outings, the rules altered and benefited from
-considerable feedback from participants. The game system I offer here is a
-distillation of that feedback from users, together with additional thoughts and
-research. 
+  These rules started out as a set of guidelines for the operational megagame
+  Operation Market Garden. This game was run twice, once in 1988 and again
+  in 1993. In the course of these outings, the rules altered and benefited from
+  considerable feedback from participants. The game system I offer here is a
+  distillation of that feedback from users, together with additional thoughts and
+  research. 
 
-It is intended as a generic map gaming system for WW2 operations in
-the Western Europe Theatre, that is, covering operations from Normandy to the
-Baltic. With some alteration they might be suitable for the campaigns in Italy,
-although the terrain and operational practices make that theatre sufficiently
-different to make a rethink of the rules a good idea. The rules are not suitable
-for the Eastern Front or the Far East. 
+  It is intended as a generic map gaming system for WW2 operations in
+  the Western Europe Theatre, that is, covering operations from Normandy to the
+  Baltic. With some alteration they might be suitable for the campaigns in Italy,
+  although the terrain and operational practices make that theatre sufficiently
+  different to make a rethink of the rules a good idea. The rules are not suitable
+  for the Eastern Front or the Far East. 
 
-The underlying assumptions vary far too
-much. Operation Market Garden was a large and complicated operational game. It
-involved forces down to battalion level and headquarters up to Corps. When
-running such a game there is a lot to bear in mind, and the game system has to
-be robust in order that things progress smoothly. Of course, these rules do not
-need to be used only in the context of a full sized 100 player megagame there
-are plenty of smaller operations that they could as easily be used for in the
-context of a club game for half a dozen players. In addition to the reasonably
-straightforward aspects of ground combat the rules consider the problems of
-air-ground operations (both close support and airborne operations) and logistics
-(hopefully not quite as boring as some folk make out!). I hope you find this
-system usable and useful. Please send me feedback on how you get on with it, or
-just to ask questions. I will be happy to answer emails. 
+  The underlying assumptions vary far too
+  much. Operation Market Garden was a large and complicated operational game. It
+  involved forces down to battalion level and headquarters up to Corps. When
+  running such a game there is a lot to bear in mind, and the game system has to
+  be robust in order that things progress smoothly. Of course, these rules do not
+  need to be used only in the context of a full sized 100 player megagame there
+  are plenty of smaller operations that they could as easily be used for in the
+  context of a club game for half a dozen players. In addition to the reasonably
+  straightforward aspects of ground combat the rules consider the problems of
+  air-ground operations (both close support and airborne operations) and logistics
+  (hopefully not quite as boring as some folk make out!). I hope you find this
+  system usable and useful. Please send me feedback on how you get on with it, or
+  just to ask questions. I will be happy to answer emails. 
 
-Jim Wallman Streatham
-2004 eMail : opcom@pastpers.co.uk Dedication: These rules have had influences
-from a number of people of the years - many more than could be usefully listed.
-I'd like to dedicate these rules to the late Steve Hale (1955-2000) who
-introduced me to wargaming over 30 years ago, was a founder member of Chestnut
-Lodge Wargames Group and was one of the most important influences in the
-original runs of the Operation Market Garden Megagame.
-
+  Jim Wallman Streatham
+  2004 eMail : opcom@pastpers.co.uk Dedication: These rules have had influences
+  from a number of people of the years - many more than could be usefully listed.
+  I'd like to dedicate these rules to the late Steve Hale (1955-2000) who
+  introduced me to wargaming over 30 years ago, was a founder member of Chestnut
+  Lodge Wargames Group and was one of the most important influences in the
+  original runs of the Operation Market Garden Megagame.
 
 * 2. Notes on Running a Game
-This system assumes a standard set up for map games. This consists of a minimum
-of three maps, one for each side, and a master map. The scale is unimportant, so
-long as they are clearly marked, and easy to update. It follows therefore that
-the game can be played with a minimum of three participants - one Game Control
-and two players. It is more fun if there are more players and teams of three per
-Divisional HQ (or the equivalent) and 1 control per team is ideal. With more
-players, or for larger and more complex battles, higher headquarters can be
-introduced and divisional teams need to be a little larger. The Game Control’s
-role is to keep the game going and to make sure the players feel that they are
-experiencing as realistic a simulation of the battle as possible. For this
-reason Control should never refer to the game mechanisms when talking to
-players. All reported battle results should be, as far as practicable, in
-'real-world' terms. Even if the players know all about how the combat system
-works, this is important because it helps with the ‘willing suspension of
-disbelief’ aimed at in good operational wargames. As Control you may often feel
-the urge to inject some arbitrary ruling at various times. Try to resist the
-gratuitous exercise of your power. If you feel that something has to be ruled on
-that isn't in the rules, then that is fine - the rules are not exhaustive - but
-in the interests of consistency this should be kept to a minimum. Often you will
-be called upon to apply common sense and a knowledge of inherent military
-probability to problems. The main aim of these rules is to provide a framework
-upon which you can successfully base that assessment.
+  This system assumes a standard set up for map games. This consists of a minimum
+  of three maps, one for each side, and a master map. The scale is unimportant, so
+  long as they are clearly marked, and easy to update. It follows therefore that
+  the game can be played with a minimum of three participants - one Game Control
+  and two players. It is more fun if there are more players and teams of three per
+  Divisional HQ (or the equivalent) and 1 control per team is ideal. With more
+  players, or for larger and more complex battles, higher headquarters can be
+  introduced and divisional teams need to be a little larger. The Game Control’s
+  role is to keep the game going and to make sure the players feel that they are
+  experiencing as realistic a simulation of the battle as possible. For this
+  reason Control should never refer to the game mechanisms when talking to
+  players. All reported battle results should be, as far as practicable, in
+  'real-world' terms. Even if the players know all about how the combat system
+  works, this is important because it helps with the ‘willing suspension of
+  disbelief’ aimed at in good operational wargames. As Control you may often feel
+  the urge to inject some arbitrary ruling at various times. Try to resist the
+  gratuitous exercise of your power. If you feel that something has to be ruled on
+  that isn't in the rules, then that is fine - the rules are not exhaustive - but
+  in the interests of consistency this should be kept to a minimum. Often you will
+  be called upon to apply common sense and a knowledge of inherent military
+  probability to problems. The main aim of these rules is to provide a framework
+  upon which you can successfully base that assessment.
 
 * 3. Scales, Level and Resolution
-The smallest represented unit is the Battalion (or equivalent) Players represent
-the staff at Divisional level or higher. Each game turn is half a day. Map
-scales etc. will vary with the map used, but counter sizes must match the map
-scale. Assume a counter frontage of around 1km per battalion or the equivalent.
+  The smallest represented unit is the Battalion (or equivalent) Players represent
+  the staff at Divisional level or higher. Each game turn is half a day. Map
+  scales etc. will vary with the map used, but counter sizes must match the map
+  scale. Assume a counter frontage of around 1km per battalion or the equivalent.
 
 * 4. Sequence of Action
-Each full turn should take no more than about 25 minutes to adjudicate,
-preferably much less. For games with just one divisional team a side a game turn
-should take around 15 minutes to adjudicate. Control Actions
-1. Team Control takes players written orders for the
+  Each full turn should take no more than about 25 minutes to adjudicate,
+  preferably much less. For games with just one divisional team a side a game turn
+  should take around 15 minutes to adjudicate. Control Actions
+  1. Team Control takes players written orders for the
 
-turn on a standard proforma, reads them, clarify unclear points and prepares to
-work out the results.
+  turn on a standard proforma, reads them, clarify unclear points and prepares to
+  work out the results.
 
-2. When Control are ready, the Team Controls move
-all counters on master map, and then assess the results of combat.
-3. Team Control orally brief the players on the
-outcome of combat. (This can be concurrent with 2. above if telephones &/or
-radios are available).
-4. Map Control position new reinforcement and
-supply counters on the main map for the coming move.
+  2. When Control are ready, the Team Controls move
+  all counters on master map, and then assess the results of combat.
+  3. Team Control orally brief the players on the
+  outcome of combat. (This can be concurrent with 2. above if telephones &/or
+  radios are available).
+  4. Map Control position new reinforcement and
+  supply counters on the main map for the coming move.
 
-Max Time Taken
-2-3 minutes
+  Max Time Taken
+  2-3 minutes
 
-No more than 5-10
-minutes
-2-3 minutes
+  No more than 5-10
+  minutes
+  2-3 minutes
 
-3-5 minutes
+  3-5 minutes
 
-Total 12-21 minutes
-Player Actions:
-5. Clarify orders when requested by Control.
-6. While Control are working out the update, prepare as much of next orders
-as possible and communicate with other HQs and superiors/subordinates.
-Carry out map updates.
-7. Be prepared for battle updates as they occur.
-
+  Total 12-21 minutes
+  Player Actions:
+  5. Clarify orders when requested by Control.
+  6. While Control are working out the update, prepare as much of next orders
+  as possible and communicate with other HQs and superiors/subordinates.
+  Carry out map updates.
+  7. Be prepared for battle updates as they occur.
 
 * 5. Orders
-Each turn players will issue orders for units or groups of units with the same
-task (i.e. battlegroups, regiments, brigades). An order sheet is then passed to
-the team Game Control person who check they can understand it, before
-going to the main map and implementing the orders.
-Game control then annotate the order sheet as the combat is resolved and
-return to the players to report.
-A typical sheet might look like this:
+  Each turn players will issue orders for units or groups of units with the same
+  task (i.e. battlegroups, regiments, brigades). An order sheet is then passed to
+  the team Game Control person who check they can understand it, before
+  going to the main map and implementing the orders.
+  Game control then annotate the order sheet as the combat is resolved and
+  return to the players to report.
+  A typical sheet might look like this:
 
-The headings are mostly self-explanatory, except ‘general intentions’ which
-are:
-Action
-Breakthrough
+  The headings are mostly self-explanatory, except ‘general intentions’ which
+  are:
+  Action
+  Breakthrough
 
-Attack
+  Attack
 
-Probe
+  Probe
 
-This is only available to armoured units. An all out attack
-intended to break through the enemy formations and
-continue movement on the other side. This can mean the
-units fight more than one action during the turn, and will wear
-out units faster.
-Attack the units in the direction indicated in orders, with the
-intention of dislodging or destroying them and taking an
-objective.
-Intensive patrolling to determine the location and extent of
-units to the front. The unit will advance until it makes contact
-then conform to the enemy’s deployment, when found. This
-also give some unit identification of the facing units.
+  This is only available to armoured units. An all out attack
+  intended to break through the enemy formations and
+  continue movement on the other side. This can mean the
+  units fight more than one action during the turn, and will wear
+  out units faster.
+  Attack the units in the direction indicated in orders, with the
+  intention of dislodging or destroying them and taking an
+  objective.
+  Intensive patrolling to determine the location and extent of
+  units to the front. The unit will advance until it makes contact
+  then conform to the enemy’s deployment, when found. This
+  also give some unit identification of the facing units.
 
 
-Hold
-Move
-Prepare
-Posture
-Tact
-Non-Tact
+  Hold
+  Move
+  Prepare
+  Posture
+  Tact
+  Non-Tact
 
-Rest
+  Rest
 
-Dig in and remain in current positions. If specified in orders
-this might be a ‘stand fast’ or ‘hold at all costs’ in which case
-the unit might take additional casualties rather than be
-pushed back.
-Move from ‘A’ to ‘B’. If enemy encountered, the unit stops
-and does not attack.
-Prepare for an attack. This is essential if an attack is to be
-successful.
-Tactical – ready for combat deployed and expecting trouble.
-Non-Tactical. Not ready for combat, not expecting trouble.
-Ammunition stowed, weapons slung. But allows faster
-movement.
-In some cases units can recover fighting effectiveness by
-resting. Typically this needs to be for several days before
-any improvement is felt.
+  Dig in and remain in current positions. If specified in orders
+  this might be a ‘stand fast’ or ‘hold at all costs’ in which case
+  the unit might take additional casualties rather than be
+  pushed back.
+  Move from ‘A’ to ‘B’. If enemy encountered, the unit stops
+  and does not attack.
+  Prepare for an attack. This is essential if an attack is to be
+  successful.
+  Tactical – ready for combat deployed and expecting trouble.
+  Non-Tactical. Not ready for combat, not expecting trouble.
+  Ammunition stowed, weapons slung. But allows faster
+  movement.
+  In some cases units can recover fighting effectiveness by
+  resting. Typically this needs to be for several days before
+  any improvement is felt.
 
 * 6. Unit Movement
-Movement
-As a guide, the ABSOLUTE MAXIMUM movement distance, in kilometres, on
-the map are shown below.
-Individual unit movement will almost always be much less than this maximum,
-especially the road movement rates which can be affected by weather,
-congestion, choke points and other road conditions
-REMEMBER, THESE FIGURES REPRESENT
+  Movement
+  As a guide, the ABSOLUTE MAXIMUM movement distance, in kilometres, on
+  the map are shown below.
+  Individual unit movement will almost always be much less than this maximum,
+  especially the road movement rates which can be affected by weather,
+  congestion, choke points and other road conditions
+  REMEMBER, THESE FIGURES REPRESENT
 
 
-Obviously, movement can be interrupted for combat. Units which have
-moved for more than half a turn cannot fight in that turn (i.e. they fight in the
-next turn).
-Armoured units which are breaking through, may move on after a combat depending upon how fierce the fighting was.
-Examples of things that slow down unit movement
-• Moving down narrow, twisty lanes
-• Coming under fire
-• Traffic jams
-• Bad weather
-• Preparing for an attack
+  Obviously, movement can be interrupted for combat. Units which have
+  moved for more than half a turn cannot fight in that turn (i.e. they fight in the
+  next turn).
+  Armoured units which are breaking through, may move on after a combat depending upon how fierce the fighting was.
+  Examples of things that slow down unit movement
+  • Moving down narrow, twisty lanes
+  • Coming under fire
+  • Traffic jams
+  • Bad weather
+  • Preparing for an attack
 
-River Crossing
-On the operational maps only river obstacles of major importance are marked.
-There are numerous minor obstacles that have been factored into the
-movement rates.
-[NB: If you are using a real map, you should ignore minor streams and
-waterways.]
-These river obstacles can only be crossed at a bridge by units indicated
-above as 'River Crossing = impossible'.
-Other units may cross canals and minor rivers, but not major rivers without a
-marked bridge (using minor unmarked footbridges and locks or otherwise
-improvising).
-Most bridges have a weight classification. For most purposes we are
-interested primarily in whether tanks can cross. Therefore there are only two
-classifications of bridge/Ferry:
-a. Light bridge/Ferry - equates to the Class 9, and is only passable for
-infantry and transport units (but not loaded tank transporters).
-b. Heavy bridge/ferry - equates to a class 40 Bailey bridge (or larger)
-and is passable to all types of unit
-Rail Movement
-It takes one turn to embark an infantry unit, two turns to embark a unit with
-tanks or trucks.
-It takes half a turn to disembark an infantry unit, or a whole turn for others.
-Embarkation must be done at a town or village on the railway line.
-Disembarkation can be done anywhere for infantry – but must be at a
-town/village for vehicles.
-A train is given a lift capacity in Unit Points, typically around 5-10.
-Once embarked the unit may move down the rail network freely, taking one
-complete turn to go as far as it likes.
-The availability of trains to move troops will be laid don in the scenario.
+  River Crossing
+  On the operational maps only river obstacles of major importance are marked.
+  There are numerous minor obstacles that have been factored into the
+  movement rates.
+  [NB: If you are using a real map, you should ignore minor streams and
+  waterways.]
+  These river obstacles can only be crossed at a bridge by units indicated
+  above as 'River Crossing = impossible'.
+  Other units may cross canals and minor rivers, but not major rivers without a
+  marked bridge (using minor unmarked footbridges and locks or otherwise
+  improvising).
+  Most bridges have a weight classification. For most purposes we are
+  interested primarily in whether tanks can cross. Therefore there are only two
+  classifications of bridge/Ferry:
+  a. Light bridge/Ferry - equates to the Class 9, and is only passable for
+  infantry and transport units (but not loaded tank transporters).
+  b. Heavy bridge/ferry - equates to a class 40 Bailey bridge (or larger)
+  and is passable to all types of unit
+  Rail Movement
+  It takes one turn to embark an infantry unit, two turns to embark a unit with
+  tanks or trucks.
+  It takes half a turn to disembark an infantry unit, or a whole turn for others.
+  Embarkation must be done at a town or village on the railway line.
+  Disembarkation can be done anywhere for infantry – but must be at a
+  town/village for vehicles.
+  A train is given a lift capacity in Unit Points, typically around 5-10.
+  Once embarked the unit may move down the rail network freely, taking one
+  complete turn to go as far as it likes.
+  The availability of trains to move troops will be laid don in the scenario.
 
 
-Passing By There are circumstances when units may wish to pass through the
-enemy, or between units where there appears to be a gap. This needs careful
-treatment, because this sort of infiltration or exfiltration did sometimes
-happen. As a general rule of thumb, it is not possible to pass by an enemy unit
-closer than 2km in the open. The movement is stopped, as if they had bumped into
-the unit directly (unless they have orders to attack, of course). If the
-movement is through woods, or at night, then the passing distance is 1km. Units
-in contact cannot ‘rub past’ an enemy unit they are in contact with, without
-fighting it. They must break contact first. Night Movement. The first part of
-the morning turn, and the last part of the afternoon turn are, obviously,
-night-time. If orders explicitly require night movement, then movement is
-limited to a ceiling around ¼ of the maximum moves permissible.
+  Passing By There are circumstances when units may wish to pass through the
+  enemy, or between units where there appears to be a gap. This needs careful
+  treatment, because this sort of infiltration or exfiltration did sometimes
+  happen. As a general rule of thumb, it is not possible to pass by an enemy unit
+  closer than 2km in the open. The movement is stopped, as if they had bumped into
+  the unit directly (unless they have orders to attack, of course). If the
+  movement is through woods, or at night, then the passing distance is 1km. Units
+  in contact cannot ‘rub past’ an enemy unit they are in contact with, without
+  fighting it. They must break contact first. Night Movement. The first part of
+  the morning turn, and the last part of the afternoon turn are, obviously,
+  night-time. If orders explicitly require night movement, then movement is
+  limited to a ceiling around ¼ of the maximum moves permissible.
 
 * 7. Traffic
 Unit Points
@@ -368,11 +366,7 @@ even putting up a fight, will retreat if at all possible. If unable to retreat t
 is, in effect, captured (players get reports of large numbers of prisoners from
 the unit).
 
-11
 
-© Jim Wallman 2003
-
-Master Ruleset
 Combat Assumptions
 • Combat is extremely wearing on all troops. Even if they win a battle, the
 winner’s attacking units will take many casualties, often more than the
@@ -407,73 +401,63 @@ a. To prepare a brigade/battalion for an attack takes 1 turn.
 b. Attach a battalion to a different division takes 1 turn.
 Players must have allowed for these timings in their orders.
 
-12
+* Analysing Combat
+  1. Get the orders from both sides for the action.
+  2. Check that you understand all the movements involved before resolving
+  any combats. Sometimes a key instruction is included with some
+  seemingly unimportant order at the bottom of the page.
+  3. Check that the orders relate to the situation – sometimes key things have
+  changed, such as an enemy they were expecting to attack has vacated
+  their positions suddenly. IN cases like this – refer back to the players for
+  an instant decision. These should be instant – no discussion is allowed.
+  4. Work out what constitutes the combat to be adjudicated. This will typically
+  be where a single formation of up to regimental/brigade size is attacked.
+  The forces involved will be the defenders vs all units involved in the attack,
+  in a single combat calculation (see below). If there are defenders in very
+  different situations. This might be something like one battalion of a
+  brigade is in a built up area and the neighbouring battalion is in the open –
+  then you might break down the combat into two separate calculations.
+  5. When you have decided how to group all the combats – move to the
+  Combat Procedure (below) and work out the results. Don’t do combat
+  resolution until you have decided this for all combats (because it can get
+  messy otherwise).
+  Combat Procedure
+  1. Total the attacker's status points (including supporting artillery / air) and
+  ADD Factors that apply to the attacker to arrive at the Attacker’s Score
+  2. Total the Defender's status points (including supporting artillery / air) and
+  ADD the factors that apply to the defender to arrive at the Defender’s Score
+  3. Subtract the Defender’s score from the Attacker’s score.
+  4. Add the score of 1d6
+  5. Look up the result in the table
+  FACTORS (apply to both attacker and defender if appropriate)
+  +1 per unit for each clear tactical advantage(1)
+  +1 per unit if 'Combined Arms'(2) (prepared)
+  -1 per unit if light infantry(3) attacking
+  -2 per unit for unprepared attack
+  +1 per unit if defending close country(4) against tanks
+  -1 per unit if unsupported infantry(5) in open against tanks
+  -1 per mechanised unit with no fuel
+  -2 per units if moving non-tactically
 
-© Jim Wallman 2003
-
-Master Ruleset
-Analysing Combat
-1. Get the orders from both sides for the action.
-2. Check that you understand all the movements involved before resolving
-any combats. Sometimes a key instruction is included with some
-seemingly unimportant order at the bottom of the page.
-3. Check that the orders relate to the situation – sometimes key things have
-changed, such as an enemy they were expecting to attack has vacated
-their positions suddenly. IN cases like this – refer back to the players for
-an instant decision. These should be instant – no discussion is allowed.
-4. Work out what constitutes the combat to be adjudicated. This will typically
-be where a single formation of up to regimental/brigade size is attacked.
-The forces involved will be the defenders vs all units involved in the attack,
-in a single combat calculation (see below). If there are defenders in very
-different situations. This might be something like one battalion of a
-brigade is in a built up area and the neighbouring battalion is in the open –
-then you might break down the combat into two separate calculations.
-5. When you have decided how to group all the combats – move to the
-Combat Procedure (below) and work out the results. Don’t do combat
-resolution until you have decided this for all combats (because it can get
-messy otherwise).
-Combat Procedure
-1. Total the attacker's status points (including supporting artillery / air) and
-ADD Factors that apply to the attacker to arrive at the Attacker’s Score
-2. Total the Defender's status points (including supporting artillery / air) and
-ADD the factors that apply to the defender to arrive at the Defender’s Score
-3. Subtract the Defender’s score from the Attacker’s score.
-4. Add the score of 1d6
-5. Look up the result in the table
-FACTORS (apply to both attacker and defender if appropriate)
-+1 per unit for each clear tactical advantage(1)
-+1 per unit if 'Combined Arms'(2) (prepared)
--1 per unit if light infantry(3) attacking
--2 per unit for unprepared attack
-+1 per unit if defending close country(4) against tanks
--1 per unit if unsupported infantry(5) in open against tanks
--1 per mechanised unit with no fuel
--2 per units if moving non-tactically
-
-13
-
-© Jim Wallman 2003
-
-Master Ruleset
--1 for each unit from another formation(6)
-+4 for ordinary air support
-+6 for superior air support
-+8 for overwhelming air support
-+10 for apocalyptic air support
-Notes:
-(1) These cannot always be codified - but things like holding a river crossing, overlooking
-the enemy, or having spent several days preparing defences - that sort of thing would qualify
-(2) A combined arms attack or defence is one in which there is a balanced force of infantry
-and tanks and supported by artillery. Acceptable balances would be, say, no less than 1 tank
-status point per 3 infantry or 1 infantry to 3 tank. Any amount of artillery counts. This can only
-be applied to prepared attacks.
-(3) Light infantry are British & US paratroops, US glider troops transport and HQ units, adhoc units, units fighting out of role (i.e. tanks or artillery units fighting as infantry).
-(4) Close country is defined at built up areas or woods.
-(5) Unsupported infantry are infantry with no tank or anti-tank units with them and no artillery
-allocated to their defence.
-(6) Units from another formation are units that are not part of the main brigade or division
-leading in the attack. Particularly common where an ad-hoc defence or hasty attack has
-been organised.
+  -1 for each unit from another formation(6)
+  +4 for ordinary air support
+  +6 for superior air support
+  +8 for overwhelming air support
+  +10 for apocalyptic air support
+  Notes:
+  (1) These cannot always be codified - but things like holding a river crossing, overlooking
+  the enemy, or having spent several days preparing defences - that sort of thing would qualify
+  (2) A combined arms attack or defence is one in which there is a balanced force of infantry
+  and tanks and supported by artillery. Acceptable balances would be, say, no less than 1 tank
+  status point per 3 infantry or 1 infantry to 3 tank. Any amount of artillery counts. This can only
+  be applied to prepared attacks.
+  (3) Light infantry are British & US paratroops, US glider troops transport and HQ units, adhoc units, units fighting out of role (i.e. tanks or artillery units fighting as infantry).
+  (4) Close country is defined at built up areas or woods.
+  (5) Unsupported infantry are infantry with no tank or anti-tank units with them and no artillery
+  allocated to their defence.
+  (6) Units from another formation are units that are not part of the main brigade or division
+  leading in the attack. Particularly common where an ad-hoc defence or hasty attack has
+  been organised.
 
 Supporting Artillery
 Unit
@@ -882,12 +866,6 @@ dump counter (without it’s attendant supply counters) is moved to the new
 location - up to the maximum move for lorries – taking a turn, but leaving it’s
 supplies behind. Supplies are then moved to the new dump using whatever
 transport units are available in the normal way.
-
-20
-
-© Jim Wallman 2003
-
-Master Ruleset
 
 12. Air Operations
 The main missions are: Air Transport, Close Air Support (CAS), Bombing,

@@ -265,6 +265,8 @@
 * Rules
 ** Sequence of Play
    - Plan
+     - Players issue order to their units.
+     - Players may retaskorganize and assign assets.
    - Movement
    - Combat
 ** Movement

@@ -391,3 +391,4 @@ Rules based on SPIs NATO
    - TODO develop a list of units and their special abilities.
    - Players create an effective force by combining units of different
      abilities.  
+* Appendix D: Map No Hexes
