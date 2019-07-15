@@ -1,0 +1,773 @@
+#+TITLE: PZ8 Modern Master rules
+
+* What you need
+1/300 or 1/285 or 1/600 models and miniatures; terrain elements; one D6 die and
+one deviation die (a D6 with one arrow on each side) for each player; chits for
+Disorganized and Suppressed units; a ruler marked in inches or 25mm segments; a
+playing area (4’ x 3’ or 120 x 80cm will suffice for a game involving one to
+three Bn. each side).
+
+* Units
+One base of infantry, artillery or one model represents one platoon or battery.
+Troops can be Elite, Average or Green. Bases can be 1” or 30mm squares., or
+whatever other sizes you already have. 1” in the rules represents 100 mt; when
+playing infantry scenarios, use 1” = 50 mt (i.e. double all distances).
+
+* Sequence of Play 
+Determine before game starts who is Side A and B (by agreement or rolling one
+die). Each Turn:
+
+ 1) A moves
+ 2) B fires
+ 3) B moves
+ 4) A fires
+ 5) A & B rally
+* Movement 
+  Distances on open ground are:
+
+  | Unit                                  | Movement |
+  |---------------------------------------+----------|
+  | Infantry                              | 2 inches |
+  | HMG, Mortars, RCL, ATGW, Sam          |        1 |
+  | Trucks                                |        4 |
+  | 4x4, Armoured Cars, Light Tanks, APCs |        6 |
+  | AFVs                                  |        6 |
+  | Fast MBTs                             |        5 |
+  | MBT                                   |        4 |
+  | Helicopters                           |       18 |
+  |                                       |          |
+
+  - Halve movement distance* on rough ground (woods, hills, buildings etc),
+    double* on roads (*except Helicopters). 
+  - Trucks, Armoured Personnel Carriers and Transport Helicopters can carry one
+    base of infantry, HMG, mortars, RCL, ATGW or SAM.
+  - Artillery and Anti-tank guns can move only if limbered by a Truck or
+    Half-Track or other suitable vehicle. 
+  - Halve movement distance when mounting / dismounting, or unlimbering /
+    limbering. 
+
+* Fire
+  Fire can be direct (when a unit can see the target) or indirect (artillery
+  only). Friendly or enemy units, and nonopen ground, block line of sight to all
+  ground units.
+
+  Helicopters can always see and be seen. Non-vehicle units or tank hunters in
+  rough ground, woods or buildings, are visibile only within 5”, unless they
+  already fired in that turn. Tell the other player which unit fires and its
+  target, check the firing range, then roll a D6 Target is hit with a result =
+  4, 5, 6
+
+  - 1 Target over half range
+  - 1 Target in rough ground, buildings or field
+  fortifications
+  - 2 Target in bunkers
+  - 1 Firing unit is Green
+  + 1 Firing unit is Elite
+  + 1 Firing with ATGW or SAM
+  + 1 Firing with laser range finder and computer fire control MBT with
+    stabilization system roll 2D6 and count them separately (= they may hit one
+    target twice). 
+
+  Indirect fire is done by artillery batteries
+  that are supposed to be out of the table. Range is unlimited. Hits the target
+  with a 5,6 (all other modifiers apply) otherwise it deviates. Roll a deviation
+  die for direction and one D6 = “ When a 1 or 2 is rolled to hit, that battery
+  can’t anymore fire for that game.
+
+  Close combact applies when enemy units are in contact; target unit is
+  automatically hit. A unit in contact with buildings or field defences, is
+  considered in close combat with the nearest unit(s) inside it.
+  
+  HQ that suffer Disorganized and Suppressed results, make a D6 saving roll
+  (unless in close combat): 4-6 = downgrade 1 level of damage (i.e. ok if
+  Disorganized, Disorganized if suppressed); subtract – 1 if Green, add + 1 of
+  Elite.
+
+  ATGW or SAM teams, and helicopters with Rockets or ATGW, can fire with these
+  weapons only once during the game.
+  6. Damage
+  If target is hit, firer rolls one D6 + Attack Factor, target rolls one D6 +
+  Defence Factor. Compare the results: • if equal, no Damage • if firer scores +
+  1, target is Disorganized • if firer scores + 2, target is Suppressed • if firer
+  scores + 3 or more, target is Destroyed Disorganized units can’t move; they fire
+  with a -1 to hit; if hit and Disorganized again, become Suppressed. Suppressed
+  units can’t move or fire; if hit and Suppressed again, or engaged in close
+  combat, are Destroyed. Destroyed vehicular units (tanks, trucks etc) are left on
+  the table and marked as “burning wrecks”, blocking line of sight. Other units
+  are removed from the table.
+
+  Helicopters are automatically removed from the game whit a Disorganized or
+  Suppressed result from Infantry, HMG, AA guns, or with a simple hit by SAM.
+  Transported troops and limbered guns suffer the same damage of their transport.
+  
+* Ranges
+Infantry
+HMG
+Mortar
+RCL (= recoiless gun) 106mm
+ATGW (= anti-tank guided weapon)
+SAM (= surface to air missile)
+Guns up to 77mm
+Guns 84-100mm
+Guns 105mm or over
+Medium Artillery (up to 105mm) or Rockets
+Heavy Artillery
+
+2”
+4”
+10”
+10”
+30”
+40”
+12”
+15”
+18”
+30”
+40”
+
+Guns with laser range finder increase their range by 50%.
+Range is measured 360° from the centre of the base,
+except Artillery, Anti Tank Gun and turretless Armour that
+have a firing arc of 45° forward. Artillery ranges are for
+direct fire only. Minimum range for Mortars is 2”, for
+Rockets, ATGW and SAM is 5”.
+
+* Attack Factors
+Unit
+Infantry
+HMG
+Mortar
+RCL 106mm
+ATGW
+Guns up to 57mm
+Guns 75mm-76mm
+Guns 90mm-100mm
+Guns 105mm or over
+Medium Artillery (up to 105mm)
+Heavy Artillery or Rockets
+
+Vs Soft
+3
+3
+3
+2
+2
+2
+3
+3
+4
+5
+
+Vs Armor
+3
+0
+1
+4
+5
+3
+4
+5
+6
+2
+3
+
+* 9. De fe nce F acto rs
+Infantry, HMG, Mortars, Unarmored Vehicles
+Artillery and AT guns
+Light Armoured Vehicles such as
+Armoured Cars, BTRs, BMP1-2, M113 and Light
+Tanks such as AMX13, PT76, M551, Scorpion
+IFV such as Marder 1, Warrior, M2/M3 and BMP3
+Light 1st Generation MBT such as M47, Leopard 1,
+AMX30 and improved IFV such M2A2-A3, Marder
+1A3
+1st Generation MBT such as M48, T54/55/62,
+Centurion, Leopard 1A1-A4
+2nd Generation MBT such as T64-72, Chieftain,
+
+0
+1
+1
+2
+3
+
+Merkava 1
+Improved 2nd Generation and early 3rd Generation
+MBT such as M1 Abrams, T64B, T72A, T80B,
+Leopard 2, Challenger 1, Merkava 2,
+Newer 3rd Generation MBT such as M1A1-A2,
+Leopard 2A5-2A6, Leclerc, T80U, T90, Challenger2,
+Merkava 3
+Helicopters
+
+6
+7
+3
+
+Vehicles with Defence 1-5 fitted with reactive/applique
+armor, add + 1 against ATGW and Infantry (exception:
+tandem warheads and top attack weapons).
+Armoured vehicles halve their Defence Factor (rounded up)
+if hit from sides or back, or if attacked by Indirect Fire or
+Helicopters or top attack weapons.
+
+Front
+Side
+
+Side
+Rear
+
+* 10. Rally
+During this phase, both players can try to recover
+Disorganized or Suppressed units that are within 12” of one
+HQ unit. Roll a D6 = 5,6 = unit ok if Disorganized,
+Disorganized if Suppressed. Add + 1 to roll if Elite, - 1 of
+Green.
+11. Minef ields , W ire a nd Smo ke
+See WW2 rules; except that units thermal weapon sights
+ignore Smoke cover effect.
+12. Airc rafts a nd Helico pte rs
+Players can make a limited number of air attacks during the
+game. In the Firing phase, place the Aircraft model near the
+target and roll a D6 = 4.5,6 = hit. All other modifiers apply.
+In addition, subtract -1 for each AA gun within 6”, or for
+each SAM team within 40” from the target.
+Attack Factor is 5. Armoured Vehicles halve (round up) their
+Defence Factor.
+Helicopters are instead treated like “soft” ground units,
+except that they don’t count terrain penalties and can be
+targeted only by Infantry, HMG, AA guns and SAM.
+
+4
+
+13. Ac k now le dg me nt
+These ultra-simple rules are based on “MECHANIZED
+WARFARE RULES” by Andrew Thomas, published by Irregular
+Miniatures, and developed together with the members of
+http://games.groups.yahoo.com/group/pz8/
+
+5
+
+Last edited – January 2012 http://panzer8.weebly.com
+
+1950-1975 Armored Fighting Vehicles for PZ-8
+An Unoffcial Supplemnt Compiled by Chainsaw Aardvark
+
+NATO
+Designation
+M-24 Light
+M-41 Light
+M-26 Med/WWII Heavy
+M-46 Medium
+M-47 Medium
+M-48 Medium
+M-60 Early MBT
+Comet
+Cromwell
+Centurion
+Chieftain
+Leopard I
+M-113
+Kanonenjagdpanzer
+Ontos
+M-56
+M-103 Super Heavy
+Conqueror Super Heavy
+
+Defense
+2
+2
+3
+3
+3
+4
+5
+3
+4
+5
+5
+2
+1
+3
+2
+1
+5
+5
+
+Movement
+5
+5
+2
+3
+4
+4
+3
+5
+4
+3
+3
+5
+6
+4
+4
+3
+2
+2
+
+Range
+10
+12
+15
+15
+15
+15
+18
+12
+12
+12
+18
+18
+4
+15
+10
+15
+18
+18
+
+Soft
+
+Defense
+4
+5
+5
+4
+3
+4
+2
+1
+1
+1
+1
+2
+2
+3
+3
+5
+
+Movement
+4
+4
+5
+5
+4
+3
+4
+6
+6
+5
+6
+4
+4
+4
+3
+2
+
+Range
+15
+18
+18
+18
+12
+15
+12
+15
+4
+4
+4
+12
+12
+15
+15
+15
+
+Soft
+
+Defense
+2
+5
+3
+3
+1
+1
+0
+0
+1
+1
+1
+
+Movement
+6
+5
+4
+4
+6
+6
+6
+4
+6
+5
+5
+
+Range
+12
+18
+10
+12
+5
+12
+10
+4
+4
+
+Soft
+
+Defense
+0
+1
+1
+0
+1
+1
+
+Movement
+4
+3
+3
+2
+3
+3
+
+Range
+30
+30
+30
+40
+10
+40
+
+Soft
+
+Defense
+1
+1
+1
+1
+1
+5
+3
+3
+
+Movement
+4
+5
+6
+6
+5
+4
+4
+4
+
+Range
+30
+12
+30
+18
+12
+-
+
+Soft
+
+Armor
+
+Notes
+
+Similar Vehicles
+Scorpion
+
+2
+2
+2
+2
+2
+3
+3
+2
+2
+2
+3
+3
+3
+2
+2
+3
+3
+3
+
+3
+4
+5
+5
+5
+5
+6
+4
+4
+4
+6
+6
+0
+5
+4
+5
+6
+6
+
+Armor
+5
+6
+6
+6
+4
+5
+4
+4
+0
+0
+0
+3
+4
+5
+5
+5
+
+Notes
+
+3
+3
+3
+3
+2
+2
+2
+2
+3
+3
+3
+2
+2
+3
+2
+2
+
+Armor
+4
+6
+3
+4
+2
+4
+4
+0
+0
+
+Notes
+
+2
+3
+2
+2
+2
+2
+2
+3
+3
+
+Similar Vehicles
+Sk-105
+
+Generic Armored Car with WWII gun
+Wheeled
+Wheeled
+Wheeled, Squad
+Squad
+Squad
+Squad, Wheeled
+
+M-8 Greyhound
+Alvis Saladin
+Technical, Land Rover
+M35, Ural-375D
+
+Armor
+3
+3
+2
+3
+1
+3
+
+Notes
+
+5
+5
+4
+5
+3
+5
+
+Similar Vehicles
+BM-30
+M-270
+M-109
+SO-203, M110A2
+
+Battlfied Missile Trasporter Erector Launcher
+
+SS-1 Scud, Pluton,
+
+Armor
+
+Notes
+SAM Unit on MT-LB Chasis
+M2 can cary squad, both might have ATGM
+Usually 20 or 30mm cannons, may have squad
+ATGM Carrier M-113
+Carries 2x other units, Amphibious
+May cary a squad
+Used by Syria in 1956/1965
+Mine Clear, Bridge Layer, etc.
+
+Similar Vehicles
+SA-8, SA-9
+Maarder, Warrior, BMP-2
+LAV-25, Piranah
+
+Squad, Possibly MG Door-gunners
+Might have ATGMs or Rockets
+
+UH-1, Mi-8
+AH-1, Mi-24
+
+Panther, Tiger
+
+Late Models 105mm
+
+Late Models 105mm
+OF-40
+Tracked APC, Amphibious
+Fixed Forward Tank Destroyer
+Recoiless Rifles Tank Destroyer
+Airdrop Tank Destroyer
+Rare Super-Heavy
+Rare Super-Heavy
+
+Warsaw Pact
+Designation
+T-55
+T-62
+T-64
+T-72
+T-34/85
+JS-III
+PT-76
+BMP-1
+BTR
+MT-LB
+BRDM
+ZSU-57
+ASU-85
+SU-100
+ISU-122
+T-10 Heavy
+
+Similar Vehicles
+type 59, type 69
+
+Russia only, AT-8 Posible
+
+Amphibious
+Squad, Amphibious, ATGM
+Squad, Amphibious, Wheeled
+Squad, Amphibious
+Wheeled, ATGM version possible
+Tracked AA Gun
+VDV (Airdrop) Assault Gun, No Turret
+No Turret
+No Turret
+Rare Super-Heavy
+
+BMD (Air-Droppable)
+
+Gepard, PIVADS
+
+Miscelanious and NonAligned
+Designation
+AMX-13
+AMX-30
+M4 Sherman
+M4 Upgrade
+45mm Armored Car
+76mm Armored Car
+Recoiless Rifle Jeep
+Average 2.5 ton truck
+Half Track
+Non-Ampbious Tracked APC
+Non-Ampbious Wheeled APC
+
+FV-432
+Saracen
+
+Self Propelled Artillery
+Systems
+Designation
+MLRS Wheeled
+MLRS Tracked
+105mm SP
+155mm SP
+Motor SP
+SRBM TEL
+
+Anachronistc, Varients,
+and Specialty
+Designation
+Wheeled SAM Vehicle
+M2/M3 Bradley
+8X8 Wheeled AFV
+M-901 Improved TOW Vehicle
+Sidewall Hovercraft
+Merkava (Early)
+Panzer IV
+Tracked Enginering Vehicle
+Light Transport Helicopter
+Attack Helicopter
+
+1
+2
+
+18
+18
+
+2
+3
+2
+-
+
+3
+5
+6
+4
+-
+
+LCAC, Gus Class
+
+

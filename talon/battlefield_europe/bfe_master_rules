@@ -1,0 +1,486 @@
+
+#+TITLE: Battlefield Europe Master Rules
+
+* Introduction
+  Since the end of World War II, the world's major nations have been careful to
+  avoid another global conflict.  However, increasing political instability,
+  ethnic unrest, and an economic revolution of rising expectations in eastern
+  Europe, couples with a growing independence and assertiveness in western
+  Europe, combine in a potentially explosive mixture.  Five years ago there was
+  only one scenario for a war in Europe: a Soviet invasion across the
+  inter-German border.  The likelihood of such an event was considered slight.
+  Today the possible scenarios for a European war are multiplying, and as the
+  political landscape becomes increasingly unfamiliar, the chances of war become
+  less predictable.
+
+  Battlefield Europe is a tactical game covering possible European conflict in
+  the 1990s.
+
+* First Battlefield
+  Battlefield Europe is part of a series of games sharing a common set of game
+  mechanics - the First Battle system.  This series of games provides a
+  comprehensive view of modern mechanized warfare from World War II into the
+  next century and beyond.  Look for other First Battle series products at the
+  same outlet as you purchased this game.
+
+* Game Components
+  Battlefield Europe includes maps, diecut counters (which are used as the
+  forces in the game and as status markers), this rules folder, a Battle Manual,
+  two scenario books, charts, and a six-sided die.
+
+** Maps
+   The game maps are stylized maps of real terrain.  The hexagonal grid provides
+   cells or hexes in which game units and markers are placed.  Within the hexes
+   are graphic terrain symbols for woods, towns, and rivers that show
+   corresponding real terrain features on the battlefield.  
+   
+   Each hex on the map represents 200 meters of distance.
+
+** Counters
+   The game counters are diecut squares of cardboard printed with symbols and
+   numbers that are used by the game rules.  Symbols help identify the function
+   of the counters.  Numbers are values that are used in computing the effects
+   of combat and determining the unit's ability to move. 
+   
+   Counters which represent forces in the game are called units.  Units may be
+   vehicles, helicopters, aircraft or troops.  Troops, representing dismounted
+   personnel, include leaders, infantry, and special weapons teams.  Counters
+   which do not represent units are called markers.
+
+   The illustrations on this page show what the numbers on the units mean.  Note
+   that there are two different ways that units are armed, and the illustrations
+   on this page provide a depiction of both ways.  Also note that command units
+   are identified by their command level.
+
+   - Attack Factor in Brackets[]: Restricted; may only fire at troops and soft
+     vehicles.
+   - Asterisk after Attack Factor: Antitank gun; halved versus troop units and
+     towed guns.
+   - "S" after attack factor: Stabilized gun.
+   - "S" for or after Missile Factor: Surface to air missile.
+   - "C" after Defense Factor: Composite armor.
+   - "R" after Defense Factor: Reactive armor.
+   - "A" after Movement Allowance: Amphibious.
+   - Unit ID printed in white: Command unit.
+
+*** Missile and Gun Units
+    Image of a unit icon
+
+*** Fighter/Bombers
+    Image of an air icon
+** Rules
+   This folder of game rules describes how to play Battlefield Europe.
+
+   Learning the rules.  If you are fairly new to wargaming, the best way to gain
+   familiarity with the rules is to read the basic rules, then play any one of
+   the scenarios listed at the end of page 4 of this book.
+
+   After playing one or two scenarios, read the advanced rules in the Battle
+   Manual and then pick any scenario you wish to play.
+
+   If you are an old hand at wargaming, you might want to learn the rule by
+   reading completely through this rules folder and the advanced rules, and then
+   choosing a scenario that most interests you.
+
+** Battle Manual
+   A separate book contains background sections on the nations of Europe and the
+   most likely causes of future wars and a number of advanced rules which will
+   allow you to simulate virtually every aspect of modern warfare, a briefing on
+   the armies of Europe, with special attention paid to their organization for
+   war and their combat equipment, and a chapter explaining how to design your
+   own battle scenarios and campaigns.
+
+** Scenario Books
+   There are two booklets of scenario information included in the game, one for
+   each side.  Each booklet provides all of the information necessary for one
+   side to play each scenario, including a breakdown of the maps and counters
+   used.
+
+** Charts
+   The combat and map tables needed to play the game and explained in the rules
+   are printed on two cards one for each player.
+
+** Die
+   Many decisions in the rules are resolved by the roll of a single sided,
+   10-sided die.  The die included in the game is numbered 0-9.  A roll of 0 is
+   always treated as a roll of 10.  When the rules instruct you to roll a die,
+   one player rolls the die and reads the result, which is then checked against
+   the instructions.
+
+   Command Level
+   | Unit ID  | Level               |
+   |----------+---------------------|
+   | 001, 002 | Battalion Commander |
+   | 100, 200 | Company Commander   |
+   | 010, 020 | Platoon Leader      |
+  
+
+  
+* Basic Rules
+** Turns
+   Each Battlefield Europe battle scenario runs for a specific number of turns.
+   Each turn consists of a player turn for each side.  when both players have
+   completed their player turns, the game turn is over, and the next game turn
+   begins.
+
+   Each player turn is an opportunity for one player to move his units, and for
+   those units to attack enemy units.  during the player turn, activity takes
+   place in phases.
+
+*** Phases in a Turn
+    - Attacker's Player Turn
+      First fire phase.
+      Movement and Defender Reaction Fire phase.
+      Final fire phase.
+
+    - Defender's Player Turn
+      First fire phase.
+      Movement and Defender Reaction Fire phase.
+      Final fire phase.
+
+    In the First Fire Phase, the player selects which of his units can and should
+    fire, and uses them to attack enemy units.
+
+    In the Movement Phase, the player selects which of his units can and should
+    move, and moves them.  during this movement, the enemy player may make
+    reaction fire attacks.
+
+    In the Final Fire Phase, the player selects those of his units which have not
+    yet fired or moves, and may use them to attack enemy units.
+
+*** Reaction Fire
+    Any unit which does not move in its player turn may have a firing position
+    marker place on it.  That unit may fire at any enemy unit which is in or
+    moves into range at any time during the enemy unit's movement.  when placing 
+    units on the map at the beginning of a scenario, you may place any or all
+    units in firing position unless the scenario states otherwise.
+
+*** Stabilized Guns
+    Stabilized guns have slightly different turn phase options than most units.
+    All units with a small "s" following their attack factor have stabilized
+    guns.  Units with stabilized guns may fire in the Final Fire Phase even if
+    they have moved in the Movement Phase.  They still may fire only once in
+    their player turn, and so if they fire in their First Fire Phase they cannot
+    fire in the Final Fire Phase again.
+    
+** Movement
+   Units may move during the Movement Phase.  Each unit has a movement factor
+   and a mobility category.  The movement factor is the number of movement
+   points (MP) it may spend in one turn.  Unused movement points do not carry
+   over to the next turn.  Movement points are spend as a unit moves through the
+   terrain on the map.  Each map hex has a cost to enter (expressed in MP),
+   which varies depending on the mobility class of the unit.  when a unit has
+   spent all of its MP, it must stop, and cannot move any farther in that turn.
+
+*** Mobility Categories
+    There are four mobility categories: Leg(L), Track(T), Wheeled(W), and
+    Restricted Wheel(R).  Different mobility classes of vehicles pay different
+    costs to move through different types of terrain.  The Terrain Effects Chart
+    (TEC) shows the types of terrain on the maps, and their MP costs to enter. 
+
+    For example, tracked units pay 1 MP per clear terrain hex and 2 MP per woods
+    hex.  A tracked unit with 4 MPs could move through four clear terrain hexes
+    in a row or two woods terrain hexes in a row before having to stop.
+
+*** Mixed Terrain
+    There may be more than one type of terrain in a hex; in such cases, the cost
+    to enter the hex is the cost of the most expensive terrain in the hex.  For
+    example, a hex might contain clear terrain and woods terrain. The cost to
+    enter the hex would be 2 MP because woods terrain costs more to enter than
+    clear terrain.
+
+*** Roads and Trails
+    Units moving along roads and trails do so at the road or trail cost,
+    regardless of the other terrain in the hex.  However, when entering a road
+    or trail hex from a non-road, non-trail hex, the MP cost is that of the
+    other terrain in the hex
+
+*** Amphibious Vehicles
+    Vehicle's which have the letter "a" after their movement allowance are
+    amphibious and may cross stream, river, and lake hexsides.  To cross a water
+    hexside the vehicle must begin its Movement Phase adjacent to the hexside
+    and may then move across it.  Moving across the water hexside consumes half
+    of a unit's movement allowance (round fractions up) in addition to the
+    normal cost to enter the hex.  The unit may then continue to move with any
+    remaining unused MP.
+
+*** Restricted Movement Factors
+    A unit with restricted movement factors cannot fire and move (or move and
+    fire) in the same turn.  It can assume a firing position in the same turn in
+    which it fires.  If a unit has a restricted movement factor and is
+    missile-armed, then the restricted movement factor applies in the unit's
+    missile is fired.  A restricted movement factor is indicated by a yellow box
+    surrounding the unit's movement factor number and its missile combat values.
+
+*** Minimum Movement
+    Any unit (except a pinned troop unit, a damaged vehicle, or a dummy) can
+    always move one hex, even if the MP costs to enter the hex is greater than
+    the unit's movement factor.
+
+*** Mounting and Dismounting From Vehicles
+    Each vehicle unit with a carrying capacity has either a number or an L
+    listed on its counter.  If a number is listed, it is the number of troop
+    squads that the unit can carry.  If an L is listed, it indicates that the
+    unit can only carry light infantry units, commanders, and forward observers.
+    Special weapons teams and towed guns are counted as troop squads.
+
+    A troop may mount a vehicle with a carrying capacity if both the troop and
+    the vehicle are in the same hex at the beginning of the Movement Phase.
+    Mounting and dismounting costs the troop unit its full movement for the turn,
+    and costs the vehicle half of its MP (round fractions up).  Troops dismount
+    into the same hex as the vehicle carrying them.
+
+*** Enemy Units
+    A unit must stop as soon as it enters a hex containing an enemy unit.
+
+*** Stacking
+    More than one unit may be places in a hex, but this process, called stacking
+    is subject to limits.  A player may not have more then four vehicles in
+    one hex at the end of any turn.  any number of other units and markers may be
+    present.  It is possible for unit from both sides to be in a hex at the end
+    of a turn.
+
+** Attacking
+   Units may attack enemy units during any of the fire phases of a turn.
+
+*** Attack Procedure
+    In a fire phase, the player indicates the targets for each of his units
+    which are firing.  Odds are calculated by creating a ratio of the firing
+    unit's attack factor against the target unit's defense factor and reducing
+    this to one of the simple odds ratios shown on the Combat Resolution Table
+    or CRT.  If the ratio falls between two odds columns, use the lower odds
+    (favoring the defender).
+
+    For example, 20 attack factors vs 7 defense factors would use the 2-1 odds
+    column.
+
+    Modifications may be made for terrain, limited visibility, or other
+    factors, as explained later.  The die is then rolled and the result of the
+    attack is found on the CRT and implemented.
+
+    A troop unit with both missiles and guns may fire in a fire phase with BOTH
+    of its attack factors.  The attacks may be directed at two different
+    targets.  A vehicle with both missiles and guns may only fire one of its
+    attack factors in a fire phase.
+
+    More than one unit may fire at a single enemy unit.  However, all attacks
+    must be declared before any are resolved.  Fires declared against a target
+    which becomes destroyed may not be shifted to another target.
+
+    Units may not combine their attack factors to make an attack; each attack
+    factor is used independent of all others.
+
+*** When units fire
+    A unit which fires any of its attack factors in the First Fire Phase or
+    which moves during the Movement Phase may not fire any attack factors during
+    the Final Fire Phase, with two exceptions.
+
+*** Stabilized Guns
+    All units with a small "s" following their attack factor have stabilized
+    guns.  Units with stabilized guns may fire in the Final Fire Phase even if
+    it moves in the Movement Phase.  They still may fire only once in their
+    player turn, and so if they fire in their First Fire Phase they cannot
+    fire in the Final Fire Phase again.
+
+*** Assault Fire
+    Anytime that an infantry unit ends its turn in or adjacent to a hex
+    containing an enemy unit, it may fire in the Final Fire Phase, even if it
+    moved and/or fired in the First Fire Phase.  This is called assault fire,
+    and represents the higher volume of fire infantry generates when at very
+    close quarters with the enemy.
+
+*** Terrain Effects
+    Units in town and woods hexes add +3 to their defense factor.  Missile
+    factors are halved when firing at targets in woods and town hexes.
+
+*** Restricted Fire Factors
+    Most units in Battlefield Europe have some sort of capability for attacking
+    armored vehicles.  Many troop units, for example carry light anti-armor
+    weapons, such as the American LAW or Soviet RPG-7.  And occasionally in
+    combat, there are reports of tanks losing a tread to a well-placed hand
+    grenade.  
+
+    Some vehicles, however, have no antiarmor capability whatsoever.  These
+    units have their attack factors listed in brackets[].  A unit with a
+    bracketed attack factor can only conduct attacks against soft targets
+    (troops, trucks, and jeeps).
+
+*** Missiles
+    Missiles may only be used to attack vehicles; they may not attack troops
+    units or towed guns.  Missile factors are halved when firing at targets in
+    woods and town hexes.
+
+*** Antitank Guns
+    Units with an asterisk after their attack factors are antitank guns.  These
+    units have their attack factors halved when firing at troop units and towed
+    guns, but fire normally at all vehicles, both armored and soft-skinned.
+
+** Range
+   A unit may attack enemy units within its printed range.  Gun-armed units may
+   attack at longer ranges, and they receive benefits for attacking at close
+   ranges.
+
+*** Close Range.
+    A gun-armed unit attacks with double its printed attack factor if it is
+    attacking at half its printed range or less.  Missile factors are not
+    doubled.
+*** Standard Range.
+
+    All units attack with their printed attack factors if they are attacking at
+    their printed ranger or less (except gun-armed units at close range).
+
+*** Extreme Range.
+    A gun-armed unit attacks at half its printed attack factor if it is
+    attacking at more than its printed range, but no more than twice its
+    printed range.  Missiles may not be fired at more than their printed range. 
+
+    GUN ATTACK FACTORS RANGE EFFECTS
+    | Range    | Distance      | Attack |
+    |----------+---------------+--------|
+    | Close    | Half or less  | x2     |
+    | Standard | Equal or less | x1     |
+    | Extreme  | Twice or less | x.5    |
+
+*** Line of Fire
+    In order to be attacked, a target unit must be in the attacker's line of
+    fire.  The line of fire is a straight line from the firing unit to the
+    target.
+
+    The line of fire is blocked if it passes through any intervening woods or
+    town hexes, any friendly units, or any wreck.  If the line of fire is
+    blocked by one of these obstructions, the target may not be attacked.  A
+    unit in a blocking terrain hex can see and fire out of that hex, and enemy
+    units can see and fire into that hex, but no unit may see or fire through
+    the hex.
+
+    Terrain which is higher in elevation than both the firing and target units
+    blocks line of fire.  If a hex contains two different elevation lines, the
+    higher of the two elevations applies.
+
+    Units on high ground can see and fire over LOF-blocking units and terrain
+    in lower-elevation hexes.  Town and woods hexes cast a one-hex shadow,
+    making units directly behind those obstacles unspotted to units on higher
+    terrain. 
+
+*** Same-Hex Combat
+    Units attacking vehicles in the samehex always compute the attack using the
+    defending vehicle's flank armor value (explained in Facing) and the
+    defending vehicle does not receive any benefits for terrain.
+
+    Troop units receive terrain benefits only if they are not movingl the troops
+    which moved into the hex to initiate combat never receive terrain benefits.
+    Missiles may never fire at a target in the same hex.
+** Reaction Fire
+   Any unit which has assumed a firing position can attack with reaction fire
+   during the enemy Movement Phase.
+
+   At any time during the Movement Phase, a unit in a firing position can use
+   reaction fire against an enemy unit which has been spotted, to which a line
+   of fire can be traced, and which is within range.
+
+   The attack takes place immediately, before the target unit moves another hex.
+   If the attack is successful, the target unit receives a result which, at
+   least, prohibits the unit from moving any more in the Movement Phase, and may
+   be more restrictive.
+
+   Each unit in a firing position may fire only once in reaction fire during the
+   enemy Movement Phase.
+
+** Facing
+   A vehicle is typically armored more heavily toward its front.  Attacks
+   against a vehicle's front are computed against its printed defense factor.
+
+   Attacks against a vehicle's flank are computed against its flank defense
+   factor.  Vehicles with a printed defense factor of more than 2 have a flank
+   defense factor of 2.  Vehicles with a printed defense factor of 2 or less
+   have a flank defense factor of 1.
+
+   Troops always use their printed defense factor; they do not have flanks.
+
+** Missiles
+   Missiles have several restrictions on their use which gun-armed units do not.
+   These are mentioned in their appropriate rules but are summarized again here
+   for clarity.
+
+   Missiles cannot attack beyond the range printed on the counter, can never be
+   used to attack units in the same hex, and are never doubled halved due to
+   range effects.  Missiles can only be fired against vehicles they have no
+   effect against troops.  Missiles are always halved when attacking targets in
+   a woods or town hex.
+
+*** Special Armor
+    Vehicles with a letter following their defense factors are equipped with
+    special armor.  Vehicles with the letter "C" have composite armor while
+    those with an "R" have reactive armor.
+
+    All missile attacks against the front armor of a vehicle equipped with
+    special armor (either composite or reactive) are halved.  Attacks against
+    the flank or rear of a vehicle are unaffected.
+
+    Special armor affects only attacks by missile armed units when the attaks is
+    against the front of the target vehicle.
+
+    Whenever a unit equipped with reactive armor is attacked by a missile
+    (assuming the missile does not eliminate the target), roll the die.
+
+    On a roll of 1-4, there is no additional affect.  On a roll of 5-7, the tank
+    has lost enough of its reactive armor that it is treated as if it now had
+    noene.  Place an "armor detonated" marker on the tank.  On a roll of 8-10,
+    the armor is detonated, and the tank is damaged.  (If it is already damaged,
+    then this result destroys the tank.)
+
+** Attack Results
+   The Combat Results Table or CRT shows the results of attacks.  Three letters
+   are used: X for destroyed, D for damaged, and P for pinned.  X applies to all
+   units.  D applies to vehicles, and P applies to troops.  Ignore results which
+   do not apply to the target type.
+
+   - X Destroyed
+     The target is eliminated from play.  If it is a troop unit, it is simply
+     removed from the map.  If it is a vehicle, it is replaced by a wreck
+     marker.  In either case, the unit's morale point values is noted for
+     comparison with the side's hesitation and break points.
+
+  - D damaged
+    Mark the vehicle with a damaged marker.  Damaged vehicles have their
+    movement factors and attack factors cur in half (rounding fractions down).
+    A damaged unit cannot conduct reaction fire.  A damaged vehicle which
+    receives second damaged result is destroyed.
+
+  - P Pinned
+    Mark the unit with a pinned marker.  The troop unit is immobilized and
+    cannot move.  The troop unit is immobilized and cannot move.  It can still
+    fire, but its attack factor is halved.  It automatically becomes unpinned at
+    the end of its next player turn.  A pinned troop unit which receives a
+    second pin result is destroyed.  A pinned unit cannot go to a firing
+    position and cannot conduct reaction fire.
+
+*** Hits on Stacks
+    Whenever an attack is made against a stack of units, the particular unit
+    which is affected is determined randomly.  For example, three tanks are in
+    the same hex, and three attacks are made against them.  The owning player
+    rolls a die.  If a 1-3 is comes up, it means that at least one attack is
+    against the top tank, a 4-6 means the second tank is attacked, a 7-9 the
+    third tank, and the player would reroll a 10.  Since each attack is
+    determined randomly, it is possible that all the attacks called for would on
+    the same tank.
+
+    If dismounted troops and vehicles occupy the same hex, the attacking player
+    must state which type of unit is being attacked, and the attacks are then
+    applied randomly among the designated type of units.
+
+    After it has been determined which units receive attacks, offs for each of
+    those attacks are calculated, and the results are determined on the CRT.
+
+*** Escape from Destroyed Vehicles
+    A troop or commander mounted on a vehicle which is destroyed by an attack
+    is very often destroyed by the attack as well.  The mounted unit escapes on
+    a roll of 1-5 and is placed in the hex with the vehicle's burning wreck
+    marker it is pinned.  A result of 6-10 destroys the troop unit. 
+
+    If a troop-carrying vehicle is only damaged by combat, the troops
+    automatically dismount.
+
+
+   
+
