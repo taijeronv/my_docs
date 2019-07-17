@@ -1,0 +1,36 @@
+
+#+TITLE: BCT Modeling Reference
+#+AUTHOR: TJ
+
+* Introduction
+  This document is based on the BCT-CDR Tactical Decision Exercise 1st Edition
+  SEP2018 document which is a collection of TDGs or Tactical Decision Games at
+  NTC.  The purpose of this document is as a reference or guideline regarding
+  how to model specific BCT operations.  The goal is to create a game that
+  abstracts the most important aspects of BCT operations while keeping it simple
+  and easy to understand.
+
+  The first step is to distill only the most important aspects then design a
+  game mechanism to model it.
+
+* Units
+  - Battalion strength is usually calculated on a per platoon basis.  For
+    example instead of listing how many companys for a battalion it list how
+    many operational platoons.  It seems that platoons are the building blocks
+    of combat power.
+    - How do we incorporate this into the game?
+    - Is this how we build aggregate units? For example determine platoon
+      strength then the number of platoons per unit and add them up for a grand
+      total. 
+
+* Planning
+  - What game mechanics should we use to reward the player for anticipating
+    enemy COAs?
+  - How do we reward proper planning of fire support assets? If the player
+    allocates the right kind and number of support they are automatically
+    rewarded by increased capability and effects on the enemy.
+  - Assigning the right amount of counterfire assets will reduce the enemies
+    ability to apply indirect fire effects.
+
+  - How do we plan CAS? Commanders must allocate available sorties at the right
+    time and in support of the right units.

@@ -3,7 +3,7 @@
 
 
 * Introduction
-  - Brigade level game with platoons as the primary unit of organization.
+  - Brigade level game with platoons as the primary unit of organization and maneuver.
   - Simple gaming system.
   - Emphasis on planning and anticipating what the enemy will do.
   - Fictitious setting helps players remain neutral.
@@ -11,11 +11,18 @@
 * Game Components
   
 ** Maps
-   - The game maps are stylized maps of real terrain.  
-   - The hexagonal grid provides cells or hexes in which game units and markers
-     are placed.  Within the hexes are graphic terrain symbols for woods, towns,
-     and rivers that show corresponding real terrain features on the battlefield.  
-   - Each hex on the map represents 200 meters of distance.
+   1. The game maps are stylized maps of real terrain.  
+   2. The hexagonal grid provides cells or hexes in which game units and markers
+      are placed.  Within the hexes are graphic terrain symbols for woods, towns,
+      and rivers that show corresponding real terrain features on the battlefield.  
+   3. Each hex on the map represents 200 meters of distance.
+
+*** Map Image
+    - Jpg file.
+
+*** Terrain File
+    - Contains terrain data.
+    - Contains location grids.
 
 ** Unit and Marker Icons
    1. Game icons represent military units at the platoon level.
@@ -64,6 +71,8 @@
 ** Scenario File
    - The scenario file provides all of the information necessary for both sides
      to play a scenario, including a breakdown of the maps and icons.
+   - Loads the appropriate unit icons and markers.
+   - Loads the map and terrain file.
 
 ** Random Numbers
    - The simulation engine uses random numbers between 1 and 10.
@@ -402,7 +411,7 @@
 
   - D damaged
     Mark the vehicle with a damaged marker.  Damaged vehicles have their
-    movement factors and attack factors cur in half (rounding fractions down).
+    movement factors and attack factors cut in half (rounding fractions down).
     A damaged unit cannot conduct reaction fire.  A damaged vehicle which
     receives second damaged result is destroyed.
 
