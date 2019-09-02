@@ -1,0 +1,40 @@
+#+TITLE: Cloaky Hunting
+#+AUTHOR: TJ
+
+
+* When to uncloak?
+* What kind of targets can I engage? 
+* Where to perch?
+* How close to warp-in?
+* How to run neuts?
+* How to run nos?
+* How can I tell if the tgt is cap-boosting?
+* What ships to use?
+* Stay at range, or orbit?
+* Range management?
+* How to kite?
+* How to brawl?
+* What aspects are unique to cloak ambushes?
+* What are the dangers of cloak ambushing?
+
+* Intel Prep of the Battlefield
+* What are my environmental factors for consideration?
+* How do you scout?
+* How do you WH Recon?
+** Jump into WH
+** BM WH
+** D-scan 360
+*** Ship on D-scan?
+    On grid? Check pilot on Zkill.
+*** Wrecks/Drones on D-scan? 
+*** POS on D-scan?
+    - Locate and scout POS.
+    - Manned ships?
+    - Forcefield?
+*** Scan Anoms
+    - Ship on scan locate range and 5 degrees.  Note you may determine location based on just the range.
+    - If the ship is within your engagement profile then continue REDCON-1.
+
+* What are the different levels of Threat Conditions or THREATCON?
+* What are the different levels of Readiness Conditions or REDCON?
+     
