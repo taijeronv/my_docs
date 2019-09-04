@@ -1,0 +1,33 @@
+#+TITLE: PvP Battle Drills
+#+AUTHOR: TJ
+#+DATE: 4 Sep 2019
+
+* REDCON 1 (Combat Imminent)
+  - Start recording.
+  - If possible pre-heat.  Note cloakys cannot do this while cloaked.
+* Tackle
+  - Scram
+  - Web
+  - Neut/Nos
+
+* Range
+  - Separate
+  - Close
+* Offense
+  - Weapons Hot
+* Defense
+  - Separate
+  - Align
+  - Neut/Nos
+
+* Readiness Conditions (REDCON)
+  - REDCON 1
+    - Combat is imminent
+  - REDCON 2
+    - Combat likely
+    - Pre-heat weapons
+    - Load the appropriate ammo or designate drones for priority launch.
+  - REDCON 3
+    - No actions to prepare for a fight.  
+   
+* Threat Conditions (THREATCON)
