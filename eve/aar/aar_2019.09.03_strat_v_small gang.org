@@ -1,33 +1,38 @@
-#+TITLE: AAR 2019.09.03 Strat vs Small Gang
+#+TITLE: After Action Reviews
 
-* Situation
-  - Me in a Stratios vs a ratting Jackdraw in an anomaly.
-  - Many hostiles in system.  I nocticed a gaggle of them on a station when I jumped in.
-  - Warpable wrecks to within range of the target.
-
-* Hunting
-  - I'm pretty satisfied with this phase.  I was able to scan down the target fairly quickly.
-  - It's always helpful when you know at least one element of the enemies location (range or direction).
-  - Targets in an anomaly are easy to locate once you dial in their range.  Simply match the range to target with an anomaly, then verify by determing direction.  Those two elements are very convincing.
-  - I warp to the anomaly but I'm too close to use any of the wrecks as a warp-in point.
-  - I bm my position then warp to the sun then warp back to my bm at 100kms.  At this point I'm positioned to warp to his wrecks.
-  - I put "eyes" on him to determine his path, he is moving around at 1.3k.
-  - I choose a wreck that he is moving towards and warp to it.  I decloak in warp.
-
-* Initiate
-  - I warp to a wreck that is in the path of the Jackdraw.
-  - I uncloak before I land and am able to lock him up wihout too much delay.  He reacts well and successfully separates outside of scram range. (should I run a disruptor?)
-  - I miss the tackle but am able to get a neut on him.  He did not disengage a sure indicator he does not feel threatened.
-  - I made several errors during this phase.  
-    - I sholdn't have initiated this fight.  He had back up but I wanted some action.
-    - I should have disengaged when he separated but didn't warp off.  A sure sign he did not feel threatened, I was focused on the kill and had already committed.
-    - I approached but did not turn on my prop-mod.  
-    - I ran more neuts than necessary and capped out.
-    - I'm cap injected but didn't think to use it.
-    - I didn't cycle my neuts.
-    - I launched the wrong drones.  At some point I did get full tackle (scram + 2xWebs) I think I should have used my med drones instead of the lights (comments?).
-* Fight
+* AAR 2019.09.03 Strat vs Small Gang
+   https://zkillboard.com/kill/78777228/
+   
+** Situation
+   - I jump into R1O-GN and notice a bunch of reds lollygagging at a station about 1k off the gate.  
+   - I warp around the system looking for a suitable target and find a Jackdaw on d-scan.
+** Scanning 
+   - I'm pretty satisfied with this phase. I was able to scan down the target
+     fairly quickly.
+   - It's always helpful when you know at least one element of the enemies
+     location (range or direction).
+   - Targets in an anomaly are easy to locate once you dial in their range.
+     Simply match the range of the target with an anomaly, then determine their
+     direction to verify. The shortcut is to ignore direction and simply warp to
+     the anomaly.
+   - I warp to the anomaly but I'm too close to use any of the wrecks as a
+     warp-in point.
+   - I bm my location then warp out and back to reposition myself to warp to a
+     wreck.
+** Initiate
+   - I put "eyes" on him to determine his path, his speed is 1.3kms.  I would like to position myself in his path so I choose a wreck that I think will get me there and warp to it.
+   - I uncloak while in warp and land about 5kms from him.  He reacts well and successfully separates outside of scram range. (should I run a disruptor?)
+   - I miss the tackle but am able to get a neut on him.  He doesn't warp off, this is probably an indicator that he's called for backup.
+** Fight
   - Shortly after the fight begun a Dramiel warped in.  I switched to the Dram and got full tackle on him plus neuts.
-  - I think a better drone choice would have gotten the Dram.
   - More backup arrived in the form of Navy Brutix, Tengu, Cormorant, Caracal Navy Issue, and Stilletto.
   - I think I lasted long enough to get at least one of the frigates, maybe even two.  Again, I think drone choice in this situation cost me.
+** Mistakes
+  - I shouldn't have initiated this fight.  He had back up but I wanted some action.
+  - I should have disengaged when he separated but didn't warp off.  A sure sign he did not feel threatened, I was focused on the kill and had already committed.
+  - I approached but did not turn on my prop-mod.  
+  - I ran more neuts than necessary and capped out.
+  - I'm cap injected but didn't think to use it.
+  - I didn't cycle my neuts.
+  - I launched the wrong drones.  At some point I did get full tackle (scram + 2xWebs) I think I should have used my med drones instead of the lights (comments?).
+
