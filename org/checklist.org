@@ -1,0 +1,45 @@
+#+TITLE:Checklist
+
+* Packing
+  - Clothes
+    - [ ] 3 x Pants
+    - [ ] 2 x Longsleeve
+    - [ ] 3 x Condors
+    - [ ] 2 x Socks
+    - [ ] 2 x Underwear
+
+  - Tech
+    - [ ] Computer
+      - [ ] Power
+      - [ ] Earbuds
+      - [ ] USB Cable
+      - [ ] USB drive
+
+    - [ ] Phone
+      - [ ] Power
+
+    - [ ] GPS
+      - [ ] Mount
+      - [ ] Cable
+      - [ ] Car adapter
+      - [ ] Maps
+        
+    - [ ] Vibrator
+
+  - Shopping
+    - Food
+      - [ ] Chili packets
+      - [ ] Brownies
+      - [ ] Sage
+      - [ ] Cumin
+      - [ ] Onion powder
+      - [ ] Miracle whip
+      - [ ] Syrup
+
+    - Clothes
+      - [ ] Merell Shoes
+      - [ ] Sweatshirts
+      - [ ] Sweatpants
+
+
+
