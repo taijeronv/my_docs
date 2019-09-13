@@ -2,28 +2,37 @@
 
 * Packing
   - Clothes
-    - [ ] 3 x Pants
-    - [ ] 2 x Longsleeve
-    - [ ] 3 x Condors
-    - [ ] 2 x Socks
-    - [ ] 2 x Underwear
+    - [X] 2 x Pants
+    - [X] 2 x Longsleeve
+    - [X] 2 x Condors
+    - [X] 2 x Plaid
+    - [X] 2 x Socks
+    - [X] 2 x Underwear
 
   - Tech
-    - [ ] Computer
-      - [ ] Power
+    - [-] Computer
+      - [X] Power
       - [ ] Earbuds
-      - [ ] USB Cable
-      - [ ] USB drive
+      - [X] USB Cable
+      - [X] USB drive
+      - [X] Euro Adapter
 
-    - [ ] Phone
-      - [ ] Power
+    - [X] Phone
+      - [X] Cube
+      - [X] Cable
 
-    - [ ] GPS
-      - [ ] Mount
-      - [ ] Cable
-      - [ ] Car adapter
-      - [ ] Maps
+    - [X] GPS
+      - [X] Mount
+      - [X] Cable
+      - [X] Car adapter
+      - [X] Maps
         
+    - [X] Docs
+      - [X] Accomodations
+      - [X] RAPIDS
+      - [X] Flight Itinerary
+      - [X] Car Rental
+
     - [ ] Vibrator
 
   - Shopping
@@ -40,6 +49,16 @@
       - [ ] Merell Shoes
       - [ ] Sweatshirts
       - [ ] Sweatpants
+
+    - Misc
+      - [ ] Taser
+
+    - Amazon
+      - [ ] Headset
+      - [ ] Webcam
+      - [ ] Mouse
+      - [ ] USB Hub
+      - [ ] Backpack
 
 
 
