@@ -35,6 +35,12 @@
 
     - [ ] Vibrator
 
+  - Docs
+    - [ ] Passport
+    - [ ] Mil ID
+    - [ ] Ukr IDs
+    - [ ] Reservations and itineraries
+
   - Shopping
     - Food
       - [ ] Chili packets
@@ -44,6 +50,8 @@
       - [ ] Onion powder
       - [ ] Miracle whip
       - [ ] Syrup
+      - [ ] Relish
+      - [ ] Sweetner
 
     - Clothes
       - [ ] Merell Shoes
