@@ -10,9 +10,9 @@
     - [X] 2 x Underwear
 
   - Tech
-    - [-] Computer
+    - [X] Computer
       - [X] Power
-      - [ ] Earbuds
+      - [X] Earbuds
       - [X] USB Cable
       - [X] USB drive
       - [X] Euro Adapter
@@ -33,13 +33,13 @@
       - [X] Flight Itinerary
       - [X] Car Rental
 
-    - [ ] Vibrator
+    - [X] Vibrator
 
   - Docs
-    - [ ] Passport
-    - [ ] Mil ID
-    - [ ] Ukr IDs
-    - [ ] Reservations and itineraries
+    - [X] Passport
+    - [X] Mil ID
+    - [X] Ukr IDs
+    - [X] Reservations and itineraries
 
   - Shopping
     - Food
@@ -62,11 +62,12 @@
       - [ ] Taser
 
     - Amazon
-      - [ ] Headset
+      - [X] Headset
       - [ ] Webcam
       - [ ] Mouse
       - [ ] USB Hub
       - [ ] Backpack
+      - [ ] Navy Federal Card
 
 
 

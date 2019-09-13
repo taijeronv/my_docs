@@ -1,0 +1,45 @@
+#+TITLE: Eve Video Guide
+
+* Mind Map
+** Prepare for combat
+   - Autor reload on or off?
+   - Drones grouped
+   - Default orbit and keep at range
+
+** Fit
+   - The fit
+   - Explanation of the fit
+     - How to fight
+     - Strengths and weaknesses
+     - Target profile
+
+** Introduction
+   - Current Situation
+   - Mention any thing special about the situation
+
+** Operations
+   - The Hunt
+     - The Scan
+     - The probe
+     - Target actions
+   - Contact
+     - How did you initiate contact?
+       - Warp on-top (dynamic)
+         - What's unique about warping in?
+         - When should you warp in?
+       - Warp intercept (more passive)
+         - What's unique about intercepting?
+   - Combat
+   - Conclusion
+
+* Video 
+** Filler footage
+** Screenshots
+** Footage
+
+* Audio
+** Music
+** Commentary
+
+* Text
+** Commentary
