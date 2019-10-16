@@ -1,0 +1,43 @@
+#+TITLE: Serious Games Content
+
+
+* Introduction
+  - Demonstrate how to use commercial games to teach tactial decision-making and problem-solving
+  - Use different commercial games that are not specifically designed for to be used in this manner
+  - Provide a simple approach that can be applied to all types of programs commercial games
+
+* Channel Title Ideas
+  - Serious Gaming
+  - Tactical Decision Games
+  - Sergeant's Time
+
+* AAR Series
+  - Introduction
+    The puspose of the AAR series is to present a replay of a game and pull lessons from it.
+
+  - Techniques
+    - Student analyzes the replay and writes a one page report on it.
+      - What was the turning point of the operation?
+      - What were the key decisions?
+      - What were the main influences for those decisions?
+      - Was there a unit that was cruicial to success?
+      - What were the effects of leadership?
+      - What impact did terrain have on the operation?
+      - What impact did time have on the operation?
+      - Was either opponent able to control the tempo of the operation?
+      - Was one side more reactive than the other? Why?
+    - The instructor focuses on different aspects of the replay in a series of videos.  He then ties it all together in one episode.
+  - Games
+    - Close Combat
+    - Armored Brigade
+    - Flashpoint
+    - Follow Me
+
+* Developing Content Series
+  - Maps
+  - Scenarios
+  - Counters
+  - Game markers
+* Secenario Design Series
+* Manual Games
+* Resources
